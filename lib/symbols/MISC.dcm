@@ -1,0 +1,83 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 142-0701-201
+D SMA PCB Mount Straight Jack 50Ohm Cinch Connectors Straight 50 PCB Mount SMA Connector, jack, Solder Termination
+F http://jp.rs-online.com/web/p/sma-connectors/8861061/
+$ENDCMP
+#
+$CMP 203559-0607
+D Headers & Wire Housings PicoClasp Hdr SMT SR RA 6CKT W/PL Au0.76
+F https://componentsearchengine.com//203559-0607.pdf
+$ENDCMP
+#
+$CMP 205972-0021
+D Headers & Wire Housings Micro-One Hdr RA 2mm SR 2Ckt BLK
+$ENDCMP
+#
+$CMP 205972-0081
+D Headers & Wire Housings Micro-One Hdr RA 2mm SR 8Ckt BLK
+$ENDCMP
+#
+$CMP 74HC595PW,112
+D 74HC(T)595 - 8-bit serial-in, serial or parallel-out shift register with output latches; 3-state@en-us
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 95CW06C3GWT
+D Tactile Switches Tact Switch, Washable, .138" height, 260g operating force,gullwing, RoHS Compliant
+F https://componentsearchengine.com/Datasheets/1/95CW06C3GWT.pdf
+$ENDCMP
+#
+$CMP BLM18PG471SH1D
+D Murata Power Solutions Ferrite Bead (Chip Bead), 1.6 x 0.8 x 0.8mm (1608), 470 impedance at 100 MHz
+F https://www.murata.com/en-us/products/productdetail?partno=BLM18PG471SH1%23
+$ENDCMP
+#
+$CMP CAP_4u7
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP ESQ-126-39-G-D
+D 52 Position, Elevated Socket Strip, 0.100&quot; Pitch
+F http://suddendocs.samtec.com/prints/esq-1xx-xx-x-x-xxx-xx-x-xx-mkt.pdf
+$ENDCMP
+#
+$CMP FBMH2016HM251NT
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP FEMTOASMDC005F-2
+D Resettable Fuses - PPTC .05A 15VDC 10A 0603 AEC-Q200
+F https://altium.componentsearchengine.com/Datasheets/1/FEMTOASMDC005F-2.pdf
+$ENDCMP
+#
+$CMP MF-ASML035_6-2
+D Resettable Fuses - PPTC 3.3K  OHM  .5%
+F https://componentsearchengine.com/Datasheets/2/MF-ASML035_6-2.pdf
+$ENDCMP
+#
+$CMP PMV28XPEAR
+D MOSFET MOS DISCRETES
+F https://componentsearchengine.com/Datasheets/2/PMV28XPEAR.pdf
+$ENDCMP
+#
+$CMP TCAN337GD
+D CAN Interface IC
+F https://www.arrow.com/en/products/tcan337gd/texas-instruments
+$ENDCMP
+#
+$CMP TLC555QDRQ1
+D TEXAS INSTRUMENTS - TLC555QDRQ1 - IC, TIMER, 8SOIC
+F http://www.ti.com/lit/ds/symlink/tlc555-q1.pdf
+$ENDCMP
+#
+$CMP TLV2254AIDR
+D Quad Low-Voltage Rail-To-Rail Operational Amplifier
+F http://www.ti.com/lit/gpn/TLV2254A
+$ENDCMP
+#
+#End Doc Library

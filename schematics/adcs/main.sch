@@ -1,0 +1,2595 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 750  1050 0    50   ~ 0
+ADXRS452 Gyroscope
+$Comp
+L power:GND #PWR0148
+U 1 1 60139C4E
+P 3250 2300
+F 0 "#PWR0148" H 3250 2050 50  0001 C CNN
+F 1 "GND" V 3255 2172 50  0000 R CNN
+F 2 "" H 3250 2300 50  0001 C CNN
+F 3 "" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1900 1700 1800
+$Comp
+L power:GND #PWR0149
+U 1 1 6013D9DE
+P 1500 1800
+F 0 "#PWR0149" H 1500 1550 50  0001 C CNN
+F 1 "GND" V 1505 1672 50  0000 R CNN
+F 2 "" H 1500 1800 50  0001 C CNN
+F 3 "" H 1500 1800 50  0001 C CNN
+	1    1500 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1800 1500 1800
+$Comp
+L Device:C C37
+U 1 1 60156CA3
+P 3150 1900
+F 0 "C37" V 2950 1750 50  0000 C CNN
+F 1 "1u" V 3050 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3188 1750 50  0001 C CNN
+F 3 "~" H 3150 1900 50  0001 C CNN
+	1    3150 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 6015800A
+P 3300 1900
+F 0 "#PWR0150" H 3300 1650 50  0001 C CNN
+F 1 "GND" V 3305 1772 50  0000 R CNN
+F 2 "" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 6015FC10
+P 1550 1700
+F 0 "C33" V 1802 1700 50  0000 C CNN
+F 1 "1u" V 1711 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1588 1550 50  0001 C CNN
+F 3 "~" H 1550 1700 50  0001 C CNN
+	1    1550 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 6015FC16
+P 1400 1700
+F 0 "#PWR0151" H 1400 1450 50  0001 C CNN
+F 1 "GND" V 1405 1572 50  0000 R CNN
+F 2 "" H 1400 1700 50  0001 C CNN
+F 3 "" H 1400 1700 50  0001 C CNN
+	1    1400 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 2300 1500 2300
+$Comp
+L Device:L L1
+U 1 1 6016AAB9
+P 1700 2950
+F 0 "L1" H 1752 2996 50  0000 L CNN
+F 1 "470u" H 1752 2905 50  0000 L CNN
+F 2 "" H 1700 2950 50  0001 C CNN
+F 3 "~" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 6017742D
+P 3150 2400
+F 0 "C38" V 2900 2400 50  0000 C CNN
+F 1 "1u" V 3000 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3188 2250 50  0001 C CNN
+F 3 "~" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 6017CE95
+P 3300 2400
+F 0 "#PWR0152" H 3300 2150 50  0001 C CNN
+F 1 "GND" V 3305 2272 50  0000 R CNN
+F 2 "" H 3300 2400 50  0001 C CNN
+F 3 "" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0153
+U 1 1 6018333A
+P 1500 3100
+F 0 "#PWR0153" H 1500 2950 50  0001 C CNN
+F 1 "+3.3V" V 1515 3228 50  0000 L CNN
+F 2 "" H 1500 3100 50  0001 C CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+	1    1500 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3100 1500 3100
+$Comp
+L Device:C C29
+U 1 1 601888B5
+P 950 2250
+F 0 "C29" H 1065 2296 50  0000 L CNN
+F 1 "1u" H 1065 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 988 2100 50  0001 C CNN
+F 3 "~" H 950 2250 50  0001 C CNN
+	1    950  2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 60188FDB
+P 950 2400
+F 0 "#PWR0154" H 950 2150 50  0001 C CNN
+F 1 "GND" H 955 2227 50  0000 C CNN
+F 2 "" H 950 2400 50  0001 C CNN
+F 3 "" H 950 2400 50  0001 C CNN
+	1    950  2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2200 1500 2200
+Wire Wire Line
+	1500 2200 1500 2100
+Wire Wire Line
+	1500 2100 950  2100
+Wire Wire Line
+	1500 2300 1500 2400
+Wire Wire Line
+	1500 2400 950  2400
+Connection ~ 950  2400
+$Comp
+L power:GND #PWR0156
+U 1 1 601A0446
+P 3700 3900
+F 0 "#PWR0156" H 3700 3650 50  0001 C CNN
+F 1 "GND" H 3705 3727 50  0000 C CNN
+F 2 "" H 3700 3900 50  0001 C CNN
+F 3 "" H 3700 3900 50  0001 C CNN
+	1    3700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 601A4D8B
+P 3250 4300
+F 0 "#PWR0158" H 3250 4050 50  0001 C CNN
+F 1 "GND" V 3255 4172 50  0000 R CNN
+F 2 "" H 3250 4300 50  0001 C CNN
+F 3 "" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 601A52B5
+P 2100 4300
+F 0 "#PWR0159" H 2100 4050 50  0001 C CNN
+F 1 "GND" V 2105 4172 50  0000 R CNN
+F 2 "" H 2100 4300 50  0001 C CNN
+F 3 "" H 2100 4300 50  0001 C CNN
+	1    2100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 601A585F
+P 3250 4000
+F 0 "#PWR0160" H 3250 3750 50  0001 C CNN
+F 1 "GND" V 3255 3872 50  0000 R CNN
+F 2 "" H 3250 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 601B0214
+P 3700 3750
+F 0 "C39" H 3815 3796 50  0000 L CNN
+F 1 "1u" H 3815 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 3600 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3700 3450 3600
+Wire Wire Line
+	3450 3600 3700 3600
+Connection ~ 3700 3600
+Wire Wire Line
+	3450 3800 3450 3900
+Wire Wire Line
+	3450 3900 3700 3900
+Connection ~ 3700 3900
+$Comp
+L Device:L L2
+U 1 1 601C9C76
+P 3500 4700
+F 0 "L2" H 3552 4746 50  0000 L CNN
+F 1 "470u" H 3552 4655 50  0000 L CNN
+F 2 "" H 3500 4700 50  0001 C CNN
+F 3 "~" H 3500 4700 50  0001 C CNN
+	1    3500 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4850 3700 4850
+Wire Wire Line
+	2100 4200 1750 4200
+$Comp
+L power:GND #PWR0162
+U 1 1 601E05BB
+P 1400 4700
+F 0 "#PWR0162" H 1400 4450 50  0001 C CNN
+F 1 "GND" H 1405 4527 50  0000 C CNN
+F 2 "" H 1400 4700 50  0001 C CNN
+F 3 "" H 1400 4700 50  0001 C CNN
+	1    1400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4200 1750 4200
+Connection ~ 1750 4200
+$Comp
+L Device:C C34
+U 1 1 601E79A6
+P 1600 3750
+F 0 "C34" H 1715 3796 50  0000 L CNN
+F 1 "1u" H 1715 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1638 3600 50  0001 C CNN
+F 3 "~" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 601E9621
+P 1050 4500
+F 0 "#PWR0163" H 1050 4250 50  0001 C CNN
+F 1 "GND" H 1055 4327 50  0000 C CNN
+F 2 "" H 1050 4500 50  0001 C CNN
+F 3 "" H 1050 4500 50  0001 C CNN
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 601E962D
+P 1050 4350
+F 0 "C30" H 1165 4396 50  0000 L CNN
+F 1 "1u" H 1165 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1088 4200 50  0001 C CNN
+F 3 "~" H 1050 4350 50  0001 C CNN
+	1    1050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4000 1050 4000
+Wire Wire Line
+	1050 4000 1050 4200
+Wire Wire Line
+	2100 3700 1850 3700
+Wire Wire Line
+	1850 3700 1850 3600
+Wire Wire Line
+	1850 3600 1600 3600
+Wire Wire Line
+	1600 3900 1850 3900
+Wire Wire Line
+	1850 3900 1850 3800
+Wire Wire Line
+	1850 3800 2100 3800
+Wire Notes Line
+	750  1050 750  5050
+Wire Notes Line
+	750  5050 4200 5050
+Wire Notes Line
+	4200 5050 4200 1050
+Wire Notes Line
+	750  1050 4200 1050
+Wire Wire Line
+	2900 5650 2900 6100
+Connection ~ 2500 6000
+Wire Wire Line
+	2400 6000 2500 6000
+Wire Wire Line
+	1550 6000 1700 6000
+Connection ~ 2500 6500
+Wire Wire Line
+	2500 6500 2400 6500
+$Comp
+L power:GND #PWR?
+U 1 1 60116D2D
+P 2400 6500
+AR Path="/60116D2D" Ref="#PWR?"  Part="1" 
+AR Path="/600C7B11/60116D2D" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 2400 6250 50  0001 C CNN
+F 1 "GND" V 2400 6300 50  0000 C CNN
+F 2 "" H 2400 6500 50  0001 C CNN
+F 3 "" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2900 6600 2900 6400
+Wire Wire Line
+	1550 5650 2900 5650
+Wire Wire Line
+	2750 6300 2750 6500
+Wire Wire Line
+	2900 6300 2750 6300
+Wire Wire Line
+	2750 6200 2750 6000
+Wire Wire Line
+	2900 6200 2750 6200
+Text Notes 900  7400 0    50   ~ 0
+Redundant
+Text Notes 900  5400 0    50   ~ 0
+Main
+Text Notes 750  5150 0    50   ~ 0
+CAN Transceivers
+Wire Notes Line
+	750  5150 5050 5150
+Wire Wire Line
+	4000 6100 4100 6100
+Wire Wire Line
+	4000 6300 4100 6300
+Wire Wire Line
+	4100 6400 4000 6400
+Wire Notes Line
+	750  7200 5050 7200
+$Comp
+L MISC:MF-ASML035_6-2 F?
+U 1 1 60116D4A
+P 1700 6000
+AR Path="/60116D4A" Ref="F?"  Part="1" 
+AR Path="/600C7B11/60116D4A" Ref="F6"  Part="1" 
+F 0 "F6" H 2050 6250 50  0000 C CNN
+F 1 "MF-ASML035_6-2" H 2050 6150 50  0000 C CNN
+F 2 "MISC:MF-ASML035_6-2" H 2250 6050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/MF-ASML035_6-2.pdf" H 2250 5950 50  0001 L CNN
+F 4 "Resettable Fuses - PPTC 3.3K  OHM  .5%" H 2250 5850 50  0001 L CNN "Description"
+F 5 "0.6" H 2250 5750 50  0001 L CNN "Height"
+F 6 "652-MF-ASML035/6-2" H 2250 5650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/MF-ASML035-6-2?qs=mAH9sUMRCtug7KIM9%2Fa3qA%3D%3D" H 2250 5550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 2250 5450 50  0001 L CNN "Manufacturer_Name"
+F 9 "MF-ASML035/6-2" H 2250 5350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C?
+U 1 1 60116D57
+P 2500 6000
+AR Path="/60116D57" Ref="C?"  Part="1" 
+AR Path="/600C7B11/60116D57" Ref="C35"  Part="1" 
+F 0 "C35" V 2704 6128 50  0000 L CNN
+F 1 "100n" V 2795 6128 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2850 6050 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 2850 5950 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 2850 5850 50  0001 L CNN "Description"
+F 5 "0.55" H 2850 5750 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 2850 5650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 2850 5550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 2850 5450 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 2850 5350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2500 6000
+	0    -1   1    0   
+$EndComp
+Text Label 1550 6600 2    50   ~ 0
+CAN_TX_1
+Text Label 1550 5650 2    50   ~ 0
+CAN_RX_1
+Text Label 4100 6400 0    50   ~ 0
+CAN_SILENT_1
+Text Label 4100 6100 0    50   ~ 0
+CAN_FAULT_1
+Text GLabel 4100 6200 2    50   Input ~ 0
+CAN_LOW_1
+Text GLabel 4100 6300 2    50   Input ~ 0
+CAN_HIGH_1
+$Comp
+L MISC:TCAN337GD U?
+U 1 1 60116D69
+P 2900 6400
+AR Path="/60116D69" Ref="U?"  Part="1" 
+AR Path="/600C7B11/60116D69" Ref="U10"  Part="1" 
+F 0 "U10" H 3450 6665 50  0000 C CNN
+F 1 "TCAN337GD" H 3450 6574 50  0000 C CNN
+F 2 "MISC:TCAN337GDR" H 3850 6500 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/tcan337gd/texas-instruments" H 3850 6400 50  0001 L CNN
+F 4 "CAN Interface IC" H 3850 6300 50  0001 L CNN "Description"
+F 5 "1.75" H 3850 6200 50  0001 L CNN "Height"
+F 6 "595-TCAN337GD" H 3850 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD" H 3850 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3850 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "TCAN337GD" H 3850 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2900 6400
+	1    0    0    1   
+$EndComp
+Text Label 1550 8600 2    50   ~ 0
+CAN_TX_2
+Text Label 1550 7650 2    50   ~ 0
+CAN_RX_2
+Text GLabel 4100 8300 2    50   Input ~ 0
+CAN_HIGH_2
+Text GLabel 4100 8200 2    50   Input ~ 0
+CAN_LOW_2
+Text Label 4100 8400 0    50   ~ 0
+CAN_SILENT_2
+Text Label 4100 8100 0    50   ~ 0
+CAN_FAULT_2
+$Comp
+L MISC:TCAN337GD U?
+U 1 1 60116D7B
+P 2900 8400
+AR Path="/60116D7B" Ref="U?"  Part="1" 
+AR Path="/600C7B11/60116D7B" Ref="U11"  Part="1" 
+F 0 "U11" H 3450 8665 50  0000 C CNN
+F 1 "TCAN337GD" H 3450 8574 50  0000 C CNN
+F 2 "MISC:TCAN337GDR" H 3850 8500 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/tcan337gd/texas-instruments" H 3850 8400 50  0001 L CNN
+F 4 "CAN Interface IC" H 3850 8300 50  0001 L CNN "Description"
+F 5 "1.75" H 3850 8200 50  0001 L CNN "Height"
+F 6 "595-TCAN337GD" H 3850 8100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD" H 3850 8000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3850 7900 50  0001 L CNN "Manufacturer_Name"
+F 9 "TCAN337GD" H 3850 7800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2900 8400
+	1    0    0    1   
+$EndComp
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C?
+U 1 1 60116D87
+P 2500 8000
+AR Path="/60116D87" Ref="C?"  Part="1" 
+AR Path="/600C7B11/60116D87" Ref="C36"  Part="1" 
+F 0 "C36" V 2704 8128 50  0000 L CNN
+F 1 "100n" V 2795 8128 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2850 8050 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 2850 7950 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 2850 7850 50  0001 L CNN "Description"
+F 5 "0.55" H 2850 7750 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 2850 7650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 2850 7550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 2850 7450 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 2850 7350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2500 8000
+	0    -1   1    0   
+$EndComp
+$Comp
+L MISC:MF-ASML035_6-2 F?
+U 1 1 60116D94
+P 1700 8000
+AR Path="/60116D94" Ref="F?"  Part="1" 
+AR Path="/600C7B11/60116D94" Ref="F7"  Part="1" 
+F 0 "F7" H 2050 8250 50  0000 C CNN
+F 1 "MF-ASML035_6-2" H 2050 8150 50  0000 C CNN
+F 2 "MISC:MF-ASML035_6-2" H 2250 8050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/MF-ASML035_6-2.pdf" H 2250 7950 50  0001 L CNN
+F 4 "Resettable Fuses - PPTC 3.3K  OHM  .5%" H 2250 7850 50  0001 L CNN "Description"
+F 5 "0.6" H 2250 7750 50  0001 L CNN "Height"
+F 6 "652-MF-ASML035/6-2" H 2250 7650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/MF-ASML035-6-2?qs=mAH9sUMRCtug7KIM9%2Fa3qA%3D%3D" H 2250 7550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 2250 7450 50  0001 L CNN "Manufacturer_Name"
+F 9 "MF-ASML035/6-2" H 2250 7350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1700 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 8400 4000 8400
+Wire Wire Line
+	4000 8300 4100 8300
+Wire Wire Line
+	4000 8200 4100 8200
+Wire Wire Line
+	4000 8100 4100 8100
+Wire Wire Line
+	2900 8200 2750 8200
+Wire Wire Line
+	2750 8200 2750 8000
+Wire Wire Line
+	2750 8000 2500 8000
+Wire Wire Line
+	2900 8300 2750 8300
+Wire Wire Line
+	2750 8300 2750 8500
+Wire Wire Line
+	2750 8500 2500 8500
+Wire Wire Line
+	1550 7650 2900 7650
+Wire Wire Line
+	1550 8600 2900 8600
+Wire Wire Line
+	2900 8600 2900 8400
+$Comp
+L power:GND #PWR?
+U 1 1 60116DA7
+P 2400 8500
+AR Path="/60116DA7" Ref="#PWR?"  Part="1" 
+AR Path="/600C7B11/60116DA7" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 2400 8250 50  0001 C CNN
+F 1 "GND" V 2400 8300 50  0000 C CNN
+F 2 "" H 2400 8500 50  0001 C CNN
+F 3 "" H 2400 8500 50  0001 C CNN
+	1    2400 8500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2500 8500 2400 8500
+Connection ~ 2500 8500
+Wire Wire Line
+	1550 8000 1700 8000
+Wire Wire Line
+	2400 8000 2500 8000
+Connection ~ 2500 8000
+Text Notes 3650 7100 0    50   ~ 0
+NOTE: 120 Ω terminating resistors\nto be placed at bus ends\n(COMMS-SU tentative)
+Wire Wire Line
+	4000 6200 4100 6200
+Wire Wire Line
+	2900 7650 2900 8100
+Wire Notes Line
+	5050 9050 750  9050
+Wire Notes Line
+	5050 5150 5050 9050
+Wire Notes Line
+	750  5150 750  9050
+$Comp
+L Device:R R20
+U 1 1 6023482E
+P 7200 1600
+F 0 "R20" H 7270 1646 50  0000 L CNN
+F 1 "121" H 7270 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 1600 50  0001 C CNN
+F 3 "~" H 7200 1600 50  0001 C CNN
+	1    7200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADCS_IC:Sen-Y-f U17
+U 1 1 601EACC7
+P 7750 1950
+F 0 "U17" H 7750 1915 50  0000 C CNN
+F 1 "Sen-Y-f" H 7750 1824 50  0000 C CNN
+F 2 "ADCS_IC:RM3100_SEN_XY" H 7750 1950 50  0001 C CNN
+F 3 "" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADCS_IC:Sen-X-f U16
+U 1 1 601E4B7E
+P 7750 1100
+F 0 "U16" H 7750 1065 50  0000 C CNN
+F 1 "Sen-X-f" H 7750 974 50  0000 C CNN
+F 2 "ADCS_IC:RM3100_SEN_XY" H 7750 1100 50  0001 C CNN
+F 3 "" H 7750 1100 50  0001 C CNN
+	1    7750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0176
+U 1 1 601DDBEA
+P 5650 1350
+F 0 "#PWR0176" H 5650 1100 50  0001 C CNN
+F 1 "GND" H 5655 1177 50  0000 C CNN
+F 2 "" H 5650 1350 50  0001 C CNN
+F 3 "" H 5650 1350 50  0001 C CNN
+	1    5650 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 601DCA65
+P 5650 1500
+F 0 "R19" H 5720 1546 50  0000 L CNN
+F 1 "121" H 5720 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5580 1500 50  0001 C CNN
+F 3 "~" H 5650 1500 50  0001 C CNN
+	1    5650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0178
+U 1 1 601DA446
+P 5950 1650
+F 0 "#PWR0178" H 5950 1400 50  0001 C CNN
+F 1 "GND" H 5955 1477 50  0000 C CNN
+F 2 "" H 5950 1650 50  0001 C CNN
+F 3 "" H 5950 1650 50  0001 C CNN
+	1    5950 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 601D72A7
+P 5150 2250
+F 0 "#PWR0180" H 5150 2000 50  0001 C CNN
+F 1 "GND" V 5155 2122 50  0000 R CNN
+F 2 "" H 5150 2250 50  0001 C CNN
+F 3 "" H 5150 2250 50  0001 C CNN
+	1    5150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 601CFBAA
+P 6150 2350
+F 0 "#PWR0181" H 6150 2100 50  0001 C CNN
+F 1 "GND" V 6155 2222 50  0000 R CNN
+F 2 "" H 6150 2350 50  0001 C CNN
+F 3 "" H 6150 2350 50  0001 C CNN
+	1    6150 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 601CF2E6
+P 6150 2250
+F 0 "#PWR0182" H 6150 2000 50  0001 C CNN
+F 1 "GND" V 6155 2122 50  0000 R CNN
+F 2 "" H 6150 2250 50  0001 C CNN
+F 3 "" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ADCS_IC:MagI2C U15
+U 1 1 601BBC37
+P 5650 1200
+F 0 "U15" H 5050 450 50  0000 L CNN
+F 1 "MagI2C" H 4950 550 50  0000 L CNN
+F 2 "ADCS_IC:RM3100_MAGI2C" H 5650 1200 50  0001 C CNN
+F 3 "" H 5650 1200 50  0001 C CNN
+	1    5650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 60376466
+P 7200 2450
+F 0 "R21" H 7270 2496 50  0000 L CNN
+F 1 "33k" H 7270 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 2450 50  0001 C CNN
+F 3 "~" H 7200 2450 50  0001 C CNN
+	1    7200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADCS_IC:Sen-Z-f U18
+U 1 1 601EBF30
+P 7750 2800
+F 0 "U18" H 7750 2765 50  0000 C CNN
+F 1 "Sen-Z-f" H 7750 2674 50  0000 C CNN
+F 2 "ADCS_IC:RM3100_SEN_Z" H 7750 2800 50  0001 C CNN
+F 3 "" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 6039E11B
+P 8300 1600
+F 0 "R23" H 8370 1646 50  0000 L CNN
+F 1 "121" H 8370 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 1600 50  0001 C CNN
+F 3 "~" H 8300 1600 50  0001 C CNN
+	1    8300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 603A065C
+P 8300 2450
+F 0 "R24" H 8370 2496 50  0000 L CNN
+F 1 "121" H 8370 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 2450 50  0001 C CNN
+F 3 "~" H 8300 2450 50  0001 C CNN
+	1    8300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 603A2C71
+P 8300 3300
+F 0 "R25" H 8370 3346 50  0000 L CNN
+F 1 "121" H 8370 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 3300 50  0001 C CNN
+F 3 "~" H 8300 3300 50  0001 C CNN
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 603A5298
+P 7200 3300
+F 0 "R22" H 7270 3346 50  0000 L CNN
+F 1 "121" H 7270 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 3300 50  0001 C CNN
+F 3 "~" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1450 7350 1450
+Wire Wire Line
+	8150 1450 8300 1450
+Wire Wire Line
+	8300 2300 8150 2300
+Wire Wire Line
+	8150 3150 8300 3150
+Wire Wire Line
+	7200 3150 7350 3150
+Wire Wire Line
+	7200 2300 7350 2300
+Text Label 7200 1450 0    50   ~ 0
+XINP
+Text Label 8150 1450 0    50   ~ 0
+XINN
+Text Label 7200 2300 0    50   ~ 0
+YINP
+Text Label 8150 2300 0    50   ~ 0
+YINN
+Text Label 7200 3150 0    50   ~ 0
+ZINP
+Text Label 8150 3150 0    50   ~ 0
+ZINN
+Text Label 5350 3250 3    50   ~ 0
+ZINN
+Text Label 5650 3250 3    50   ~ 0
+YINP
+Text Label 5750 3250 3    50   ~ 0
+YINN
+Text Label 6150 2650 0    50   ~ 0
+XINP
+Text Label 6150 2550 0    50   ~ 0
+XINN
+Text Label 5150 2750 2    50   ~ 0
+ZINP
+NoConn ~ 6150 2150
+NoConn ~ 5750 1650
+Text Label 7200 3450 3    50   ~ 0
+ZDRVP
+Text Label 8300 3450 3    50   ~ 0
+ZDRVN
+Text Label 7200 2600 3    50   ~ 0
+YDRVP
+Text Label 8300 2600 3    50   ~ 0
+YDRVN
+Text Label 7200 1750 3    50   ~ 0
+XDRVP
+Text Label 8300 1750 3    50   ~ 0
+XDRVN
+Text Label 6150 2450 0    50   ~ 0
+XDRVN
+Text Label 6150 2750 0    50   ~ 0
+XDRVP
+Text Label 5850 3250 3    50   ~ 0
+YDRVN
+Text Label 5450 3250 3    50   ~ 0
+ZDRVN
+Text Label 5550 3250 3    50   ~ 0
+ZDRVP
+Text Label 5150 2650 2    50   ~ 0
+ZDRVP
+$Comp
+L power:GND #PWR0185
+U 1 1 603EE8DA
+P 5150 2550
+F 0 "#PWR0185" H 5150 2300 50  0001 C CNN
+F 1 "GND" V 5155 2422 50  0000 R CNN
+F 2 "" H 5150 2550 50  0001 C CNN
+F 3 "" H 5150 2550 50  0001 C CNN
+	1    5150 2550
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	4450 3800 4450 1050
+Text Notes 4450 1050 0    50   ~ 0
+Magnetometer (PNI RM3100)
+$Comp
+L Device:C C41
+U 1 1 601397B5
+P 9000 1600
+F 0 "C41" H 9115 1646 50  0000 L CNN
+F 1 "10u" H 9115 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9038 1450 50  0001 C CNN
+F 3 "~" H 9000 1600 50  0001 C CNN
+	1    9000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0186
+U 1 1 601397BB
+P 9000 1750
+F 0 "#PWR0186" H 9000 1500 50  0001 C CNN
+F 1 "GND" H 9005 1577 50  0000 C CNN
+F 2 "" H 9000 1750 50  0001 C CNN
+F 3 "" H 9000 1750 50  0001 C CNN
+	1    9000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0188
+U 1 1 6013D1EE
+P 9000 2800
+F 0 "#PWR0188" H 9000 2550 50  0001 C CNN
+F 1 "GND" H 9005 2627 50  0000 C CNN
+F 2 "" H 9000 2800 50  0001 C CNN
+F 3 "" H 9000 2800 50  0001 C CNN
+	1    9000 2800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4450 3800 9850 3800
+Wire Notes Line
+	9850 3800 9850 1050
+Wire Notes Line
+	4450 1050 9850 1050
+Text Notes 11300 600  0    50   ~ 0
+Power regulator
+Wire Notes Line
+	11300 600  12450 600 
+Text Label 12000 750  0    50   ~ 0
+MCU_VDDIN
+$Comp
+L power:GND #PWR0190
+U 1 1 6052F39B
+P 11850 1250
+F 0 "#PWR0190" H 11850 1000 50  0001 C CNN
+F 1 "GND" H 11855 1077 50  0000 C CNN
+F 2 "" H 11850 1250 50  0001 C CNN
+F 3 "" H 11850 1250 50  0001 C CNN
+	1    11850 1250
+	1    0    0    -1  
+$EndComp
+Text Label 11700 750  2    50   ~ 0
+MCU_VDD
+NoConn ~ 13900 5750
+Wire Wire Line
+	15400 5750 15400 5900
+$Comp
+L OBC_IC:ECS-TXO-2520-33-120-AN-TR Y3
+U 1 1 6052F3AA
+P 13900 5650
+F 0 "Y3" H 14650 5915 50  0000 C CNN
+F 1 "ECS-TXO-2520-33-120-AN-TR" H 14650 5824 50  0000 C CNN
+F 2 "OBC_IC:ECSTXO252033120ANTR" H 15250 5750 50  0001 L CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-TXO-2520.pdf" H 15250 5650 50  0001 L CNN
+F 4 "TCXO Oscillators 12MHz 3.3V 2.5ppm -40C +85C" H 15250 5550 50  0001 L CNN "Description"
+F 5 "520-T2520-33-120-ANT" H 15250 5350 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-2520-33-120-AN-TR?qs=KAq9QXcE8HB8zqkkQbQ2Dw%3D%3D" H 15250 5250 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ECS" H 15250 5150 50  0001 L CNN "Manufacturer_Name"
+F 8 "ECS-TXO-2520-33-120-AN-TR" H 15250 5050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13900 5650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	13200 5150 13200 6150
+Wire Notes Line
+	15550 5150 15550 6150
+Text Label 15400 5650 1    50   ~ 0
+MCU_CLK_IN
+$Comp
+L power:GND #PWR0191
+U 1 1 6052F3B5
+P 15400 5900
+F 0 "#PWR0191" H 15400 5650 50  0001 C CNN
+F 1 "GND" H 15405 5727 50  0000 C CNN
+F 2 "" H 15400 5900 50  0001 C CNN
+F 3 "" H 15400 5900 50  0001 C CNN
+	1    15400 5900
+	1    0    0    -1  
+$EndComp
+Text Label 14750 6500 0    50   ~ 0
+MCU_AD_REF_POS
+Wire Wire Line
+	14750 6500 14550 6500
+Wire Wire Line
+	14550 6500 14550 6550
+Wire Wire Line
+	14500 6500 14550 6500
+Connection ~ 14550 6500
+Wire Notes Line
+	15900 6300 15900 7300
+Wire Notes Line
+	13200 6300 13200 7300
+Text Notes 13200 6300 0    50   ~ 0
+MCU analog reference LC
+$Comp
+L MISC:BLM18PG471SH1D FL5
+U 1 1 6052F3D6
+P 14000 6500
+F 0 "FL5" V 14200 6100 50  0000 C CNN
+F 1 "470 @ 100 MHz" V 14300 6100 50  0000 C CNN
+F 2 "MISC:BLM18PG471SH1D" H 14800 6550 50  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18PG471SH1%23" H 14800 6450 50  0001 L CNN
+F 4 "Murata Power Solutions Ferrite Bead (Chip Bead), 1.6 x 0.8 x 0.8mm (1608), 470 impedance at 100 MHz" H 14800 6350 50  0001 L CNN "Description"
+F 5 "0.95" H 14800 6250 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 14800 6150 50  0001 L CNN "Manufacturer_Name"
+F 7 "BLM18PG471SH1D" H 14800 6050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "BLM18PG471SH1D" H 14800 5950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/blm18pg471sh1d/murata-manufacturing" H 14800 5850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "81-BLM18PG471SH1D" H 14800 5750 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18PG471SH1D?qs=uSeJpk%2F8In16ipYp%2FGDzCQ%3D%3D" H 14800 5650 50  0001 L CNN "Mouser Price/Stock"
+	1    14000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0192
+U 1 1 6052F3DD
+P 14550 7050
+F 0 "#PWR0192" H 14550 6800 50  0001 C CNN
+F 1 "GND" H 14555 6877 50  0000 C CNN
+F 2 "" H 14550 7050 50  0001 C CNN
+F 3 "" H 14550 7050 50  0001 C CNN
+	1    14550 7050
+	1    0    0    -1  
+$EndComp
+Text Label 14750 7050 0    50   ~ 0
+MCU_AD_REF_NEG
+Wire Wire Line
+	14550 7050 14750 7050
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C57
+U 1 1 6052F3EB
+P 14550 6550
+F 0 "C57" V 14754 6678 50  0000 L CNN
+F 1 "100n" V 14845 6678 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14900 6600 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 14900 6500 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 14900 6400 50  0001 L CNN "Description"
+F 5 "0.55" H 14900 6300 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 14900 6200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 14900 6100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 14900 6000 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 14900 5900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14550 6550
+	0    1    1    0   
+$EndComp
+Connection ~ 14550 7050
+Wire Notes Line
+	10250 2800 10250 3750
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C50
+U 1 1 6052F451
+P 11850 750
+F 0 "C50" V 12054 878 50  0000 L CNN
+F 1 "100n" V 12145 878 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12200 800 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 12200 700 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 12200 600 50  0001 L CNN "Description"
+F 5 "0.55" H 12200 500 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 12200 400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 12200 300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 12200 200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 12200 100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11850 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 750  11850 750 
+Connection ~ 11850 750 
+Wire Wire Line
+	11850 750  12000 750 
+Wire Notes Line
+	11300 1550 12450 1550
+Wire Notes Line
+	12450 600  12450 1550
+Wire Notes Line
+	11300 600  11300 1550
+Text Label 10850 750  0    50   ~ 0
+MCU_VDD
+Wire Notes Line
+	10100 1550 11250 1550
+Wire Notes Line
+	11250 600  11250 1550
+Text Notes 13200 5150 0    50   ~ 0
+MCU Clock
+Wire Notes Line
+	12500 1550 14200 1550
+Wire Notes Line
+	12500 600  14200 600 
+Wire Notes Line
+	14250 600  15950 600 
+Connection ~ 14950 750 
+Wire Wire Line
+	14800 750  14950 750 
+$Comp
+L OBC_PASSIVE:GRT155R61E105KE01D C60
+U 1 1 6052F46E
+P 14950 750
+F 0 "C60" V 15154 878 50  0000 L CNN
+F 1 "1u" V 15245 878 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15300 800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/GRT155R61E105KE01D.pdf" H 15300 700 50  0001 L CNN
+F 4 "Capacitor GRT15 L=1.0mm W=0.5mm T=0.5mm" H 15300 600 50  0001 L CNN "Description"
+F 5 "0.55" H 15300 500 50  0001 L CNN "Height"
+F 6 "81-GRT155R61E105KE1D" H 15300 400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRT155R61E105KE1D" H 15300 300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 15300 200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRT155R61E105KE01D" H 15300 100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14950 750 
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	12500 600  12500 1550
+Wire Notes Line
+	14200 600  14200 1550
+Wire Wire Line
+	13550 750  13650 750 
+Connection ~ 13550 750 
+Wire Wire Line
+	13300 750  13550 750 
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C55
+U 1 1 6052F47F
+P 13550 750
+F 0 "C55" V 13754 878 50  0000 L CNN
+F 1 "100n" V 13845 878 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13900 800 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 13900 700 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 13900 600 50  0001 L CNN "Description"
+F 5 "0.55" H 13900 500 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 13900 400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 13900 300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 13900 200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 13900 100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13550 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12650 750  12800 750 
+$Comp
+L MISC:BLM18PG471SH1D FL4
+U 1 1 6052F48E
+P 12800 750
+F 0 "FL4" H 13000 600 50  0000 C CNN
+F 1 "470 @ 100 MHz" H 13000 500 50  0000 C CNN
+F 2 "MISC:BLM18PG471SH1D" H 13600 800 50  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18PG471SH1%23" H 13600 700 50  0001 L CNN
+F 4 "Murata Power Solutions Ferrite Bead (Chip Bead), 1.6 x 0.8 x 0.8mm (1608), 470 impedance at 100 MHz" H 13600 600 50  0001 L CNN "Description"
+F 5 "0.95" H 13600 500 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 13600 400 50  0001 L CNN "Manufacturer_Name"
+F 7 "BLM18PG471SH1D" H 13600 300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "BLM18PG471SH1D" H 13600 200 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/blm18pg471sh1d/murata-manufacturing" H 13600 100 50  0001 L CNN "Arrow Price/Stock"
+F 10 "81-BLM18PG471SH1D" H 13600 0   50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18PG471SH1D?qs=uSeJpk%2F8In16ipYp%2FGDzCQ%3D%3D" H 13600 -100 50  0001 L CNN "Mouser Price/Stock"
+	1    12800 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0193
+U 1 1 6052F494
+P 13550 1250
+F 0 "#PWR0193" H 13550 1000 50  0001 C CNN
+F 1 "GND" H 13555 1077 50  0000 C CNN
+F 2 "" H 13550 1250 50  0001 C CNN
+F 3 "" H 13550 1250 50  0001 C CNN
+	1    13550 1250
+	1    0    0    -1  
+$EndComp
+Text Label 13650 750  0    50   ~ 0
+MCU_VDDPLL
+Text Label 12650 750  3    50   ~ 0
+VDDOUT_FILT
+Text Notes 12550 600  0    50   ~ 0
+PLL power
+Text Label 15450 750  0    50   ~ 0
+MCU_VDDOUT
+Text Label 14800 750  2    50   ~ 0
+VDDOUT_FILT
+Text Notes 14600 600  0    50   ~ 0
+VDDOUT filtering
+Wire Notes Line
+	10250 1750 10250 2650
+Connection ~ 15000 2100
+$Comp
+L OBC_PASSIVE:GCQ1555C1H110JB01D C61
+U 1 1 6052F553
+P 15000 2100
+F 0 "C61" V 15250 2250 50  0000 L CNN
+F 1 "11p" V 15350 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15350 2150 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCQ1555C1H110JB01%23.html" H 15350 2050 50  0001 L CNN
+F 4 "Capacitor GCQ15_0.05 L=1.0mm W=0.5mm T=0.5mm" H 15350 1950 50  0001 L CNN "Description"
+F 5 "0.55" H 15350 1850 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 15350 1550 50  0001 L CNN "Manufacturer_Name"
+F 7 "GCQ1555C1H110JB01D" H 15350 1450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15000 2100
+	0    1    1    0   
+$EndComp
+Text Label 14300 2000 2    50   ~ 0
+MCU_RTC_IN
+Text Label 15000 2000 0    50   ~ 0
+MCU_RTC_OUT
+Wire Wire Line
+	15000 2000 15000 2100
+Wire Wire Line
+	15000 2100 14800 2100
+Wire Wire Line
+	14500 2100 14300 2100
+Wire Wire Line
+	14300 2100 14300 2000
+Wire Notes Line
+	13750 1750 15550 1750
+$Comp
+L OBC_IC:G8327A047 Y4
+U 1 1 6052F56E
+P 14500 2100
+F 0 "Y4" H 14650 2368 50  0000 C CNN
+F 1 "G8327A047" H 14650 2277 50  0000 C CNN
+F 2 "OBC_IC:G8327A047" H 15150 2200 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/G8.pdf" H 15150 2100 50  0001 L CNN
+F 4 "Crystal 32.678kHz 2-Pin Surface Mount T/R - Tape and Reel" H 15150 2000 50  0001 L CNN "Description"
+F 5 "0.9" H 15150 1900 50  0001 L CNN "Height"
+F 6 "621-G8327A047" H 15150 1800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/G8327A047?qs=wnTfsH77Xs5ven3L7R1IxA%3D%3D" H 15150 1700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 15150 1600 50  0001 L CNN "Manufacturer_Name"
+F 9 "G8327A047" H 15150 1500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14500 2100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15950 1500 14250 1500
+Wire Notes Line
+	14250 600  14250 1500
+Wire Notes Line
+	10100 600  10100 1550
+Text Notes 10100 600  0    50   ~ 0
+Master voltage
+Wire Notes Line
+	11250 600  10100 600 
+Connection ~ 10700 750 
+Wire Wire Line
+	10700 750  10850 750 
+$Comp
+L OBC_PASSIVE:GRT155R61A475ME13D C43
+U 1 1 6052F586
+P 10700 750
+F 0 "C43" V 10904 878 50  0000 L CNN
+F 1 "4.7u" V 10995 878 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11050 800 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GRT155R61A475ME13%23.html" H 11050 700 50  0001 L CNN
+F 4 "Capacitor GRT15 L=1.0mm W=0.5mm T=0.5mm" H 11050 600 50  0001 L CNN "Description"
+F 5 "0.55" H 11050 500 50  0001 L CNN "Height"
+F 6 "81-GRT155R61A475ME13" H 11050 400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRT155R61A475ME13D?qs=rrS6PyfT74cfd%252BwO%2F%2FmDhw%3D%3D" H 11050 300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 11050 200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRT155R61A475ME13D" H 11050 100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10700 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0194
+U 1 1 6052F58C
+P 10700 1250
+F 0 "#PWR0194" H 10700 1000 50  0001 C CNN
+F 1 "GND" H 10705 1077 50  0000 C CNN
+F 2 "" H 10700 1250 50  0001 C CNN
+F 3 "" H 10700 1250 50  0001 C CNN
+	1    10700 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 15400 750 
+Wire Wire Line
+	14950 750  15400 750 
+Wire Wire Line
+	15400 750  15450 750 
+Wire Notes Line
+	15950 600  15950 1500
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C62
+U 1 1 6052F59E
+P 15400 750
+F 0 "C62" V 15604 878 50  0000 L CNN
+F 1 "100n" V 15695 878 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15750 800 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 15750 700 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 15750 600 50  0001 L CNN "Description"
+F 5 "0.55" H 15750 500 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 15750 400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 15750 300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 15750 200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 15750 100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15400 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 1250 15150 1250
+$Comp
+L power:GND #PWR0195
+U 1 1 6052F5A5
+P 15150 1250
+F 0 "#PWR0195" H 15150 1000 50  0001 C CNN
+F 1 "GND" H 15155 1077 50  0000 C CNN
+F 2 "" H 15150 1250 50  0001 C CNN
+F 3 "" H 15150 1250 50  0001 C CNN
+	1    15150 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 15150 1250
+Wire Wire Line
+	15150 1250 15400 1250
+Text Notes 11550 3850 0    50   ~ 0
+MCU RTC
+Wire Notes Line
+	10250 2650 13300 2650
+Wire Notes Line
+	13300 1750 13300 2650
+Wire Notes Line
+	10250 1750 13300 1750
+Wire Wire Line
+	12200 2400 12650 2400
+Wire Wire Line
+	12200 1900 12650 1900
+Wire Wire Line
+	11750 1900 12200 1900
+Wire Wire Line
+	11750 2400 12200 2400
+Connection ~ 12200 2400
+Connection ~ 12200 1900
+Wire Wire Line
+	12650 1900 12800 1900
+Connection ~ 12650 1900
+Wire Wire Line
+	11750 2400 11300 2400
+Connection ~ 11750 2400
+Wire Wire Line
+	11300 2400 10850 2400
+Connection ~ 11300 2400
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C53
+U 1 1 6052F528
+P 12650 1900
+F 0 "C53" V 12854 2028 50  0000 L CNN
+F 1 "100n" V 12945 2028 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13000 1950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 13000 1850 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 13000 1750 50  0001 L CNN "Description"
+F 5 "0.55" H 13000 1650 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 13000 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 13000 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 13000 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 13000 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C51
+U 1 1 6052F51C
+P 12200 1900
+F 0 "C51" V 12404 2028 50  0000 L CNN
+F 1 "100n" V 12495 2028 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12550 1950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 12550 1850 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 12550 1750 50  0001 L CNN "Description"
+F 5 "0.55" H 12550 1650 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 12550 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 12550 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 12550 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 12550 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12200 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 11750 1900
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C48
+U 1 1 6052F50F
+P 11750 1900
+F 0 "C48" V 11954 2028 50  0000 L CNN
+F 1 "100n" V 12045 2028 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12100 1950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 12100 1850 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 12100 1750 50  0001 L CNN "Description"
+F 5 "0.55" H 12100 1650 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 12100 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 12100 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 12100 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 12100 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11750 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 1900 11750 1900
+Connection ~ 11300 1900
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C46
+U 1 1 6052F501
+P 11300 1900
+F 0 "C46" V 11504 2028 50  0000 L CNN
+F 1 "100n" V 11595 2028 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11650 1950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 11650 1850 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 11650 1750 50  0001 L CNN "Description"
+F 5 "0.55" H 11650 1650 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 11650 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 11650 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 11650 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 11650 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11300 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10850 1900 11300 1900
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C44
+U 1 1 6052F4F4
+P 10850 1900
+F 0 "C44" V 11054 2028 50  0000 L CNN
+F 1 "100n" V 11145 2028 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11200 1950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 11200 1850 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 11200 1750 50  0001 L CNN "Description"
+F 5 "0.55" H 11200 1650 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 11200 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 11200 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 11200 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 11200 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10850 1900
+	0    1    1    0   
+$EndComp
+Text Label 10650 1900 2    50   ~ 0
+MCU_VDD
+Wire Wire Line
+	10850 1900 10650 1900
+Connection ~ 10850 1900
+$Comp
+L power:GND #PWR0196
+U 1 1 6052F4E5
+P 11750 2400
+F 0 "#PWR0196" H 11750 2150 50  0001 C CNN
+F 1 "GND" H 11755 2227 50  0000 C CNN
+F 2 "" H 11750 2400 50  0001 C CNN
+F 3 "" H 11750 2400 50  0001 C CNN
+	1    11750 2400
+	1    0    0    -1  
+$EndComp
+Text Label 12800 1900 0    50   ~ 0
+MCU_VDDIO
+Text Notes 10250 1750 0    50   ~ 0
+IO power (VDDIO_x - 1 for each pin)
+Wire Notes Line
+	10250 3750 13300 3750
+Wire Notes Line
+	13300 2800 13300 3750
+Wire Notes Line
+	10250 2800 13300 2800
+Connection ~ 10850 2950
+Wire Wire Line
+	10750 2950 10850 2950
+Connection ~ 12650 2950
+Wire Wire Line
+	12700 2950 12650 2950
+Wire Wire Line
+	12200 3450 12650 3450
+Wire Wire Line
+	12200 2950 12650 2950
+Wire Wire Line
+	11750 2950 12200 2950
+Wire Wire Line
+	11750 3450 12200 3450
+Connection ~ 12200 3450
+Connection ~ 12200 2950
+Wire Wire Line
+	11750 3450 11300 3450
+Connection ~ 11750 3450
+Wire Wire Line
+	11300 3450 10850 3450
+Connection ~ 11300 3450
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C54
+U 1 1 6052F434
+P 12650 2950
+F 0 "C54" V 12854 3078 50  0000 L CNN
+F 1 "100n" V 12945 3078 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13000 3000 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 13000 2900 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 13000 2800 50  0001 L CNN "Description"
+F 5 "0.55" H 13000 2700 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 13000 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 13000 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 13000 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 13000 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12650 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C52
+U 1 1 6052F428
+P 12200 2950
+F 0 "C52" V 12404 3078 50  0000 L CNN
+F 1 "100n" V 12495 3078 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12550 3000 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 12550 2900 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 12550 2800 50  0001 L CNN "Description"
+F 5 "0.55" H 12550 2700 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 12550 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 12550 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 12550 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 12550 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12200 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 11750 2950
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C49
+U 1 1 6052F41B
+P 11750 2950
+F 0 "C49" V 11954 3078 50  0000 L CNN
+F 1 "100n" V 12045 3078 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12100 3000 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 12100 2900 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 12100 2800 50  0001 L CNN "Description"
+F 5 "0.55" H 12100 2700 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 12100 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 12100 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 12100 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 12100 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 2950 11750 2950
+Connection ~ 11300 2950
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C47
+U 1 1 6052F40D
+P 11300 2950
+F 0 "C47" V 11504 3078 50  0000 L CNN
+F 1 "100n" V 11595 3078 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11650 3000 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 11650 2900 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 11650 2800 50  0001 L CNN "Description"
+F 5 "0.55" H 11650 2700 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 11650 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 11650 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 11650 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 11650 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11300 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10850 2950 11300 2950
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C45
+U 1 1 6052F400
+P 10850 2950
+F 0 "C45" V 11054 3078 50  0000 L CNN
+F 1 "100n" V 11145 3078 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11200 3000 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 11200 2900 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 11200 2800 50  0001 L CNN "Description"
+F 5 "0.55" H 11200 2700 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 11200 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 11200 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 11200 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 11200 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0197
+U 1 1 6052F3F4
+P 11750 3450
+F 0 "#PWR0197" H 11750 3200 50  0001 C CNN
+F 1 "GND" H 11755 3277 50  0000 C CNN
+F 2 "" H 11750 3450 50  0001 C CNN
+F 3 "" H 11750 3450 50  0001 C CNN
+	1    11750 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 10250 2800 0    50   ~ 0
+Core power (VDDCORE_x - 1 for each pin)
+Text Label 12700 2950 0    50   ~ 0
+MCU_VDDCORE
+Text Label 10750 2950 2    50   ~ 0
+VDDOUT_FILT
+Text Notes 13700 1750 0    50   ~ 0
+MCU clocking quartz
+Wire Notes Line
+	15550 2850 15550 1750
+Wire Notes Line
+	13750 2850 13750 1750
+Wire Wire Line
+	14600 2600 15000 2600
+Connection ~ 14600 2600
+Connection ~ 14300 2100
+$Comp
+L power:GND #PWR0198
+U 1 1 6052F55A
+P 14600 2600
+F 0 "#PWR0198" H 14600 2350 50  0001 C CNN
+F 1 "GND" H 14605 2427 50  0000 C CNN
+F 2 "" H 14600 2600 50  0001 C CNN
+F 3 "" H 14600 2600 50  0001 C CNN
+	1    14600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 2600 14600 2600
+$Comp
+L OBC_PASSIVE:GCQ1555C1H110JB01D C56
+U 1 1 6052F545
+P 14300 2100
+F 0 "C56" V 14550 1850 50  0000 L CNN
+F 1 "11p" V 14650 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14650 2150 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCQ1555C1H110JB01%23.html" H 14650 2050 50  0001 L CNN
+F 4 "Capacitor GCQ15_0.05 L=1.0mm W=0.5mm T=0.5mm" H 14650 1950 50  0001 L CNN "Description"
+F 5 "0.55" H 14650 1850 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 14650 1550 50  0001 L CNN "Manufacturer_Name"
+F 7 "GCQ1555C1H110JB01D" H 14650 1450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14300 2100
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	13750 2850 15550 2850
+Text Notes 13800 3000 0    50   ~ 0
+USB transceiver interface
+Wire Notes Line
+	13800 3000 15500 3000
+Text Label 14450 3150 2    50   ~ 0
+MCU_VDD
+Wire Notes Line
+	13800 3000 13800 3950
+Wire Notes Line
+	15500 3000 15500 3950
+Wire Wire Line
+	14600 3150 14750 3150
+Connection ~ 14600 3150
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C58
+U 1 1 6052F4A7
+P 14600 3150
+F 0 "C58" V 14804 3278 50  0000 L CNN
+F 1 "100n" V 14895 3278 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14950 3200 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 14950 3100 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 14950 3000 50  0001 L CNN "Description"
+F 5 "0.55" H 14950 2900 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 14950 2800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 14950 2700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 14950 2600 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 14950 2500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14600 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14450 3150 14600 3150
+$Comp
+L power:GND #PWR0199
+U 1 1 6052F4AF
+P 14600 3650
+F 0 "#PWR0199" H 14600 3400 50  0001 C CNN
+F 1 "GND" H 14605 3477 50  0000 C CNN
+F 2 "" H 14600 3650 50  0001 C CNN
+F 3 "" H 14600 3650 50  0001 C CNN
+	1    14600 3650
+	1    0    0    -1  
+$EndComp
+Text Label 14750 3150 0    50   ~ 0
+MCU_VDDUTMII
+Wire Notes Line
+	13800 3950 15500 3950
+Wire Wire Line
+	14800 4200 14900 4200
+Connection ~ 14800 4200
+Wire Wire Line
+	14550 4200 14800 4200
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C59
+U 1 1 6052F4C2
+P 14800 4200
+F 0 "C59" V 15004 4328 50  0000 L CNN
+F 1 "100n" V 15095 4328 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15150 4250 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 15150 4150 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 15150 4050 50  0001 L CNN "Description"
+F 5 "0.55" H 15150 3950 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 15150 3850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 15150 3750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 15150 3650 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 15150 3550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14800 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 4200 13900 4200
+$Comp
+L MISC:BLM18PG471SH1D FL6
+U 1 1 6052F4D1
+P 14050 4200
+F 0 "FL6" H 14300 4050 50  0000 C CNN
+F 1 "470 @ 100 MHz" H 14350 3950 50  0000 C CNN
+F 2 "MISC:BLM18PG471SH1D" H 14850 4250 50  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18PG471SH1%23" H 14850 4150 50  0001 L CNN
+F 4 "Murata Power Solutions Ferrite Bead (Chip Bead), 1.6 x 0.8 x 0.8mm (1608), 470 impedance at 100 MHz" H 14850 4050 50  0001 L CNN "Description"
+F 5 "0.95" H 14850 3950 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 14850 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "BLM18PG471SH1D" H 14850 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "BLM18PG471SH1D" H 14850 3650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/blm18pg471sh1d/murata-manufacturing" H 14850 3550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "81-BLM18PG471SH1D" H 14850 3450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18PG471SH1D?qs=uSeJpk%2F8In16ipYp%2FGDzCQ%3D%3D" H 14850 3350 50  0001 L CNN "Mouser Price/Stock"
+	1    14050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0200
+U 1 1 6052F4D7
+P 14800 4700
+F 0 "#PWR0200" H 14800 4450 50  0001 C CNN
+F 1 "GND" H 14805 4527 50  0000 C CNN
+F 2 "" H 14800 4700 50  0001 C CNN
+F 3 "" H 14800 4700 50  0001 C CNN
+	1    14800 4700
+	1    0    0    -1  
+$EndComp
+Text Label 14900 4200 0    50   ~ 0
+MCU_VDDUTMIC
+Text Notes 13800 4050 0    50   ~ 0
+USB transceiver core
+Wire Notes Line
+	13800 4050 15500 4050
+Wire Notes Line
+	15500 4950 13800 4950
+Wire Notes Line
+	15500 4050 15500 4950
+Wire Notes Line
+	13800 4050 13800 4950
+Text Label 13900 4200 3    50   ~ 0
+VDDOUT_FILT
+Text Label 7650 4600 1    50   ~ 0
+MCU_VDDCORE
+Text Label 8050 4600 1    50   ~ 0
+MCU_VDDCORE
+Text Label 8150 8700 3    50   ~ 0
+MCU_VDDCORE
+Text Label 6450 6200 2    50   ~ 0
+MCU_VDDCORE
+Wire Wire Line
+	1550 6600 2900 6600
+Wire Wire Line
+	2750 6500 2500 6500
+Wire Wire Line
+	2750 6000 2500 6000
+Text Label 10750 8700 3    50   ~ 0
+MCU_VDDCORE
+$Comp
+L ADCS_IC:ATSAMV71Q21B-AAB U19
+U 1 1 60001C13
+P 10850 4600
+F 0 "U19" V 10650 4950 50  0000 L CNN
+F 1 "ATSAMV71Q21B-AAB" V 10750 4950 50  0000 L CNN
+F 2 "OBC_IC:ATSAMV71Q21B-AAB" H 14800 5300 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-44003-32-bit-Cortex-M7-Microcontroller-SAM-V71Q-SAM-V71N-SAM-V71J_Datasheet.pdf" H 14800 5200 50  0001 L CNN
+F 4 "ARM Microcontrollers - MCU 2MB FLASH 384KB SRAM LQFP144" H 14800 5100 50  0001 L CNN "Description"
+F 5 "1.6" H 14800 5000 50  0001 L CNN "Height"
+F 6 "579-ATSAMV71Q21B-AAB" H 14800 4900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATSAMV71Q21B-AAB?qs=j%252B1pi9TdxUaaYXmCSj2x3Q%3D%3D" H 14800 4800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 14800 4700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATSAMV71Q21B-AAB" H 14800 4600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10850 4600
+	0    1    1    0   
+$EndComp
+Text Label 9650 8700 3    50   ~ 0
+MCU_VDDIO
+Text Label 8050 8700 3    50   ~ 0
+MCU_VDDIO
+Text Label 6450 8400 2    50   ~ 0
+MCU_VDDIO
+Text Label 6450 5500 2    50   ~ 0
+MCU_VDDIO
+Text Label 7950 4600 1    50   ~ 0
+MCU_VDDIO
+Text Label 10450 4600 1    50   ~ 0
+MCU_VDDIN
+Text Label 10650 4600 1    50   ~ 0
+MCU_VDDOUT
+Text Label 11750 5900 0    50   ~ 0
+MCU_VDDUTMII
+Text Label 11750 5400 0    50   ~ 0
+MCU_VDDUTMIC
+$Comp
+L power:GND #PWR0201
+U 1 1 60B5ED8C
+P 12350 5500
+F 0 "#PWR0201" H 12350 5250 50  0001 C CNN
+F 1 "GND" V 12355 5372 50  0000 R CNN
+F 2 "" H 12350 5500 50  0001 C CNN
+F 3 "" H 12350 5500 50  0001 C CNN
+	1    12350 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 60B66ACA
+P 12350 5800
+F 0 "#PWR0202" H 12350 5550 50  0001 C CNN
+F 1 "GND" V 12355 5672 50  0000 R CNN
+F 2 "" H 12350 5800 50  0001 C CNN
+F 3 "" H 12350 5800 50  0001 C CNN
+	1    12350 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 60B72E50
+P 11950 7800
+F 0 "#PWR0203" H 11950 7550 50  0001 C CNN
+F 1 "GND" V 11955 7672 50  0000 R CNN
+F 2 "" H 11950 7800 50  0001 C CNN
+F 3 "" H 11950 7800 50  0001 C CNN
+	1    11950 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 60B7C279
+P 9500 8900
+F 0 "#PWR0204" H 9500 8650 50  0001 C CNN
+F 1 "GND" V 9505 8772 50  0000 R CNN
+F 2 "" H 9500 8900 50  0001 C CNN
+F 3 "" H 9500 8900 50  0001 C CNN
+	1    9500 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 60B86E35
+P 5950 7300
+F 0 "#PWR0205" H 5950 7050 50  0001 C CNN
+F 1 "GND" V 5955 7172 50  0000 R CNN
+F 2 "" H 5950 7300 50  0001 C CNN
+F 3 "" H 5950 7300 50  0001 C CNN
+	1    5950 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 60B8F90F
+P 5950 5600
+F 0 "#PWR0206" H 5950 5350 50  0001 C CNN
+F 1 "GND" V 5955 5472 50  0000 R CNN
+F 2 "" H 5950 5600 50  0001 C CNN
+F 3 "" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	0    1    1    0   
+$EndComp
+Text Label 11750 7000 0    50   ~ 0
+MCU_VDDPLL
+$Comp
+L power:GND #PWR0207
+U 1 1 60C0BEBA
+P 10450 9200
+F 0 "#PWR0207" H 10450 8950 50  0001 C CNN
+F 1 "GND" H 10455 9027 50  0000 C CNN
+F 2 "" H 10450 9200 50  0001 C CNN
+F 3 "" H 10450 9200 50  0001 C CNN
+	1    10450 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2300 3250 2300
+$Comp
+L ADCS_IC:ADXRS453BRGZ U9
+U 1 1 60523B98
+P 1700 1700
+F 0 "U9" H 2350 1965 50  0000 C CNN
+F 1 "ADXRS453BRGZ" H 2350 1874 50  0000 C CNN
+F 2 "ADCS_IC:ADXRS453BRGZ" H 2850 1800 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXRS453.pdf" H 2850 1700 50  0001 L CNN
+F 4 "ADXRS453BRGZ Analog Devices, Gyroscope, SPI, 16-Pin SOIC" H 2850 1600 50  0001 L CNN "Description"
+F 5 "3.73" H 2850 1500 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 2850 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADXRS453BRGZ" H 2850 1300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-ADXRS453BRGZ" H 2850 1200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADXRS453BRGZ?qs=WIvQP4zGanhxCya%2FzhGurw%3D%3D" H 2850 1100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADXRS453BRGZ" H 2850 1000 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adxrs453brgz/analog-devices" H 2850 900 50  0001 L CNN "Arrow Price/Stock"
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2000 3000 2100
+Connection ~ 1700 1800
+Connection ~ 3000 2400
+Wire Wire Line
+	3000 2100 3000 2200
+Connection ~ 3000 2100
+Wire Wire Line
+	3000 2200 3000 2300
+Connection ~ 3000 2200
+Connection ~ 3000 2300
+Wire Wire Line
+	3250 4200 3500 4200
+Wire Wire Line
+	3250 3700 3450 3700
+Wire Wire Line
+	3250 3800 3450 3800
+$Comp
+L ADCS_IC:ADXRS453BEYZ U13
+U 1 1 6054BB05
+P 2100 3700
+F 0 "U13" H 2675 3965 50  0000 C CNN
+F 1 "ADXRS453BEYZ" H 2675 3874 50  0000 C CNN
+F 2 "ADCS_IC:ADXRS453BEYZ" H 3600 4000 50  0001 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/609/ADXRS453-1503743.pdf" H 3600 4000 50  0001 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+Text Label 7850 4600 1    50   ~ 0
+CAN_RX_1
+Text Label 8350 4600 1    50   ~ 0
+CAN_TX_1
+Text Label 9250 4600 1    50   ~ 0
+CAN_RX_2
+Text Label 9750 8700 3    50   ~ 0
+CAN_TX_2
+Text Label 6450 5700 2    50   ~ 0
+CAN_FAULT_1
+Text Label 8550 4600 1    50   ~ 0
+CAN_FAULT_2
+Text Label 8450 4600 1    50   ~ 0
+CAN_SILENT_1
+Text Label 8650 4600 1    50   ~ 0
+CAN_SILENT_2
+Text Label 6450 7000 2    50   ~ 0
+GYR_CS1
+Text Label 1700 2000 2    50   ~ 0
+GYR_CS1
+Text Label 3250 4100 0    50   ~ 0
+GYR_CS2
+Text Label 6450 7100 2    50   ~ 0
+GYR_CS2
+Text Label 11750 6100 0    50   ~ 0
+MAG_CS
+Text Label 6450 7700 2    50   ~ 0
+GYR_MISO
+Text Label 6450 7500 2    50   ~ 0
+GYR_MOSI
+Text Label 6450 7200 2    50   ~ 0
+GYR_SPCK
+Text Label 2100 4100 2    50   ~ 0
+GYR_SPCK
+Text Label 3250 3900 0    50   ~ 0
+GYR_MOSI
+Text Label 2100 3900 2    50   ~ 0
+GYR_MISO
+Text Label 3000 1700 0    50   ~ 0
+GYR_SPCK
+Text Label 3000 1800 0    50   ~ 0
+GYR_MOSI
+Text Label 1700 2100 2    50   ~ 0
+GYR_MISO
+Text Label 11750 6300 0    50   ~ 0
+MAG_SPCK
+Text Label 9650 4600 1    50   ~ 0
+MAG_MISO
+Text Label 9750 4600 1    50   ~ 0
+MAG_MOSI
+Text Label 5350 1650 1    50   ~ 0
+MAG_MISO
+Text Label 5150 2150 2    50   ~ 0
+MAG_MOSI
+Text Label 5450 1650 1    50   ~ 0
+MAG_SPCK
+Text Label 6150 1700 1    50   ~ 0
+MAG_CS
+Text Label 11750 5100 0    50   ~ 0
+MCU_CLK_IN
+Text Label 7450 4600 1    50   ~ 0
+MCU_RTC_IN
+Text Label 7350 4600 1    50   ~ 0
+MCU_RTC_OUT
+Text Label 10850 4600 1    50   ~ 0
+LCL_OFFSET
+Text Label 11750 4900 0    50   ~ 0
+LCL_TRIGGER
+Text Label 5150 2350 2    50   ~ 0
+MAG_CS
+Text HLabel 1550 6000 0    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 1550 8000 0    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 10400 750  3    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Wire Line
+	10400 750  10700 750 
+Text HLabel 14000 6500 0    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Notes Line
+	13200 5150 15550 5150
+Wire Notes Line
+	13200 6150 15550 6150
+Wire Notes Line
+	13200 6300 15900 6300
+Wire Notes Line
+	13200 7300 15900 7300
+$Comp
+L OBC_PASSIVE:ERA-2AED104X R?
+U 1 1 6054393E
+P 8650 9350
+AR Path="/6054393E" Ref="R?"  Part="1" 
+AR Path="/600C7B11/6054393E" Ref="R26"  Part="1" 
+F 0 "R26" V 8954 9438 50  0000 L CNN
+F 1 "100k" V 9045 9438 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9200 9400 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 9200 9300 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C" H 9200 9200 50  0001 L CNN "Description"
+F 5 "0.4" H 9200 9100 50  0001 L CNN "Height"
+F 6 "667-ERA-2AED104X" H 9200 9000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AED104X?qs=nho8PGNfA6oWiExMQMbJyw%3D%3D" H 9200 8900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 9200 8800 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AED104X" H 9200 8700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 9350
+	-1   0    0    1   
+$EndComp
+Text Label 8950 9550 3    50   ~ 0
+MCU_SWCLK
+Text Label 7950 9550 3    50   ~ 0
+MCU_SWDIO
+Wire Wire Line
+	7950 8700 7950 9350
+Connection ~ 7950 9350
+Wire Wire Line
+	7950 9350 7950 9550
+Text HLabel 8650 9350 3    50   Input ~ 0
+3V3_PROT_ADCS
+$Comp
+L OBC_PASSIVE:ERA-2AED104X R?
+U 1 1 6057E9CF
+P 9650 9450
+AR Path="/6057E9CF" Ref="R?"  Part="1" 
+AR Path="/600C7B11/6057E9CF" Ref="R27"  Part="1" 
+F 0 "R27" V 9954 9538 50  0000 L CNN
+F 1 "100k" V 10045 9538 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10200 9500 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 10200 9400 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C" H 10200 9300 50  0001 L CNN "Description"
+F 5 "0.4" H 10200 9200 50  0001 L CNN "Height"
+F 6 "667-ERA-2AED104X" H 10200 9100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AED104X?qs=nho8PGNfA6oWiExMQMbJyw%3D%3D" H 10200 9000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 10200 8900 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AED104X" H 10200 8800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9650 9450
+	-1   0    0    1   
+$EndComp
+Text HLabel 9650 9450 3    50   Input ~ 0
+3V3_PROT_ADCS
+Text Label 10150 4600 1    50   ~ 0
+MCU_AD_REF_NEG
+Text Label 10050 4600 1    50   ~ 0
+MCU_AD_REF_POS
+Wire Wire Line
+	6450 5600 5950 5600
+Wire Wire Line
+	6450 7300 5950 7300
+Wire Wire Line
+	12350 5500 11750 5500
+Wire Wire Line
+	11750 5800 12350 5800
+Wire Wire Line
+	10450 8700 10450 9200
+Wire Wire Line
+	9550 8700 9550 8900
+Wire Wire Line
+	9550 8900 9500 8900
+Text HLabel 7550 8700 3    50   Input ~ 0
+ADCS_UART_RX
+Text HLabel 6450 7800 0    50   Input ~ 0
+ADCS_UART_TX
+Text Notes 17650 1900 0    50   ~ 0
+Molex 6 pins\n(ADCS umbilical\nconnector)\n\nTechnically we can make do with 2\npins only but redundancy is\nwelcome if we can get it space-wise
+Text Label 18600 3100 0    50   ~ 0
+RW_SCK
+Text Label 10550 8700 3    50   ~ 0
+RW_SDA
+Text HLabel 7750 8700 3    50   Input ~ 0
+ADCS_MTQ_SCK
+Text HLabel 9150 8700 3    50   Input ~ 0
+ADCS_MTQ_SDA
+Connection ~ 8950 9450
+Wire Wire Line
+	8950 9450 8950 9550
+Wire Wire Line
+	8950 8700 8950 9450
+Text Label 11750 8400 0    50   ~ 0
+RW_SCK
+Text Label 18600 3200 0    50   ~ 0
+RW_SDA
+NoConn ~ 18600 3300
+Wire Notes Line
+	17650 3950 19400 3950
+Wire Notes Line
+	19400 1900 19400 3950
+Wire Notes Line
+	17650 1900 17650 3950
+Text Notes 17900 2750 0    50   ~ 0
+Molex to ADCS reaction wheel\n(tentative pinout pending Hyperion)
+Text HLabel 18600 3400 2    50   Input ~ 0
+ADCS_RW_5V
+Text HLabel 18600 3500 2    50   Input ~ 0
+ADCS_RW_3V3
+$Comp
+L power:GND #PWR03
+U 1 1 606A64BD
+P 18600 3600
+F 0 "#PWR03" H 18600 3350 50  0001 C CNN
+F 1 "GND" V 18605 3472 50  0000 R CNN
+F 2 "" H 18600 3600 50  0001 C CNN
+F 3 "" H 18600 3600 50  0001 C CNN
+	1    18600 3600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 11750 8000 2    50   Input ~ 0
+ADCS_TRACECLK
+Text HLabel 11750 6700 2    50   Input ~ 0
+ADCS_TRACED[0]
+Text HLabel 11750 6800 2    50   Input ~ 0
+ADCS_TRACED[1]
+Text HLabel 11750 7200 2    50   Input ~ 0
+ADCS_TRACED[2]
+Text HLabel 11750 7400 2    50   Input ~ 0
+ADCS_TRACED[3]
+Wire Notes Line
+	16050 1900 19400 1900
+Text Notes 16550 2000 0    50   ~ 0
+Molex to sun sensor diodes\n
+Text Notes 16100 3550 0    50   ~ 0
+NOTE: Sun sensors can be queried\nfrom I2C or SPI, no need for\nsense resistors\n
+$Comp
+L MISC:205972-0081 J8
+U 1 1 6051D682
+P 17000 3050
+F 0 "J8" H 17450 2085 50  0000 C CNN
+F 1 "205972-0081" H 17450 2176 50  0000 C CNN
+F 2 "MISC:205972-0081" H 17750 3150 50  0001 L CNN
+F 3 "" H 17750 3050 50  0001 L CNN
+F 4 "Headers & Wire Housings Micro-One Hdr RA 2mm SR 8Ckt BLK" H 17750 2950 50  0001 L CNN "Description"
+F 5 "7.4" H 17750 2850 50  0001 L CNN "Height"
+F 6 "Molex" H 17750 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "205972-0081" H 17750 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17000 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6054795B
+P 17150 2950
+F 0 "#PWR02" H 17150 2700 50  0001 C CNN
+F 1 "GND" V 17155 2822 50  0000 R CNN
+F 2 "" H 17150 2950 50  0001 C CNN
+F 3 "" H 17150 2950 50  0001 C CNN
+	1    17150 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17000 2950 17150 2950
+NoConn ~ 17000 3050
+Wire Notes Line
+	16050 1900 16050 3200
+Wire Notes Line
+	16050 3200 17650 3200
+$Comp
+L ADCS_IC:TS4448_RGG D1
+U 1 1 605AA851
+P 2700 2800
+F 0 "D1" H 3000 2533 50  0000 C CNN
+F 1 "TS4448_RGG" H 3000 2624 50  0000 C CNN
+F 2 "ADCS_IC:TS4448RGG" H 3150 2800 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/ts4448rgg/taiwan-semiconductor" H 3150 2700 50  0001 L CNN
+F 4 "Rectifier Diode Switching 100V 0.125A 2-Pin Case 0603(1608Metric) T/R" H 3150 2600 50  0001 L CNN "Description"
+F 5 "0.85" H 3150 2500 50  0001 L CNN "Height"
+F 6 "Taiwan Semiconductor" H 3150 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "TS4448 RGG" H 3150 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "821-TS4448RGG" H 3150 2200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS4448-RGG?qs=byeeYqUIh0Nv96ycOGd55A%3D%3D" H 3150 2100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TS4448 RGG" H 3150 2000 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ts4448rgg/taiwan-semiconductor" H 3150 1900 50  0001 L CNN "Arrow Price/Stock"
+	1    2700 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2400 1700 2800
+Wire Wire Line
+	2700 2800 3000 2800
+Wire Wire Line
+	3000 2400 3000 2800
+Wire Wire Line
+	2100 2800 1700 2800
+Connection ~ 1700 2800
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C42
+U 1 1 6060ECF9
+P 9000 2300
+F 0 "C42" V 9204 2428 50  0000 L CNN
+F 1 "100n" V 9295 2428 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9350 2350 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 9350 2250 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 9350 2150 50  0001 L CNN "Description"
+F 5 "0.55" H 9350 2050 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 9350 1950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 9350 1850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 9350 1750 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 9350 1650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9000 2300
+	0    1    1    0   
+$EndComp
+Text HLabel 5950 3250 2    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 4700 2500 3    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Wire Line
+	5150 2450 4700 2450
+Wire Wire Line
+	4700 2450 4700 2500
+Text HLabel 5200 1200 0    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Wire Line
+	5550 1650 5550 1200
+Wire Wire Line
+	5550 1200 5200 1200
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C31
+U 1 1 6063BDDC
+P 1400 4200
+F 0 "C31" V 1604 4328 50  0000 L CNN
+F 1 "100n" V 1695 4328 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1750 4250 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 1750 4150 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 1750 4050 50  0001 L CNN "Description"
+F 5 "0.55" H 1750 3950 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 1750 3850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 1750 3750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 1750 3650 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 1750 3550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1400 4200
+	0    1    1    0   
+$EndComp
+Text HLabel 950  2100 1    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 3700 4850 1    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 3700 3400 0    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Wire Line
+	3700 3400 3700 3600
+Text HLabel 9000 2300 2    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 9000 1350 2    50   Input ~ 0
+3V3_PROT_ADCS
+Wire Wire Line
+	9000 1350 9000 1450
+$Comp
+L ADCS_IC:TS4448_RGG D2
+U 1 1 6076CC45
+P 2250 4750
+F 0 "D2" H 2550 4483 50  0000 C CNN
+F 1 "TS4448_RGG" H 2550 4574 50  0000 C CNN
+F 2 "ADCS_IC:TS4448RGG" H 2700 4750 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/ts4448rgg/taiwan-semiconductor" H 2700 4650 50  0001 L CNN
+F 4 "Rectifier Diode Switching 100V 0.125A 2-Pin Case 0603(1608Metric) T/R" H 2700 4550 50  0001 L CNN "Description"
+F 5 "0.85" H 2700 4450 50  0001 L CNN "Height"
+F 6 "Taiwan Semiconductor" H 2700 4350 50  0001 L CNN "Manufacturer_Name"
+F 7 "TS4448 RGG" H 2700 4250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "821-TS4448RGG" H 2700 4150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS4448-RGG?qs=byeeYqUIh0Nv96ycOGd55A%3D%3D" H 2700 4050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TS4448 RGG" H 2700 3950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ts4448rgg/taiwan-semiconductor" H 2700 3850 50  0001 L CNN "Arrow Price/Stock"
+	1    2250 4750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4200 3500 4500
+Wire Wire Line
+	1750 4750 2250 4750
+Wire Wire Line
+	1750 4200 1750 4750
+Wire Wire Line
+	2850 4750 3250 4750
+Wire Wire Line
+	3250 4750 3250 4500
+Wire Wire Line
+	3250 4500 3500 4500
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 4500 3500 4550
+$Comp
+L OBC_IC:MCP9808T-E_MS U?
+U 1 1 607BB803
+P 3600 10050
+AR Path="/607BB803" Ref="U?"  Part="1" 
+AR Path="/600C7B11/607BB803" Ref="U12"  Part="1" 
+F 0 "U12" H 4150 10315 50  0000 C CNN
+F 1 "MCP9808T-E_MS" H 4150 10224 50  0000 C CNN
+F 2 "OBC_IC:MCP9808T-E_MS" H 4550 10150 50  0001 L CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf" H 4550 10050 50  0001 L CNN
+F 4 "Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP" H 4550 9950 50  0001 L CNN "Description"
+F 5 "1.1" H 4550 9850 50  0001 L CNN "Height"
+F 6 "579-MCP9808T-E/MS" H 4550 9750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D" H 4550 9650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 4550 9550 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCP9808T-E/MS" H 4550 9450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3600 10050
+	-1   0    0    -1  
+$EndComp
+Text Label 4100 10050 0    50   ~ 0
+I2C_SDA_SENS
+Text Label 4100 10150 0    50   ~ 0
+I2C_SCL_SENS
+$Comp
+L MISC:FEMTOASMDC005F-2 F?
+U 1 1 607BB816
+P 1250 10050
+AR Path="/607BB816" Ref="F?"  Part="1" 
+AR Path="/600C7B11/607BB816" Ref="F8"  Part="1" 
+F 0 "F8" H 1600 9800 50  0000 C CNN
+F 1 "FEMTOASMDC005F-2" H 1600 9900 50  0000 C CNN
+F 2 "MISC:FEMTOASMDC005F-2" H 1800 10100 50  0001 L CNN
+F 3 "https://altium.componentsearchengine.com/Datasheets/1/FEMTOASMDC005F-2.pdf" H 1800 10000 50  0001 L CNN
+F 4 "Resettable Fuses - PPTC .05A 15VDC 10A 0603 AEC-Q200" H 1800 9900 50  0001 L CNN "Description"
+F 5 "0.85" H 1800 9800 50  0001 L CNN "Height"
+F 6 "650-FEMTOASMDC005F-2" H 1800 9700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOASMDC005F-2?qs=l5LPopohbqT5KxfEbLNj7A%3D%3D" H 1800 9600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "LITTELFUSE" H 1800 9500 50  0001 L CNN "Manufacturer_Name"
+F 9 "FEMTOASMDC005F-2" H 1800 9400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1250 10050
+	1    0    0    1   
+$EndComp
+Text Label 4100 9250 0    50   ~ 0
+3V3_PROT
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C?
+U 1 1 607BB823
+P 2150 10050
+AR Path="/607BB823" Ref="C?"  Part="1" 
+AR Path="/600C7B11/607BB823" Ref="C32"  Part="1" 
+F 0 "C32" V 2354 10178 50  0000 L CNN
+F 1 "100n" V 2445 10178 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2500 10100 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 2500 10000 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 2500 9900 50  0001 L CNN "Description"
+F 5 "0.55" H 2500 9800 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 2500 9700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 2500 9600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 2500 9500 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 2500 9400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2150 10050
+	0    -1   1    0   
+$EndComp
+$Comp
+L OBC_PASSIVE:ERA-2VEB1501X R?
+U 1 1 607BB82F
+P 3650 9250
+AR Path="/607BB82F" Ref="R?"  Part="1" 
+AR Path="/600C7B11/607BB82F" Ref="R28"  Part="1" 
+F 0 "R28" V 3954 9338 50  0000 L CNN
+F 1 "1.5k" V 4045 9338 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4200 9300 50  0001 L CNN
+F 3 "" H 4200 9200 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 0402 0.1% 1.5Kohm 25ppm AEC-Q200" H 4200 9100 50  0001 L CNN "Description"
+F 5 "0.4" H 4200 9000 50  0001 L CNN "Height"
+F 6 "667-ERA-2VEB1501X" H 4200 8900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2VEB1501X?qs=OlC7AqGiEDkx8XOEQaRGXQ%3D%3D" H 4200 8800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 4200 8700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2VEB1501X" H 4200 8600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3650 9250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3650 10050 3600 10050
+Wire Wire Line
+	3650 9950 3650 10050
+Wire Wire Line
+	3950 9950 3950 10150
+Wire Wire Line
+	3950 10150 3600 10150
+$Comp
+L OBC_PASSIVE:ERA-2VEB1501X R?
+U 1 1 607BB83F
+P 3950 9250
+AR Path="/607BB83F" Ref="R?"  Part="1" 
+AR Path="/600C7B11/607BB83F" Ref="R29"  Part="1" 
+F 0 "R29" V 4250 9050 50  0000 L CNN
+F 1 "1.5k" V 4350 9000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 9300 50  0001 L CNN
+F 3 "" H 4500 9200 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 0402 0.1% 1.5Kohm 25ppm AEC-Q200" H 4500 9100 50  0001 L CNN "Description"
+F 5 "0.4" H 4500 9000 50  0001 L CNN "Height"
+F 6 "667-ERA-2VEB1501X" H 4500 8900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2VEB1501X?qs=OlC7AqGiEDkx8XOEQaRGXQ%3D%3D" H 4500 8800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 4500 8700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2VEB1501X" H 4500 8600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3950 9250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3650 9250 3950 9250
+NoConn ~ 3600 10250
+$Comp
+L power:GND #PWR?
+U 1 1 607BB87F
+P 3050 10700
+AR Path="/607BB87F" Ref="#PWR?"  Part="1" 
+AR Path="/600C7B11/607BB87F" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 3050 10450 50  0001 C CNN
+F 1 "GND" H 3055 10527 50  0000 C CNN
+F 2 "" H 3050 10700 50  0001 C CNN
+F 3 "" H 3050 10700 50  0001 C CNN
+	1    3050 10700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 10150 2400 10150
+Wire Wire Line
+	2400 10150 2400 10250
+Wire Wire Line
+	2400 10700 3050 10700
+Wire Wire Line
+	2500 10250 2400 10250
+Connection ~ 2400 10250
+Wire Wire Line
+	2400 10250 2400 10350
+Wire Wire Line
+	2500 10350 2400 10350
+Connection ~ 2400 10350
+Wire Wire Line
+	2400 10350 2400 10700
+Wire Wire Line
+	2150 10550 2150 10700
+Wire Wire Line
+	2150 10700 2400 10700
+Connection ~ 2400 10700
+Wire Wire Line
+	2500 10050 2400 10050
+Wire Wire Line
+	1950 10050 2150 10050
+Connection ~ 2150 10050
+Wire Wire Line
+	3600 10350 3700 10350
+Wire Wire Line
+	3700 10350 3700 10700
+Wire Wire Line
+	3700 10700 3050 10700
+Connection ~ 3050 10700
+Wire Wire Line
+	4100 9250 3950 9250
+Connection ~ 3950 9250
+Wire Wire Line
+	3650 10050 4100 10050
+Connection ~ 3650 10050
+Wire Wire Line
+	4100 10150 3950 10150
+Connection ~ 3950 10150
+Text Notes 900  9300 0    50   ~ 0
+I2C address: 000
+Text Notes 4000 10550 0    50   ~ 0
+NOTE: Pullups shown here\nshould be placed near MCU
+NoConn ~ 3600 11600
+Text Notes 900  11000 0    50   ~ 0
+I2C address: 001
+Text Label 3700 11500 0    50   ~ 0
+I2C_SCL_SENS
+Text Label 3700 11400 0    50   ~ 0
+I2C_SDA_SENS
+$Comp
+L MISC:FEMTOASMDC005F-2 F?
+U 1 1 607BB84E
+P 1300 11400
+AR Path="/607BB84E" Ref="F?"  Part="1" 
+AR Path="/600C7B11/607BB84E" Ref="F9"  Part="1" 
+F 0 "F9" H 1650 11150 50  0000 C CNN
+F 1 "FEMTOASMDC005F-2" H 1650 11250 50  0000 C CNN
+F 2 "MISC:FEMTOASMDC005F-2" H 1850 11450 50  0001 L CNN
+F 3 "https://altium.componentsearchengine.com/Datasheets/1/FEMTOASMDC005F-2.pdf" H 1850 11350 50  0001 L CNN
+F 4 "Resettable Fuses - PPTC .05A 15VDC 10A 0603 AEC-Q200" H 1850 11250 50  0001 L CNN "Description"
+F 5 "0.85" H 1850 11150 50  0001 L CNN "Height"
+F 6 "650-FEMTOASMDC005F-2" H 1850 11050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOASMDC005F-2?qs=l5LPopohbqT5KxfEbLNj7A%3D%3D" H 1850 10950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "LITTELFUSE" H 1850 10850 50  0001 L CNN "Manufacturer_Name"
+F 9 "FEMTOASMDC005F-2" H 1850 10750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1300 11400
+	1    0    0    1   
+$EndComp
+$Comp
+L OBC_PASSIVE:GCM155R71H104KE02J C?
+U 1 1 607BB85A
+P 2200 11400
+AR Path="/607BB85A" Ref="C?"  Part="1" 
+AR Path="/600C7B11/607BB85A" Ref="C40"  Part="1" 
+F 0 "C40" V 2404 11528 50  0000 L CNN
+F 1 "100n" V 2495 11528 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2550 11450 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" H 2550 11350 50  0001 L CNN
+F 4 "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" H 2550 11250 50  0001 L CNN "Description"
+F 5 "0.55" H 2550 11150 50  0001 L CNN "Height"
+F 6 "81-GCM155R71H104KE2J" H 2550 11050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" H 2550 10950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 2550 10850 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCM155R71H104KE02J" H 2550 10750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2200 11400
+	0    -1   1    0   
+$EndComp
+$Comp
+L OBC_IC:MCP9808T-E_MS U?
+U 1 1 607BB866
+P 3600 11400
+AR Path="/607BB866" Ref="U?"  Part="1" 
+AR Path="/600C7B11/607BB866" Ref="U14"  Part="1" 
+F 0 "U14" H 4150 11665 50  0000 C CNN
+F 1 "MCP9808T-E_MS" H 4150 11574 50  0000 C CNN
+F 2 "OBC_IC:MCP9808T-E_MS" H 4550 11500 50  0001 L CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf" H 4550 11400 50  0001 L CNN
+F 4 "Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP" H 4550 11300 50  0001 L CNN "Description"
+F 5 "1.1" H 4550 11200 50  0001 L CNN "Height"
+F 6 "579-MCP9808T-E/MS" H 4550 11100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D" H 4550 11000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 4550 10900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCP9808T-E/MS" H 4550 10800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3600 11400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 11400 2200 11400
+Connection ~ 2200 11400
+Wire Wire Line
+	2200 11900 2200 12000
+Wire Wire Line
+	2200 11400 2400 11400
+Wire Wire Line
+	2500 11500 2400 11500
+Wire Wire Line
+	2400 11500 2400 11400
+Connection ~ 2400 11400
+Wire Wire Line
+	2400 11400 2500 11400
+Wire Wire Line
+	2500 11600 2400 11600
+Wire Wire Line
+	2400 11600 2400 11700
+Wire Wire Line
+	2500 11700 2400 11700
+Connection ~ 2400 11700
+Wire Wire Line
+	2400 11700 2400 12000
+Wire Wire Line
+	2200 12000 2400 12000
+Connection ~ 2400 12000
+Wire Wire Line
+	3600 11700 3700 11700
+Wire Wire Line
+	3700 11700 3700 12000
+Wire Wire Line
+	3700 11400 3600 11400
+Wire Wire Line
+	3700 11500 3600 11500
+$Comp
+L power:GND #PWR?
+U 1 1 607BB89F
+P 3050 12000
+AR Path="/607BB89F" Ref="#PWR?"  Part="1" 
+AR Path="/600C7B11/607BB89F" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3050 11750 50  0001 C CNN
+F 1 "GND" H 3055 11827 50  0000 C CNN
+F 2 "" H 3050 12000 50  0001 C CNN
+F 3 "" H 3050 12000 50  0001 C CNN
+	1    3050 12000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 12000 3050 12000
+Connection ~ 3050 12000
+Wire Wire Line
+	3050 12000 3700 12000
+Text Notes 2300 9200 0    50   ~ 0
+Temperature Sensors
+Wire Notes Line
+	750  9100 5050 9100
+Wire Notes Line
+	5050 9100 5050 12250
+Wire Notes Line
+	5050 12250 750  12250
+Wire Notes Line
+	750  12250 750  9100
+Wire Notes Line
+	750  10900 5050 10900
+Wire Wire Line
+	11950 7800 11750 7800
+Text HLabel 1250 10050 3    50   Input ~ 0
+3V3_PROT_ADCS
+Text HLabel 1300 11400 3    50   Input ~ 0
+3V3_PROT_ADCS
+Text Label 6450 5900 2    50   ~ 0
+I2C_SDA_SENS
+Text Label 6450 8300 2    50   ~ 0
+I2C_SCL_SENS
+$Comp
+L MISC:205972-0021 J9
+U 1 1 615A4D26
+P 18700 2300
+F 0 "J9" H 19150 2565 50  0000 C CNN
+F 1 "205972-0021" H 19150 2474 50  0000 C CNN
+F 2 "2059720021" H 19450 2400 50  0001 L CNN
+F 3 "" H 19450 2300 50  0001 L CNN
+F 4 "Headers & Wire Housings Micro-One Hdr RA 2mm SR 2Ckt BLK" H 19450 2200 50  0001 L CNN "Description"
+F 5 "7.4" H 19450 2100 50  0001 L CNN "Height"
+F 6 "Molex" H 19450 1800 50  0001 L CNN "Manufacturer_Name"
+F 7 "205972-0021" H 19450 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    18700 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 6161ED7F
+P 2400 10050
+F 0 "#FLG0105" H 2400 10125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 10223 50  0000 C CNN
+F 2 "" H 2400 10050 50  0001 C CNN
+F 3 "~" H 2400 10050 50  0001 C CNN
+	1    2400 10050
+	1    0    0    -1  
+$EndComp
+Text Label 18700 2400 0    50   ~ 0
+MCU_SWDIO
+Text Label 18700 2300 0    50   ~ 0
+MCU_SWCLK
+Connection ~ 2400 10050
+Wire Wire Line
+	2400 10050 2150 10050
+$Comp
+L Molex:2059720061 J10
+U 1 1 6162A670
+P 18600 3100
+F 0 "J10" H 18842 3387 60  0000 C CNN
+F 1 "2059720061" H 18842 3281 60  0000 C CNN
+F 2 "CON_2059720061_MOL" H 19000 2640 60  0001 C CNN
+F 3 "" H 18600 3100 60  0000 C CNN
+	1    18600 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 6161F194
+P 2400 11400
+F 0 "#FLG0106" H 2400 11475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 11573 50  0000 C CNN
+F 2 "" H 2400 11400 50  0001 C CNN
+F 3 "~" H 2400 11400 50  0001 C CNN
+	1    2400 11400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

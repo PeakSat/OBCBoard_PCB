@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "OBC_IC")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/OBC_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "ADCS_IC")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/ADCS_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "MISC")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/MISC.kicad_sym")(options "")(descr ""))
+  (lib (name "OBC_PASSIVE")(type "Legacy")(uri "${KIPRJMOD}/lib/symbols/OBC_PASSIVE.lib")(options "")(descr ""))
+  (lib (name "obc-adcs-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/obc-adcs-board-rescue.lib")(options " pwr_sym_only")(descr "")(disabled))
+  (lib (name "Molex")(type "Legacy")(uri "${KIPRJMOD}/lib/symbols/Molex.lib")(options "")(descr ""))
+  (lib (name "Env_test_umbilical")(type "Legacy")(uri "${KIPRJMOD}/lib/symbols/FTSH-110-05-F-DV.lib")(options "")(descr ""))
+  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Connectors.kicad_sym")(options "")(descr ""))
+)

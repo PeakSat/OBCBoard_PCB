@@ -1,0 +1,79 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERA-2AEB303X
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 30k +/-0.1% 63mW +/-25ppm/C
+F https://componentsearchengine.com/Datasheets/1/ERA-2AEB303X.pdf
+$ENDCMP
+#
+$CMP ERA-2AEB623X
+D Thin Film Resistors - SMD 0402 1/16W 62Kohms
+$ENDCMP
+#
+$CMP ERA-2AED104X
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf
+$ENDCMP
+#
+$CMP ERA-2ARB331X
+D Res Thin Film 0402 330 Ohm 0.1% 0.063W(1/16W) +/-10ppm/C Pad SMD Automotive T/R
+F https://componentsearchengine.com/Datasheets/1/ERA-2ARB331X.pdf
+$ENDCMP
+#
+$CMP ERA-2ARB511X
+D Thin Film Resistors - SMD 510   OHM  .1%  10PPM
+$ENDCMP
+#
+$CMP ERA-2VEB1002X
+D Thin Film Resistors - SMD 0402 0.1% 10Kohm 25ppm AEC-Q200
+F https://componentsearchengine.com/Datasheets/2/ERA-2VEB1002X.pdf
+$ENDCMP
+#
+$CMP ERA-2VEB1200X
+D Thin Film Resistors - SMD 0402 0.1% 120ohm 25ppm AEC-Q200
+$ENDCMP
+#
+$CMP ERA-2VEB1501X
+D Thin Film Resistors - SMD 0402 0.1% 1.5Kohm 25ppm AEC-Q200
+$ENDCMP
+#
+$CMP ERJ-2RHD203X
+D Thick Film Resistors - SMD 0402 20Kohms 0.5%AEC-Q200
+F https://componentsearchengine.com/Datasheets/1/ERJ-2RHD203X.pdf
+$ENDCMP
+#
+$CMP ERJ-2RKD105X
+D Thick Film Resistors - SMD Thick Film Chip Res, 0402, 1/16W 0.5% 7 inch reel 100 ppm 1M ohm
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf
+$ENDCMP
+#
+$CMP ERJ-2RKF3003X
+D Panasonic ERJ-2RK 0402 Resistor Chip
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf
+$ENDCMP
+#
+$CMP GCM155R71H104KE02J
+D Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm
+F https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html
+$ENDCMP
+#
+$CMP GCQ1555C1H110JB01D
+D Capacitor GCQ15_0.05 L=1.0mm W=0.5mm T=0.5mm
+F https://psearch.en.murata.com/capacitor/product/GCQ1555C1H110JB01%23.html
+$ENDCMP
+#
+$CMP GRT155R61A475ME13D
+D Capacitor GRT15 L=1.0mm W=0.5mm T=0.5mm
+F https://psearch.en.murata.com/capacitor/product/GRT155R61A475ME13%23.html
+$ENDCMP
+#
+$CMP GRT155R61E105KE01D
+D Capacitor GRT15 L=1.0mm W=0.5mm T=0.5mm
+F https://componentsearchengine.com/Datasheets/1/GRT155R61E105KE01D.pdf
+$ENDCMP
+#
+$CMP SFR01MZPF1504
+D Thick Film Resistors - SMD 0402 1.5Mohm 1% Anti-Sulfur AEC-Q200
+F https://componentsearchengine.com/Datasheets/1/SFR01MZPF1504.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMV71Q21B-AAB
+D ARM Microcontrollers - MCU 2MB FLASH 384KB SRAM LQFP144
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-44003-32-bit-Cortex-M7-Microcontroller-SAM-V71Q-SAM-V71N-SAM-V71J_Datasheet.pdf
+$ENDCMP
+#
+$CMP ECS-TXO-2520-33-120-AN-TR
+D TCXO Oscillators 12MHz 3.3V 2.5ppm -40C +85C
+F https://www.ecsxtal.com/store/pdf/ECS-TXO-2520.pdf
+$ENDCMP
+#
+$CMP G8327A047
+D Crystal 32.678kHz 2-Pin Surface Mount T/R - Tape and Reel
+F https://www.diodes.com/assets/Datasheets/G8.pdf
+$ENDCMP
+#
+$CMP MCP9808T-E_MS
+D Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP
+F https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
+$ENDCMP
+#
+$CMP MF-PSML075_12-2
+D Resettable Fuses - PPTC 12V  .75A-HD  50A
+F https://componentsearchengine.com/Datasheets/1/MF-PSML075_12-2.pdf
+$ENDCMP
+#
+$CMP MT29F32G08ABAAAWP-ITZ_A
+D SLC NAND Flash 3.3V 32G-bit 4G x 8 48-Pin TSOP
+F https://www.micron.com/~/media/documents/products/data-sheet/nand-flash/70-series/m73a_32gb_64gb_128gb_256gb_asyncsync_nand.pdf
+$ENDCMP
+#
+$CMP SI6926ADQ-T1-E3
+D MOSFET 20V Vds 8V Vgs TSSOP-8
+F https://componentsearchengine.com/Datasheets/1/SI6926ADQ-T1-E3.pdf
+$ENDCMP
+#
+$CMP SML-P11UTT86R
+D PICOLED-eco series: ROHM's PICOLED-Using its second-to-none merits from ultra-small & ultra-thin configuration,ultra-fine LED matrices beyond common sense can be made, boosting the level of expression ultimately. Also, this device is indispensable for future design-in for whatever application requiring downsizing.
+F https://www.rohm.com/datasheet/SML-P11UT(R)/sml-p11-e
+$ENDCMP
+#
+#End Doc Library

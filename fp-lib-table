@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "ADCS_IC")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/ADCS_IC.pretty")(options "")(descr ""))
+  (lib (name "OBC_IC")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/OBC_IC.pretty")(options "")(descr ""))
+  (lib (name "MISC")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/MISC.pretty")(options "")(descr ""))
+  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Connectors.pretty")(options "")(descr ""))
+)
