@@ -415,6 +415,23 @@
     )
   )
 
+  (sheet (at 30.48 116.84) (size 22.86 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 04893bc1-12c9-483a-894b-3631df0e837e)
+    (property "Sheetname" "RS422_Transceiver_red" (at 30.48 116.1284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RS422_Transceiver_red.kicad_sch" (at 30.48 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "obc-adcs-board"
+        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11" (page "19"))
+      )
+    )
+  )
+
   (sheet (at 207.01 21.59) (size 22.86 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

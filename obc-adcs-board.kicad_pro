@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|124110000|136245000|95a0017c-1059-4594-9cf7-cac0cb6df529|61e5a472-a52e-49ce-a875-9fa9db599083",
+        "courtyards_overlap|125575353|128655001|dbe8cc45-6399-440b-9db5-d661de51c93c|e427c8b6-7dc5-48b0-8cb8-3248865822b8",
+        "courtyards_overlap|144522999|50996001|bcfeb4d6-2339-45e9-aa3e-a34a89542133|dd3a0ecd-810f-4cff-85ba-196fbba04c4a",
+        "courtyards_overlap|71510001|117780001|030dbdcf-b2f9-4d93-8645-52b22c6ce05d|a18f2fff-0cdb-4ef7-8d9f-a4a1e9cff99a"
+      ],
       "meta": {
         "version": 2
       },
@@ -1042,6 +1047,10 @@
     [
       "9c18c228-21e1-4b16-9298-abfe20c28989",
       "Connectors"
+    ],
+    [
+      "04893bc1-12c9-483a-894b-3631df0e837e",
+      "RS422_Transceiver_red"
     ],
     [
       "6c81640a-72a5-49a4-8e9e-ce76864d44fe",
