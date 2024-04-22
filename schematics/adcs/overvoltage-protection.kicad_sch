@@ -5,11 +5,11 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Conn_01x01_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x01_Male" (at 0 -2.54 0)
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -18,16 +18,19 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x01_Male_1_1"
+      (symbol "Conn_01x01_Pin_1_1"
         (polyline
           (pts
             (xy 1.27 0)
@@ -397,6 +400,10 @@
     (stroke (width 0) (type default))
     (uuid 03b545eb-ff4b-42e0-ac10-d2a5b7809a96)
   )
+  (wire (pts (xy 63.5 95.25) (xy 55.88 95.25))
+    (stroke (width 0) (type default))
+    (uuid 09319e31-cf88-4f1c-9a4e-13936e8cd308)
+  )
   (wire (pts (xy 170.18 35.56) (xy 170.18 36.83))
     (stroke (width 0) (type default))
     (uuid 0d6603b2-2d0a-46a3-b7b1-fb3117387348)
@@ -616,7 +623,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a1dabc42-7b70-49bc-a1b0-508da8171b68)
   )
-  (label "3V3_PROT_ADCS" (at 59.69 104.14 180) (fields_autoplaced)
+  (label "3V3_PROT_ADCS" (at 55.88 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d1ae5bde-5c0a-412b-be84-41657172e9a7)
   )
@@ -841,6 +848,34 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 68.58 95.25 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid af6c4ca3-4296-45ad-ab5e-02d3861237de)
+    (property "Reference" "J13" (at 72.39 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 72.39 97.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 68.58 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.58 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83157924-ac59-4372-95e4-9992d2709e6c))
+    (instances
+      (project "obc-adcs-board"
+        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/c0bd92b4-a0a1-4f93-9999-22b89c23412d"
+          (reference "J13") (unit 1)
+        )
+        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/18593091-9e03-4f21-bab3-44c5d90284ac"
+          (reference "J30") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 175.26 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b77a8f44-bda7-40e4-976f-ef2b29706317)
@@ -1048,31 +1083,6 @@
       (project "obc-adcs-board"
         (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/18593091-9e03-4f21-bab3-44c5d90284ac"
           (reference "#FLG0108") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Male") (at 64.77 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd19f947-9046-48be-b963-cd9405ecf75e)
-    (property "Reference" "J31" (at 65.4812 102.4128 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Conn_01x01_Male" (at 65.4812 104.7242 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 64.77 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 64.77 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a5787198-7982-467e-9ed4-8d7bc957750e))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/18593091-9e03-4f21-bab3-44c5d90284ac"
-          (reference "J31") (unit 1)
         )
       )
     )

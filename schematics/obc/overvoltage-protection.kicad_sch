@@ -14,11 +14,11 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Conn_01x01_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x01_Male" (at 0 -2.54 0)
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -27,16 +27,19 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x01_Male_1_1"
+      (symbol "Conn_01x01_Pin_1_1"
         (polyline
           (pts
             (xy 1.27 0)
@@ -502,6 +505,10 @@
     (stroke (width 0) (type default))
     (uuid 95a9cb1b-c155-4d37-a2b5-cecc3f928209)
   )
+  (wire (pts (xy 46.99 27.94) (xy 39.37 27.94))
+    (stroke (width 0) (type default))
+    (uuid 9c2cc977-1a36-4f18-b8ea-be8be837c664)
+  )
   (wire (pts (xy 95.25 60.96) (xy 95.25 62.23))
     (stroke (width 0) (type default))
     (uuid 9c43a669-ef71-4300-80d5-91bfcf83a923)
@@ -932,31 +939,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Male") (at 44.45 27.94 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6f23663e-c444-4078-982a-b6da6cff3077)
-    (property "Reference" "J32" (at 45.1612 26.2128 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Conn_01x01_Male" (at 45.1612 28.5242 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 44.45 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 44.45 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a1712a1d-7561-49ae-ab5e-8d4851d60d3b))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/91e18cb9-58d8-46b9-8757-75285bd297f6"
-          (reference "J32") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 86.36 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76ac7833-1a56-4905-a1e9-f0b72edc3a30)
@@ -1030,6 +1012,34 @@
       (project "obc-adcs-board"
         (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/91e18cb9-58d8-46b9-8757-75285bd297f6"
           (reference "R44") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 52.07 27.94 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb336428-184f-49b9-8299-d17de1cae25a)
+    (property "Reference" "J13" (at 51.435 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 51.435 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 52.07 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 52.07 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0e5c99f-3336-4abf-8bfc-024a54a1ec78))
+    (instances
+      (project "obc-adcs-board"
+        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/c0bd92b4-a0a1-4f93-9999-22b89c23412d"
+          (reference "J13") (unit 1)
+        )
+        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/91e18cb9-58d8-46b9-8757-75285bd297f6"
+          (reference "J27") (unit 1)
         )
       )
     )
