@@ -278,7 +278,7 @@
     (property "Value" "ADM3491ARZ-REEL7" (at 87.63 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X175-14N" (at 99.06 144.45 0)
+    (property "Footprint" "ADM3491:SOIC127P600X175-14N" (at 99.06 144.45 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483_3485_3488_3490_3491.pdf" (at 99.06 244.45 0)

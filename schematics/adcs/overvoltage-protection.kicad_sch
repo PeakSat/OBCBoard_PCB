@@ -857,7 +857,7 @@
     (property "Value" "Conn_01x01_Pin" (at 72.39 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 95.25 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 68.58 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 95.25 0)
