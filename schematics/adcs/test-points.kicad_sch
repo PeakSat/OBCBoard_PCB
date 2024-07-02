@@ -1,894 +1,2398 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3f5d3313-b3e3-4aca-be07-9b664456526f)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x01_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint_Small" (at 0 2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_Small_0_1"
-        (circle (center 0 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_Small_1_1"
-        (pin passive line (at 0 0 90) (length 0)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connectors:FTS-102-01-L-SV" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 16.51 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "FTS-102-01-L-SV" (at 16.51 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "FTS10201LSV" (at 16.51 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "http://suddendocs.samtec.com/prints/fts-1xx-xx-x-sx-mkt.pdf" (at 16.51 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "Headers & Wire Housings .050\" Micro Low Profile Terminal Strip" (at 16.51 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "4.58" (at 16.51 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "SAMTEC" (at 16.51 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "FTS-102-01-L-SV" (at 16.51 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "200-FTS10201LSV" (at 16.51 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTS-102-01-L-SV?qs=0lQeLiL1qyYdtNGZW4W4Qg%3D%3D" (at 16.51 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Arrow Part Number" "FTS-102-01-L-SV" (at 16.51 -17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Arrow Price/Stock" "https://www.arrow.com/en/products/fts-102-01-l-sv/samtec?region=nac" (at 16.51 -20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "Headers & Wire Housings .050\" Micro Low Profile Terminal Strip" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FTS-102-01-L-SV_0_0"
-        (pin passive line (at 20.32 0 180) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "FTS-102-01-L-SV_0_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 15.24 2.54)
-            (xy 15.24 -2.54)
-            (xy 5.08 -2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Connectors:SSM-104-L-SV-TR" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 16.51 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SSM-104-L-SV-TR" (at 16.51 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "SSM104LSVTR" (at 16.51 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-xx-xx-xx-x-xx-xx-mkt.pdf" (at 16.51 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "SAMTEC - SSM-104-L-SV-TR - RECEPTACLE, 2.54MM, VERT, 4WAY" (at 16.51 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "7.37" (at 16.51 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "200-SSM104LSVTR" (at 16.51 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-L-SV-TR?qs=rU5fayqh%252BE12yhO8FhHaEQ%3D%3D" (at 16.51 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "SAMTEC" (at 16.51 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "SSM-104-L-SV-TR" (at 16.51 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "SAMTEC - SSM-104-L-SV-TR - RECEPTACLE, 2.54MM, VERT, 4WAY" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SSM-104-L-SV-TR_0_0"
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 20.32 0 180) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 20.32 -2.54 180) (length 5.08)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "SSM-104-L-SV-TR_0_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 15.24 2.54)
-            (xy 15.24 -5.08)
-            (xy 5.08 -5.08)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "MISC:5015" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Value" "5015" (at 1.27 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "Footprint" "KEYSTONE_5015" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP" (at -1.27 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "STANDARD" "MANUFACTURER RECOMMENDATIONS" (at 1.27 -3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "PARTREV" "F" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "5015_0_0"
-        (circle (center -2.54 0) (radius 0.508)
-          (stroke (width 1.016) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 0 180) (length 5.08)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (polyline (pts (xy 71.12 58.42) (xy 71.12 27.94))
-    (stroke (width 0) (type default))
-    (uuid 0244f1e8-22fb-4aea-a0df-609d2a455aac)
-  )
-  (polyline (pts (xy 71.12 85.09) (xy 71.12 59.69))
-    (stroke (width 0) (type default))
-    (uuid 07d74042-a41f-4a99-889d-73d357e9c7ca)
-  )
-
-  (wire (pts (xy 45.72 77.47) (xy 41.91 77.47))
-    (stroke (width 0) (type default))
-    (uuid 0c9fdc10-7b44-480f-9af8-74badee197f2)
-  )
-  (wire (pts (xy 45.72 82.55) (xy 41.91 82.55))
-    (stroke (width 0) (type default))
-    (uuid 1af4c902-f0eb-4298-82b5-c4d256f0a4a5)
-  )
-  (wire (pts (xy 45.72 67.31) (xy 50.8 67.31))
-    (stroke (width 0) (type default))
-    (uuid 1e3991f6-a6b9-4c3d-90d0-be751c70f4e4)
-  )
-  (polyline (pts (xy 72.39 100.33) (xy 121.92 100.33))
-    (stroke (width 0) (type default))
-    (uuid 211a6e8f-dfa2-4a2c-8544-3258f126ae07)
-  )
-  (polyline (pts (xy 71.12 100.33) (xy 71.12 86.36))
-    (stroke (width 0) (type default))
-    (uuid 24527cf6-0801-4ffa-b945-a33d1c359f9d)
-  )
-  (polyline (pts (xy 26.67 86.36) (xy 68.58 86.36))
-    (stroke (width 0) (type default))
-    (uuid 41b65750-f173-4c40-805f-d09038ba7aeb)
-  )
-  (polyline (pts (xy 26.67 59.69) (xy 71.12 59.69))
-    (stroke (width 0) (type default))
-    (uuid 4af038bd-7794-4f20-800d-638878d37ef2)
-  )
-  (polyline (pts (xy 26.67 27.94) (xy 26.67 58.42))
-    (stroke (width 0) (type default))
-    (uuid 4baed077-9adf-40d6-98b1-9343987cf84b)
-  )
-  (polyline (pts (xy 71.12 27.94) (xy 26.67 27.94))
-    (stroke (width 0) (type default))
-    (uuid 4e1e120c-32a5-42f4-8c27-b186b7658433)
-  )
-
-  (wire (pts (xy 48.26 96.52) (xy 49.53 96.52))
-    (stroke (width 0) (type default))
-    (uuid 500f5758-4b89-4c78-afe5-39ed489eb9e4)
-  )
-  (polyline (pts (xy 121.92 28.194) (xy 121.92 58.42))
-    (stroke (width 0) (type default))
-    (uuid 571dc69d-c993-4c82-8f36-a56d5ccc88b1)
-  )
-  (polyline (pts (xy 121.92 100.33) (xy 121.92 86.36))
-    (stroke (width 0) (type default))
-    (uuid 5bfc9b59-2520-4e86-bb37-7469099194e4)
-  )
-  (polyline (pts (xy 26.67 100.33) (xy 71.12 100.33))
-    (stroke (width 0) (type default))
-    (uuid 5f4155df-c834-47ac-ae44-15a2aa7c5132)
-  )
-  (polyline (pts (xy 72.39 58.42) (xy 121.92 58.42))
-    (stroke (width 0) (type default))
-    (uuid 624adee2-fbde-4b2f-8a9a-a046fae4b58d)
-  )
-  (polyline (pts (xy 121.92 86.36) (xy 72.39 86.36))
-    (stroke (width 0) (type default))
-    (uuid 706614be-feec-40ca-9388-c66e392400e1)
-  )
-  (polyline (pts (xy 121.92 59.69) (xy 72.39 59.69))
-    (stroke (width 0) (type default))
-    (uuid 70ec0a88-cfd0-4c4a-93b7-db29b4537a45)
-  )
-  (polyline (pts (xy 72.39 86.36) (xy 72.39 100.33))
-    (stroke (width 0) (type default))
-    (uuid 7f1bf0d0-8c2d-4379-86e7-48d430981e0b)
-  )
-  (polyline (pts (xy 26.67 59.69) (xy 26.67 85.09))
-    (stroke (width 0) (type default))
-    (uuid 7ffad3ec-1f6e-4a37-b58d-2b00c8b962c9)
-  )
-
-  (wire (pts (xy 93.98 96.52) (xy 90.17 96.52))
-    (stroke (width 0) (type default))
-    (uuid 9b49c248-fae7-4758-97c0-8def3330eb0e)
-  )
-  (polyline (pts (xy 68.58 86.36) (xy 71.12 86.36))
-    (stroke (width 0) (type default))
-    (uuid 9bbdbfe9-0ce1-41c3-9aaa-fc3263dabb69)
-  )
-  (polyline (pts (xy 26.67 85.09) (xy 71.12 85.09))
-    (stroke (width 0) (type default))
-    (uuid 9c0d2cad-6fd5-4a0f-beb0-c38e047a8d91)
-  )
-
-  (wire (pts (xy 45.72 72.39) (xy 50.8 72.39))
-    (stroke (width 0) (type default))
-    (uuid 9cdff01b-bee1-4d03-a59f-7713bd1ee4c8)
-  )
-  (polyline (pts (xy 26.67 86.36) (xy 26.67 100.33))
-    (stroke (width 0) (type default))
-    (uuid 9e13f921-75c4-464d-8ad2-479fabfe8566)
-  )
-  (polyline (pts (xy 72.39 27.94) (xy 72.39 58.42))
-    (stroke (width 0) (type default))
-    (uuid a83f3671-696b-48b4-96c5-15e6df87aec9)
-  )
-
-  (wire (pts (xy 54.61 35.56) (xy 45.72 35.56))
-    (stroke (width 0) (type default))
-    (uuid ad8c492d-dbc9-4c1c-a6d1-f9b04bca8346)
-  )
-  (wire (pts (xy 90.17 91.44) (xy 93.98 91.44))
-    (stroke (width 0) (type default))
-    (uuid b68348a9-d6c4-46b2-b507-1dae71640561)
-  )
-  (polyline (pts (xy 121.92 27.94) (xy 121.92 29.21))
-    (stroke (width 0) (type default))
-    (uuid c37480ce-5506-4087-a698-73bfc652ecad)
-  )
-
-  (wire (pts (xy 54.61 41.91) (xy 45.72 41.91))
-    (stroke (width 0) (type default))
-    (uuid e0292a6f-2d87-4242-be60-19215aefe038)
-  )
-  (polyline (pts (xy 26.67 58.42) (xy 71.12 58.42))
-    (stroke (width 0) (type default))
-    (uuid e0e9a132-e7e7-48b4-89bb-7d7e5cc8f888)
-  )
-  (polyline (pts (xy 72.39 27.94) (xy 121.92 27.94))
-    (stroke (width 0) (type default))
-    (uuid eb082f6f-8a63-4348-8190-e6b1b7f31ae2)
-  )
-  (polyline (pts (xy 72.39 59.69) (xy 72.39 85.09))
-    (stroke (width 0) (type default))
-    (uuid ec13adc3-9370-4b86-94a6-cdadc39492f1)
-  )
-  (polyline (pts (xy 121.92 85.09) (xy 121.92 59.69))
-    (stroke (width 0) (type default))
-    (uuid f8892f98-a625-4dc2-a7ed-3347d6b08d3e)
-  )
-  (polyline (pts (xy 72.39 85.09) (xy 121.92 85.09))
-    (stroke (width 0) (type default))
-    (uuid fb1ca092-d542-4375-a68d-39af359b9e50)
-  )
-
-  (text "CAN Transceivers " (at 27.94 63.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 28821186-5fd8-4d31-be34-e249f876a208)
-  )
-  (text "SWD" (at 73.66 63.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4f9a3971-0241-446c-b278-6efdaa84473f)
-  )
-  (text "Resettable Fuses Negative Terminal" (at 27.94 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 81ef367e-34af-489e-8208-028dfa568cc7)
-  )
-  (text "USER" (at 73.66 88.9 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8ee93096-db11-4b36-b226-3bfa47f9af21)
-  )
-  (text "Temperature Sensors I2C" (at 73.66 31.75 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b6b2958d-29b5-4d52-8880-c1d892282d9d)
-  )
-  (text "MCU related" (at 28.956 30.988 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e738b046-2f57-4f5a-badd-f3513972a882)
-  )
-
-  (hierarchical_label "USR_GPIO_PWM" (shape input) (at 90.17 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1d9f907d-7473-47f9-9aa5-955ac8f6bb22)
-  )
-  (hierarchical_label "ADCS_SWDIO" (shape bidirectional) (at 87.63 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2ffd9b9a-f731-49ee-9b69-9a476c5ec238)
-  )
-  (hierarchical_label "ADCS_SWCLK" (shape input) (at 87.63 76.2 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3f08d697-8a07-4e87-b484-775cd18efa51)
-  )
-  (hierarchical_label "I2C_SCK_SENS" (shape input) (at 85.09 41.91 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 416c01bc-c06d-4152-b294-da9fe049ff67)
-  )
-  (hierarchical_label "CAN_SILENT_2" (shape input) (at 45.72 67.31 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 57245ceb-9dcc-489c-9a14-9ec448c9fb6c)
-  )
-  (hierarchical_label "CAN_TRX_FUSE_1" (shape input) (at 48.26 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5b20843b-4711-40db-987e-f7503e654388)
-  )
-  (hierarchical_label "CAN_TX_2" (shape input) (at 41.91 82.55 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 72f3767b-89e0-48bc-bcf0-9d1aba10bb09)
-  )
-  (hierarchical_label "CAN_FAULT_2" (shape input) (at 45.72 72.39 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 772119c1-bc80-4634-995f-84e735bf6f48)
-  )
-  (hierarchical_label "CAN_RX_2" (shape input) (at 41.91 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 79334d2e-680d-45c4-942a-429a012fc2ff)
-  )
-  (hierarchical_label "USR_GPIO" (shape bidirectional) (at 90.17 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 85c88689-1db4-4b5c-a656-2b16235f205c)
-  )
-  (hierarchical_label "3V3_PROT_ADCS" (shape input) (at 45.72 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 90d59c61-8006-4c3f-91e0-1c30e1152474)
-  )
-  (hierarchical_label "I2C_SDA_SENS" (shape input) (at 105.41 41.91 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid aa7f2d31-2bcb-413d-80f9-ed54aa17f6b5)
-  )
-  (hierarchical_label "MCU_VDD" (shape input) (at 45.72 41.91 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d2092de1-03bb-4b2d-8462-a8684d9503c3)
-  )
-  (hierarchical_label "MCU_ERASE" (shape output) (at 107.95 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d309c25b-cb0a-4177-a104-08beacd0a5b4)
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 50.8 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 141b4d71-5901-4b9a-bd26-98329a00eaac)
-    (property "Reference" "TP56" (at 52.0192 71.2216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 52.0192 73.533 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 55.88 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 55.88 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3482e903-bf67-486b-999a-fd796737cd93))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP56") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 50.8 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 466aa026-0215-48e8-abe2-c052d45e6866)
-    (property "Reference" "TP55" (at 52.0192 66.1416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 52.0192 68.453 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 55.88 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 55.88 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc0c0537-611d-483d-bef1-2a03d1bd2c7f))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP55") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connectors:SSM-104-L-SV-TR") (at 87.63 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5cf2554b-7173-4b24-ba82-46aaa18e6c8d)
-    (property "Reference" "J18" (at 97.79 66.548 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SSM-104-L-SV-TR" (at 97.79 69.088 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connectors:SSM104LSVTR" (at 104.14 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-xx-xx-xx-x-xx-xx-mkt.pdf" (at 104.14 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "SAMTEC - SSM-104-L-SV-TR - RECEPTACLE, 2.54MM, VERT, 4WAY" (at 104.14 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "7.37" (at 104.14 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "200-SSM104LSVTR" (at 104.14 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-L-SV-TR?qs=rU5fayqh%252BE12yhO8FhHaEQ%3D%3D" (at 104.14 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "SAMTEC" (at 104.14 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "SSM-104-L-SV-TR" (at 104.14 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 02226928-081e-4a28-b896-8d93d3d307fa))
-    (pin "2" (uuid 959c3639-35f0-4fb5-a606-bc47384c1d7e))
-    (pin "3" (uuid eea656dd-1dd3-4fee-a689-1bffe217c973))
-    (pin "4" (uuid ef8e108c-d7ef-4dff-929f-6776637f8e96))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "J18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connectors:FTS-102-01-L-SV") (at 85.09 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 65a60e3a-d3ec-48ed-9eed-aca1d6f02b21)
-    (property "Reference" "J24" (at 95.25 34.036 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "FTS-102-01-L-SV" (at 95.25 36.576 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "FTS-102-01-L-SV:FTS10201LSV" (at 101.6 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://suddendocs.samtec.com/prints/fts-1xx-xx-x-sx-mkt.pdf" (at 101.6 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Headers & Wire Housings .050\" Micro Low Profile Terminal Strip" (at 101.6 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "4.58" (at 101.6 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "SAMTEC" (at 101.6 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "FTS-102-01-L-SV" (at 101.6 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "200-FTS10201LSV" (at 101.6 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTS-102-01-L-SV?qs=0lQeLiL1qyYdtNGZW4W4Qg%3D%3D" (at 101.6 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "FTS-102-01-L-SV" (at 101.6 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/fts-102-01-l-sv/samtec?region=nac" (at 101.6 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid ee06430f-0b0a-4d5e-962b-84fb09ab5deb))
-    (pin "2" (uuid f598feb0-2d45-4d37-a9d5-235d7fabee56))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "J24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 49.53 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6e7dc1f9-ed94-4392-ad82-53752812803b)
-    (property "Reference" "TP52" (at 50.7492 95.3516 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 50.7492 97.663 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 54.61 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 54.61 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4f114d52-69c6-4845-983b-2c384b27212c))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MISC:5015") (at 48.26 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 707e40c8-0710-496e-8074-b67e77feddd7)
-    (property "Reference" "TP54" (at 52.705 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "5015" (at 46.99 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 52.705 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Datasheet" "" (at 48.26 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP" (at 49.53 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "STANDARD" "MANUFACTURER RECOMMENDATIONS" (at 46.99 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PARTREV" "F" (at 48.26 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid e95c9f16-b828-4758-af65-da6c927d0c63))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP54") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 59.69 35.56 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 70b108d9-9ba4-41de-9f5c-6f663590d95e)
-    (property "Reference" "J13" (at 62.23 35.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01_Pin" (at 62.23 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 59.69 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 59.69 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d861c9c5-0e7a-445b-bba4-b5c7ad49a237))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/c0bd92b4-a0a1-4f93-9999-22b89c23412d"
-          (reference "J13") (unit 1)
-        )
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "J28") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 93.98 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7501a44f-a1b7-45a7-8e93-91b2aabd304e)
-    (property "Reference" "TP30" (at 95.1992 95.3516 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 95.1992 97.663 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 99.06 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 99.06 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e327a23d-3831-4b0d-8d45-4b82dcd5ad9e))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 93.98 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c9918b5c-e171-4cad-a4ec-c842d37a76b9)
-    (property "Reference" "TP13" (at 95.1992 90.2716 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 95.1992 92.583 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 99.06 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 99.06 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d525e044-b1ef-4e15-bd5c-cbe145ea5e1f))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 59.69 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e5f60f60-d108-453f-a518-5b754ce09149)
-    (property "Reference" "J13" (at 59.69 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01_Pin" (at 59.69 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 59.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 59.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e13dffc3-0275-4c01-b84f-65453bd1703a))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/c0bd92b4-a0a1-4f93-9999-22b89c23412d"
-          (reference "J13") (unit 1)
-        )
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "J29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 107.95 76.2 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f0824bea-75cb-458b-b1fc-91b30ca98e5c)
-    (property "Reference" "#PWR03" (at 107.95 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 107.823 80.5942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 107.95 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 107.95 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0ce13b51-72a9-460b-9164-1ae36e1701e4))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MISC:5015") (at 48.26 77.47 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f40d912c-92d3-4d3a-b88f-2e38e7c7f56c)
-    (property "Reference" "TP53" (at 52.705 76.1999 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "5015" (at 46.99 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 52.705 78.7399 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Datasheet" "" (at 48.26 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP" (at 49.53 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "STANDARD" "MANUFACTURER RECOMMENDATIONS" (at 46.99 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PARTREV" "F" (at 48.26 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 85a2c59c-7517-4ee2-88fd-8f63cf9ca438))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
-          (reference "TP53") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3f5d3313-b3e3-4aca-be07-9b664456526f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connectors:FTS-102-01-L-SV"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FTS-102-01-L-SV"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FTS10201LSV"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/prints/fts-1xx-xx-x-sx-mkt.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings .050\" Micro Low Profile Terminal Strip"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.58"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FTS-102-01-L-SV"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "200-FTS10201LSV"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTS-102-01-L-SV?qs=0lQeLiL1qyYdtNGZW4W4Qg%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "FTS-102-01-L-SV"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fts-102-01-l-sv/samtec?region=nac"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "FTS-102-01-L-SV_0_0"
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FTS-102-01-L-SV_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -2.54) (xy 5.08 -2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Connectors:SSM-104-L-SV-TR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SSM-104-L-SV-TR"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SSM104LSVTR"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-xx-xx-xx-x-xx-xx-mkt.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SAMTEC - SSM-104-L-SV-TR - RECEPTACLE, 2.54MM, VERT, 4WAY"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.37"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "200-SSM104LSVTR"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-L-SV-TR?qs=rU5fayqh%252BE12yhO8FhHaEQ%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SSM-104-L-SV-TR"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SSM-104-L-SV-TR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SSM-104-L-SV-TR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "MISC:5015"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5015"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KEYSTONE_5015"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP"
+				(at -1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5015_0_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 1.016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 71.12 58.42) (xy 71.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0244f1e8-22fb-4aea-a0df-609d2a455aac")
+	)
+	(polyline
+		(pts
+			(xy 71.12 85.09) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d74042-a41f-4a99-889d-73d357e9c7ca")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9fdc10-7b44-480f-9af8-74badee197f2")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 41.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af4c902-f0eb-4298-82b5-c4d256f0a4a5")
+	)
+	(wire
+		(pts
+			(xy 45.72 67.31) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3991f6-a6b9-4c3d-90d0-be751c70f4e4")
+	)
+	(polyline
+		(pts
+			(xy 72.39 100.33) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211a6e8f-dfa2-4a2c-8544-3258f126ae07")
+	)
+	(polyline
+		(pts
+			(xy 71.12 100.33) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24527cf6-0801-4ffa-b945-a33d1c359f9d")
+	)
+	(polyline
+		(pts
+			(xy 26.67 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b65750-f173-4c40-805f-d09038ba7aeb")
+	)
+	(polyline
+		(pts
+			(xy 26.67 59.69) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af038bd-7794-4f20-800d-638878d37ef2")
+	)
+	(polyline
+		(pts
+			(xy 26.67 27.94) (xy 26.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baed077-9adf-40d6-98b1-9343987cf84b")
+	)
+	(polyline
+		(pts
+			(xy 71.12 27.94) (xy 26.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1e120c-32a5-42f4-8c27-b186b7658433")
+	)
+	(wire
+		(pts
+			(xy 48.26 96.52) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500f5758-4b89-4c78-afe5-39ed489eb9e4")
+	)
+	(polyline
+		(pts
+			(xy 121.92 28.194) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571dc69d-c993-4c82-8f36-a56d5ccc88b1")
+	)
+	(polyline
+		(pts
+			(xy 121.92 100.33) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfc9b59-2520-4e86-bb37-7469099194e4")
+	)
+	(polyline
+		(pts
+			(xy 26.67 100.33) (xy 71.12 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4155df-c834-47ac-ae44-15a2aa7c5132")
+	)
+	(polyline
+		(pts
+			(xy 72.39 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624adee2-fbde-4b2f-8a9a-a046fae4b58d")
+	)
+	(polyline
+		(pts
+			(xy 121.92 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706614be-feec-40ca-9388-c66e392400e1")
+	)
+	(polyline
+		(pts
+			(xy 121.92 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ec0a88-cfd0-4c4a-93b7-db29b4537a45")
+	)
+	(polyline
+		(pts
+			(xy 72.39 86.36) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1bf0d0-8c2d-4379-86e7-48d430981e0b")
+	)
+	(polyline
+		(pts
+			(xy 26.67 59.69) (xy 26.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffad3ec-1f6e-4a37-b58d-2b00c8b962c9")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b49c248-fae7-4758-97c0-8def3330eb0e")
+	)
+	(polyline
+		(pts
+			(xy 68.58 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbdbfe9-0ce1-41c3-9aaa-fc3263dabb69")
+	)
+	(polyline
+		(pts
+			(xy 26.67 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0d2cad-6fd5-4a0f-beb0-c38e047a8d91")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdff01b-bee1-4d03-a59f-7713bd1ee4c8")
+	)
+	(polyline
+		(pts
+			(xy 26.67 86.36) (xy 26.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e13f921-75c4-464d-8ad2-479fabfe8566")
+	)
+	(polyline
+		(pts
+			(xy 72.39 27.94) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83f3671-696b-48b4-96c5-15e6df87aec9")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8c492d-dbc9-4c1c-a6d1-f9b04bca8346")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68348a9-d6c4-46b2-b507-1dae71640561")
+	)
+	(polyline
+		(pts
+			(xy 121.92 27.94) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37480ce-5506-4087-a698-73bfc652ecad")
+	)
+	(wire
+		(pts
+			(xy 54.61 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0292a6f-2d87-4242-be60-19215aefe038")
+	)
+	(polyline
+		(pts
+			(xy 26.67 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e9a132-e7e7-48b4-89bb-7d7e5cc8f888")
+	)
+	(polyline
+		(pts
+			(xy 72.39 27.94) (xy 121.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb082f6f-8a63-4348-8190-e6b1b7f31ae2")
+	)
+	(polyline
+		(pts
+			(xy 72.39 59.69) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec13adc3-9370-4b86-94a6-cdadc39492f1")
+	)
+	(polyline
+		(pts
+			(xy 121.92 85.09) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8892f98-a625-4dc2-a7ed-3347d6b08d3e")
+	)
+	(polyline
+		(pts
+			(xy 72.39 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1ca092-d542-4375-a68d-39af359b9e50")
+	)
+	(text "CAN Transceivers "
+		(exclude_from_sim no)
+		(at 27.94 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28821186-5fd8-4d31-be34-e249f876a208")
+	)
+	(text "SWD"
+		(exclude_from_sim no)
+		(at 73.66 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f9a3971-0241-446c-b278-6efdaa84473f")
+	)
+	(text "Resettable Fuses Negative Terminal"
+		(exclude_from_sim no)
+		(at 27.94 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81ef367e-34af-489e-8208-028dfa568cc7")
+	)
+	(text "USER"
+		(exclude_from_sim no)
+		(at 73.66 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee93096-db11-4b36-b226-3bfa47f9af21")
+	)
+	(text "Temperature Sensors I2C"
+		(exclude_from_sim no)
+		(at 73.66 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6b2958d-29b5-4d52-8880-c1d892282d9d")
+	)
+	(text "MCU related"
+		(exclude_from_sim no)
+		(at 28.956 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e738b046-2f57-4f5a-badd-f3513972a882")
+	)
+	(hierarchical_label "USR_GPIO_PWM"
+		(shape input)
+		(at 90.17 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d9f907d-7473-47f9-9aa5-955ac8f6bb22")
+	)
+	(hierarchical_label "ADCS_SWDIO"
+		(shape bidirectional)
+		(at 87.63 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ffd9b9a-f731-49ee-9b69-9a476c5ec238")
+	)
+	(hierarchical_label "ADCS_SWCLK"
+		(shape input)
+		(at 87.63 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f08d697-8a07-4e87-b484-775cd18efa51")
+	)
+	(hierarchical_label "I2C_SCK_SENS"
+		(shape input)
+		(at 85.09 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "416c01bc-c06d-4152-b294-da9fe049ff67")
+	)
+	(hierarchical_label "CAN_SILENT_2"
+		(shape input)
+		(at 45.72 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57245ceb-9dcc-489c-9a14-9ec448c9fb6c")
+	)
+	(hierarchical_label "CAN_TRX_FUSE_1"
+		(shape input)
+		(at 48.26 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b20843b-4711-40db-987e-f7503e654388")
+	)
+	(hierarchical_label "CAN_TX_2"
+		(shape input)
+		(at 41.91 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72f3767b-89e0-48bc-bcf0-9d1aba10bb09")
+	)
+	(hierarchical_label "CAN_FAULT_2"
+		(shape input)
+		(at 45.72 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "772119c1-bc80-4634-995f-84e735bf6f48")
+	)
+	(hierarchical_label "CAN_RX_2"
+		(shape input)
+		(at 41.91 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79334d2e-680d-45c4-942a-429a012fc2ff")
+	)
+	(hierarchical_label "USR_GPIO"
+		(shape bidirectional)
+		(at 90.17 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85c88689-1db4-4b5c-a656-2b16235f205c")
+	)
+	(hierarchical_label "3V3_PROT_ADCS"
+		(shape input)
+		(at 45.72 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90d59c61-8006-4c3f-91e0-1c30e1152474")
+	)
+	(hierarchical_label "I2C_SDA_SENS"
+		(shape input)
+		(at 105.41 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa7f2d31-2bcb-413d-80f9-ed54aa17f6b5")
+	)
+	(hierarchical_label "MCU_VDD"
+		(shape input)
+		(at 45.72 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2092de1-03bb-4b2d-8462-a8684d9503c3")
+	)
+	(hierarchical_label "MCU_ERASE"
+		(shape output)
+		(at 107.95 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d309c25b-cb0a-4177-a104-08beacd0a5b4")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 50.8 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "141b4d71-5901-4b9a-bd26-98329a00eaac")
+		(property "Reference" "TP56"
+			(at 52.0192 71.2216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 52.0192 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3482e903-bf67-486b-999a-fd796737cd93")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 50.8 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "466aa026-0215-48e8-abe2-c052d45e6866")
+		(property "Reference" "TP55"
+			(at 52.0192 66.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 52.0192 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc0c0537-611d-483d-bef1-2a03d1bd2c7f")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:SSM-104-L-SV-TR")
+		(at 87.63 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf2554b-7173-4b24-ba82-46aaa18e6c8d")
+		(property "Reference" "J18"
+			(at 97.79 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSM-104-L-SV-TR"
+			(at 97.79 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connectors:SSM104LSVTR"
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-xx-xx-xx-x-xx-xx-mkt.pdf"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SAMTEC - SSM-104-L-SV-TR - RECEPTACLE, 2.54MM, VERT, 4WAY"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.37"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-SSM104LSVTR"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-L-SV-TR?qs=rU5fayqh%252BE12yhO8FhHaEQ%3D%3D"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSM-104-L-SV-TR"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02226928-081e-4a28-b896-8d93d3d307fa")
+		)
+		(pin "2"
+			(uuid "959c3639-35f0-4fb5-a606-bc47384c1d7e")
+		)
+		(pin "3"
+			(uuid "eea656dd-1dd3-4fee-a689-1bffe217c973")
+		)
+		(pin "4"
+			(uuid "ef8e108c-d7ef-4dff-929f-6776637f8e96")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:FTS-102-01-L-SV")
+		(at 85.09 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65a60e3a-d3ec-48ed-9eed-aca1d6f02b21")
+		(property "Reference" "J24"
+			(at 95.25 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTS-102-01-L-SV"
+			(at 95.25 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FTS-102-01-L-SV:FTS10201LSV"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/fts-1xx-xx-x-sx-mkt.pdf"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings .050\" Micro Low Profile Terminal Strip"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.58"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTS-102-01-L-SV"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-FTS10201LSV"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTS-102-01-L-SV?qs=0lQeLiL1qyYdtNGZW4W4Qg%3D%3D"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FTS-102-01-L-SV"
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fts-102-01-l-sv/samtec?region=nac"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee06430f-0b0a-4d5e-962b-84fb09ab5deb")
+		)
+		(pin "2"
+			(uuid "f598feb0-2d45-4d37-a9d5-235d7fabee56")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 49.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e7dc1f9-ed94-4392-ad82-53752812803b")
+		(property "Reference" "TP52"
+			(at 50.7492 95.3516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 50.7492 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f114d52-69c6-4845-983b-2c384b27212c")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MISC:5015")
+		(at 48.26 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707e40c8-0710-496e-8074-b67e77feddd7")
+		(property "Reference" "TP54"
+			(at 52.705 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5015"
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.705 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e95c9f16-b828-4758-af65-da6c927d0c63")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 59.69 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b108d9-9ba4-41de-9f5c-6f663590d95e")
+		(property "Reference" "J28"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d861c9c5-0e7a-445b-bba4-b5c7ad49a237")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 93.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7501a44f-a1b7-45a7-8e93-91b2aabd304e")
+		(property "Reference" "TP30"
+			(at 95.1992 95.3516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 95.1992 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e327a23d-3831-4b0d-8d45-4b82dcd5ad9e")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 93.98 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9918b5c-e171-4cad-a4ec-c842d37a76b9")
+		(property "Reference" "TP13"
+			(at 95.1992 90.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 95.1992 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d525e044-b1ef-4e15-bd5c-cbe145ea5e1f")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 59.69 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5f60f60-d108-453f-a518-5b754ce09149")
+		(property "Reference" "J29"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13dffc3-0275-4c01-b84f-65453bd1703a")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0824bea-75cb-458b-b1fc-91b30ca98e5c")
+		(property "Reference" "#PWR03"
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.823 80.5942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce13b51-72a9-460b-9164-1ae36e1701e4")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MISC:5015")
+		(at 48.26 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40d912c-92d3-4d3a-b88f-2e38e7c7f56c")
+		(property "Reference" "TP53"
+			(at 52.705 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5015"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.705 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEYSTONE ELECTRONICS CORP"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 46.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a2c59c-7517-4ee2-88fd-8f63cf9ca438")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/a1437ebd-1473-47f8-a5e1-005d3930a0d5"
+					(reference "TP53")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
