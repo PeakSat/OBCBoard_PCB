@@ -882,6 +882,160 @@
 		)
 		(uuid "eb5b9480-f840-402b-89f0-af2375380a20")
 	)
+	(global_label "MEM_NAND_BUSY_2"
+		(shape input)
+		(at 91.44 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73d85628-c8cd-4087-bd8a-d0b7b23542b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.3725 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_ENABLE_2"
+		(shape input)
+		(at 93.98 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8129889c-bdc4-4ba8-b39b-863e1c15ec45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.7959 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_ADDR_ENABLE"
+		(shape input)
+		(at 48.26 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5c80a4b-f9a4-4cf9-88ad-3bff42187237")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.3868 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_CMD_ENABLE"
+		(shape input)
+		(at 46.99 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c17a526f-6528-46bc-9118-a451f6ff96ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.024 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_WR_ENABLE"
+		(shape input)
+		(at 45.72 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8c660c8-f9b7-4e5b-90d0-61ef47c13966")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.024 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_WR_PROTECT"
+		(shape input)
+		(at 46.99 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa7aeb4f-7f25-45dc-a31a-b0c19b22939a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.0845 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_OUT_ENABLE"
+		(shape input)
+		(at 46.99 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd235c3d-621b-452b-b74b-984a14920290")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.3868 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MEM_MRAM_ENABLE"
 		(shape input)
 		(at 91.44 100.33 180)
@@ -954,18 +1108,6 @@
 		)
 		(uuid "26700064-84ec-4987-bdd0-779d74effd0f")
 	)
-	(hierarchical_label "MEM_NAND_OUT_ENABLE"
-		(shape input)
-		(at 46.99 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "290600d3-f505-42cd-8ea2-9fcda6833cd8")
-	)
 	(hierarchical_label "CAN_FAULT_2"
 		(shape input)
 		(at 138.43 99.06 180)
@@ -977,18 +1119,6 @@
 			(justify right)
 		)
 		(uuid "36943577-083a-45b5-91c5-fe0579e81b63")
-	)
-	(hierarchical_label "MEM_NAND_WR_ENABLE"
-		(shape input)
-		(at 45.72 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38e39d42-a0a7-4bfe-a5ec-2980fda8a3b9")
 	)
 	(hierarchical_label "MCU_AD_REF_NEG"
 		(shape input)
@@ -1086,18 +1216,6 @@
 		)
 		(uuid "6211d7d3-f3d6-4075-9522-d7ec499b6857")
 	)
-	(hierarchical_label "MEM_NAND_ADDR_ENABLE"
-		(shape input)
-		(at 48.26 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67c57b7a-ac6f-490b-98e3-b8452d7c26c6")
-	)
 	(hierarchical_label "CAN_SILENT_2"
 		(shape input)
 		(at 138.43 93.98 180)
@@ -1109,18 +1227,6 @@
 			(justify right)
 		)
 		(uuid "77585c6f-803f-410e-b405-b02236fe2743")
-	)
-	(hierarchical_label "MEM_NAND_ENABLE_2"
-		(shape input)
-		(at 93.98 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bd0d274-25e4-4c15-b228-7e230c01a5db")
 	)
 	(hierarchical_label "MCU_VDDIN"
 		(shape input)
@@ -1182,18 +1288,6 @@
 		)
 		(uuid "9a8cd7bd-d38f-4676-9349-c58814ce2183")
 	)
-	(hierarchical_label "MEM_NAND_BUSY_2"
-		(shape input)
-		(at 91.44 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c0d456b-2bc6-4dd1-8258-74eaf957f41e")
-	)
 	(hierarchical_label "CAN_RX_2"
 		(shape input)
 		(at 134.62 105.41 180)
@@ -1229,18 +1323,6 @@
 			(justify right)
 		)
 		(uuid "a6a899b5-866d-4808-847d-8f3be84f0503")
-	)
-	(hierarchical_label "MEM_NAND_CMD_ENABLE"
-		(shape input)
-		(at 46.99 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a98ba9df-c310-4d93-a0ff-cf2e779753ea")
 	)
 	(hierarchical_label "CAN_TX_2"
 		(shape input)
@@ -1349,18 +1431,6 @@
 			(justify right)
 		)
 		(uuid "f6dac7f7-2919-457d-a837-1784e01f9db7")
-	)
-	(hierarchical_label "MEM_NAND_WR_PROTECT"
-		(shape input)
-		(at 46.99 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb1e73b1-eda1-4586-9833-1f7632919df7")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")

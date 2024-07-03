@@ -5,6 +5,174 @@
 	(uuid "70032097-9ebd-4b53-aafd-1777fcf209b8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -2576,14 +2744,6 @@
 		(uuid "a9a65419-cce4-4394-aced-9a430275da24")
 	)
 	(no_connect
-		(at 41.91 165.1)
-		(uuid "323e2d06-fe69-4f17-a507-56743a4581cf")
-	)
-	(no_connect
-		(at 21.59 162.56)
-		(uuid "4b15721a-8f6b-40c6-8976-be8f20b9fbfd")
-	)
-	(no_connect
 		(at 21.59 71.12)
 		(uuid "7149c19c-4c89-4bac-8f0b-5b7970415adb")
 	)
@@ -2602,14 +2762,6 @@
 	(no_connect
 		(at 186.69 39.37)
 		(uuid "7fa6a578-d554-496d-96eb-a2b445df565d")
-	)
-	(no_connect
-		(at 41.91 162.56)
-		(uuid "94328308-2c21-4fe2-87fb-433df2adc569")
-	)
-	(no_connect
-		(at 21.59 165.1)
-		(uuid "e5a15562-d711-41ec-a475-3a3003857dfb")
 	)
 	(no_connect
 		(at 186.69 41.91)
@@ -3647,6 +3799,28 @@
 			)
 		)
 	)
+	(global_label "MCU_SWDIO"
+		(shape bidirectional)
+		(at 240.03 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bd87054-4009-4b15-b40d-729ee09172c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0122 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MEM_D3"
 		(shape bidirectional)
 		(at 240.03 88.9 0)
@@ -3889,6 +4063,28 @@
 			)
 		)
 	)
+	(global_label "ADCS_SWDIO"
+		(shape bidirectional)
+		(at 238.76 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96f39df7-7e14-4b41-991e-f14b2132e08e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.5284 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2-"
 		(shape input)
 		(at 43.18 106.68 0)
@@ -3924,6 +4120,28 @@
 		(uuid "b155438e-3f14-441d-bbf7-bd3452901a0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.2625 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_ERASE"
+		(shape output)
+		(at 227.33 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1de3d3f-f392-4c35-b199-15dcfe01c240")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4592 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,6 +4230,50 @@
 		(uuid "d367042e-8986-4ded-8b5a-402a01e02f90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.6254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SWCLK"
+		(shape output)
+		(at 240.03 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eaa6457b-603a-4120-9fca-ddb45a7c1cba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.2637 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADCS_SWCLK"
+		(shape output)
+		(at 238.76 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec3cbcec-bbe8-4ee8-ad3b-21874e99de81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.7799 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,18 +4409,6 @@
 		)
 		(uuid "285345e1-c5ba-42b9-9cf3-8f40e4dd5dc8")
 	)
-	(hierarchical_label "ADCS_SWDIO"
-		(shape bidirectional)
-		(at 41.91 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a16437a-4664-4590-b565-ec35638d0ac7")
-	)
 	(hierarchical_label "MCU_TRACECLK"
 		(shape input)
 		(at 210.82 29.21 0)
@@ -4206,42 +4456,6 @@
 			(justify right)
 		)
 		(uuid "45bcaee3-1157-453b-a5ee-2101e0255759")
-	)
-	(hierarchical_label "OBC_SWDIO"
-		(shape bidirectional)
-		(at 227.33 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b63fafb-9c92-4add-b2df-67606b7f9734")
-	)
-	(hierarchical_label "OBC_SWCLK"
-		(shape input)
-		(at 227.33 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bae58e7-3c05-433f-a095-4fba61190e58")
-	)
-	(hierarchical_label "MCU_SWCLK"
-		(shape output)
-		(at 240.03 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "548b8a94-8299-4d6b-974d-bd89268ddaf5")
 	)
 	(hierarchical_label "MCU_TRACED_3"
 		(shape input)
@@ -4315,18 +4529,6 @@
 		)
 		(uuid "94937b27-a161-4c0b-8ed6-4f10524ff081")
 	)
-	(hierarchical_label "MCU_ERASE"
-		(shape output)
-		(at 227.33 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "958ae6b0-a31a-4678-ad76-d975794ebd9e")
-	)
 	(hierarchical_label "MCU_SWCLK"
 		(shape output)
 		(at 115.57 149.86 0)
@@ -4351,18 +4553,6 @@
 		)
 		(uuid "a33a5938-59c3-495b-a6ae-7bfb28967a0d")
 	)
-	(hierarchical_label "MCU_SWDIO"
-		(shape bidirectional)
-		(at 240.03 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5e6a01e-3215-4286-a0dd-c6e51bc08399")
-	)
 	(hierarchical_label "PPS"
 		(shape input)
 		(at 227.33 109.22 180)
@@ -4374,18 +4564,6 @@
 			(justify right)
 		)
 		(uuid "ad46aa82-07dd-4f5f-82ca-c93b30939548")
-	)
-	(hierarchical_label "ADCS_SWCLK"
-		(shape output)
-		(at 240.03 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad8169ce-5295-4b25-8c67-dc1316861c21")
 	)
 	(hierarchical_label "RS422_B"
 		(shape bidirectional)
@@ -4635,6 +4813,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 233.68 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2980a5e2-5a95-4fc4-ae1f-972810829dba")
+		(property "Reference" "J4"
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 233.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 233.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2f98b5-1fa9-4980-a743-45bcc00df874")
+		)
+		(pin "2"
+			(uuid "61a495de-f139-485e-b4a2-a1b25fc77154")
+		)
+		(pin "3"
+			(uuid "4c94bbb3-0df0-41ce-beaf-c92ccf2476f2")
+		)
+		(instances
+			(project ""
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 78.74 0)
 		(unit 1)
@@ -4762,6 +5011,73 @@
 			(project "obc-adcs-board"
 				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
 					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5685b0d6-3e29-4048-a3e8-e1a474756d1a")
+		(property "Reference" "#PWR050"
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3dec33-57a3-4bbd-b8c1-6e6f75b37ca4")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5283,159 +5599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:DF58-4P-1.2V_21_")
-		(at 21.59 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "963562b8-c4f2-4f19-916b-dd9ef4c682da")
-		(property "Reference" "J4"
-			(at 31.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DF58-4P-1.2V_21_"
-			(at 31.75 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connectors:DF584P12V21"
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-30/591775.pdf"
-			(at 38.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hirose DF58 58, 1.2mm Pitch, 4 Way, 1 Row, Straight PCB Header, Surface Mount"
-			(at 38.1 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose"
-			(at 38.1 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF58-4P-1.2V(21)"
-			(at 38.1 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "798-DF58-4P-1.2V21"
-			(at 38.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF58-4P-12V21?qs=7bTaA%2FLYtSZD8VmLOAYe3A%3D%3D"
-			(at 38.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc369600-bf12-4285-bb21-57dab8c79c44")
-		)
-		(pin "2"
-			(uuid "0315786f-f357-49db-a390-8d8eb57c04af")
-		)
-		(pin "3"
-			(uuid "d4d5e971-027b-4246-b05f-a0a5aaaf53df")
-		)
-		(pin "4"
-			(uuid "7b532ef2-f1c9-4f70-853e-f7bfb5a3a1c1")
-		)
-		(pin "5"
-			(uuid "2533797b-742e-40c5-8e67-7c660c8fe2b2")
-		)
-		(pin "6"
-			(uuid "a3286a6e-ae78-40a1-aeb3-7d087b993794")
-		)
-		(instances
-			(project "obc-adcs-board"
-				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 88.9 139.7 270)
 		(mirror x)
@@ -5936,72 +6099,6 @@
 			(project "obc-adcs-board"
 				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b53135bd-a596-426d-8146-147ef25e3f9c")
-		(property "Reference" "#PWR0237"
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9cb05cc-9af1-4207-8080-8d012f009440")
-		)
-		(instances
-			(project "obc-adcs-board"
-				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
-					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -6667,6 +6764,73 @@
 			(project "obc-adcs-board"
 				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f794d4d8-e652-4793-b10d-c80e994bf13a")
+		(property "Reference" "#PWR051"
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0d2610c-717d-4aa8-8c92-18b9afbe0514")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/264ea1cd-7e3a-479f-996a-c3cc3e2732eb/9c18c228-21e1-4b16-9298-abfe20c28989"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

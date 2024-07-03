@@ -6772,6 +6772,248 @@
 			)
 		)
 	)
+	(global_label "MEM_NAND_ENABLE_2"
+		(shape output)
+		(at 146.05 187.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "570421d0-f542-4969-b2e8-f39663b88231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 211.1441 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_ENABLE_1"
+		(shape output)
+		(at 140.97 199.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78950f7c-ffce-4a1c-b3fd-0e60c04e098e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 222.5741 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_ADDR_ENABLE"
+		(shape output)
+		(at 182.88 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87683c15-4821-4972-9222-72795b14ce46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.7532 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_OUT_ENABLE"
+		(shape output)
+		(at 182.88 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88ee8664-8228-4b59-8c3d-6e837e483e27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4832 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SWDIO"
+		(shape bidirectional)
+		(at 194.31 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d500ed6-b92f-43db-ad31-4a76843c269d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.2922 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_BUSY_1"
+		(shape input)
+		(at 143.51 187.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8da917c4-785d-4c46-b535-f9a8f8c2bd6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 209.0275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SWCLK"
+		(shape input)
+		(at 217.17 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fcb173b-f4ec-4376-860a-5f870c455a59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.4037 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_WR_PROT"
+		(shape output)
+		(at 148.59 187.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97d4d506-6843-4b46-b203-8dc0abc5fd25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 210.4789 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_CMD_ENABLE"
+		(shape output)
+		(at 182.88 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4f87548-dfeb-4fff-8e56-2d2fa4a9e354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.846 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEM_NAND_WR_ENABLE"
+		(shape output)
+		(at 161.29 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de28ce2e-ba6c-4f42-8f0c-28a90a392b47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.986 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_ERASE"
+		(shape input)
+		(at 161.29 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa993891-4a16-4315-b4f4-f80a29494fd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1608 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "MEM_A15"
 		(shape output)
 		(at 57.15 132.08 180)
@@ -6880,18 +7122,6 @@
 		)
 		(uuid "15b1e4c3-3ac4-4225-aaac-93993f57a3f1")
 	)
-	(hierarchical_label "MEM_NAND_CMD_ENABLE"
-		(shape output)
-		(at 182.88 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17b7f423-0a41-46d6-8ade-46e596c305cf")
-	)
 	(hierarchical_label "CAN_TX_1"
 		(shape output)
 		(at 57.15 139.7 180)
@@ -6987,18 +7217,6 @@
 			(justify left)
 		)
 		(uuid "2f0733e2-3dfc-40df-ac23-93c847bce6b3")
-	)
-	(hierarchical_label "MCU_ERASE"
-		(shape input)
-		(at 161.29 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f2d91f1-2d59-4adb-926f-d528a74819bd")
 	)
 	(hierarchical_label "USR_GPIO"
 		(shape bidirectional)
@@ -7144,18 +7362,6 @@
 		)
 		(uuid "4d1c5f2a-967c-492a-b7ff-8079b1fb3ec3")
 	)
-	(hierarchical_label "MEM_NAND_WR_PROT"
-		(shape output)
-		(at 148.59 187.96 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4df3a618-5507-4230-9b16-d33d8e46f8d8")
-	)
 	(hierarchical_label "CAN_FAULT_1"
 		(shape input)
 		(at 130.81 187.96 270)
@@ -7179,18 +7385,6 @@
 			(justify right)
 		)
 		(uuid "4fd82b7c-c427-47aa-b046-8afe8180c2ea")
-	)
-	(hierarchical_label "MEM_NAND_BUSY_1"
-		(shape input)
-		(at 143.51 187.96 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5383abca-674a-40aa-bee8-829b82e7b532")
 	)
 	(hierarchical_label "CAN_FAULT_2"
 		(shape input)
@@ -7444,18 +7638,6 @@
 		)
 		(uuid "9079ef3c-f709-432b-9e9d-13ed649c8bc5")
 	)
-	(hierarchical_label "MEM_NAND_ADDR_ENABLE"
-		(shape output)
-		(at 182.88 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9231ec7a-768d-471b-b3cd-39b9c1fd04c1")
-	)
 	(hierarchical_label "MCU_VDDIO"
 		(shape output)
 		(at 389.89 39.37 0)
@@ -7467,18 +7649,6 @@
 			(justify left)
 		)
 		(uuid "92b9a8ef-2500-4638-8eaf-ec2b506815bb")
-	)
-	(hierarchical_label "MEM_NAND_WR_ENABLE"
-		(shape output)
-		(at 161.29 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "944b276c-3c58-4ada-bcbe-a8b8a61a6d58")
 	)
 	(hierarchical_label "MEM_MRAM_ENABLE"
 		(shape output)
@@ -7575,18 +7745,6 @@
 			(justify right)
 		)
 		(uuid "a370643d-3cdc-4649-a505-91bd5111d6de")
-	)
-	(hierarchical_label "MEM_NAND_ENABLE_2"
-		(shape output)
-		(at 146.05 187.96 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab336c51-287c-4467-aa7e-f23467493625")
 	)
 	(hierarchical_label "OBC_UART_RX"
 		(shape input)
@@ -7792,18 +7950,6 @@
 		)
 		(uuid "caef7dee-9e1c-47bf-a8fa-81e6efc67b9c")
 	)
-	(hierarchical_label "MCU_SWCLK"
-		(shape input)
-		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cccc8a54-8e62-4f64-8d81-824496beb516")
-	)
 	(hierarchical_label "LCL_CAN_2_RST"
 		(shape output)
 		(at 128.27 199.39 270)
@@ -7851,30 +7997,6 @@
 			(justify left)
 		)
 		(uuid "d5b42b0a-aa8d-4ab8-b33a-f60825ae6e16")
-	)
-	(hierarchical_label "MEM_NAND_OUT_ENABLE"
-		(shape output)
-		(at 182.88 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d63c9fcb-e88c-415f-b60d-794ab0d7b1ce")
-	)
-	(hierarchical_label "MEM_NAND_ENABLE_1"
-		(shape output)
-		(at 140.97 199.39 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d71f07ec-521a-440b-8574-d1ad52a14ad3")
 	)
 	(hierarchical_label "MCU_TRACECLK"
 		(shape output)
@@ -7983,18 +8105,6 @@
 			(justify right)
 		)
 		(uuid "f6c140a0-b59c-4fb3-b1e2-b2003b3dac92")
-	)
-	(hierarchical_label "MCU_SWDIO"
-		(shape bidirectional)
-		(at 194.31 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f73364bc-710a-4c96-9f26-a1b18a69c067")
 	)
 	(hierarchical_label "CAN_TX_2"
 		(shape output)

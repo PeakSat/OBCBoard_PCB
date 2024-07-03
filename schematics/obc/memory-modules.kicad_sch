@@ -3630,7 +3630,7 @@
 	)
 	(hierarchical_label "MEM_MRAM_ENABLE"
 		(shape input)
-		(at 189.23 133.35 180)
+		(at 189.23 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3750,7 +3750,7 @@
 	)
 	(hierarchical_label "MEM_MRAM_WR_ENABLE"
 		(shape input)
-		(at 189.23 135.89 180)
+		(at 189.23 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

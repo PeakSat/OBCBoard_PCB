@@ -7003,6 +7003,50 @@
 			)
 		)
 	)
+	(global_label "ADCS_SWDIO"
+		(shape bidirectional)
+		(at 195.58 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "460e2e0a-49e6-4138-a512-ba89c0c37b9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.5354 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADCS_ERASE"
+		(shape input)
+		(at 168.91 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56efe0e0-9aff-49dd-a267-e1f169b3f563")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.9128 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA_PANELS"
 		(shape input)
 		(at 190.5 83.82 0)
@@ -7016,6 +7060,28 @@
 		(uuid "8b068ab7-03fa-479a-84e4-f3453f49994f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4943 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADCS_SWCLK"
+		(shape input)
+		(at 210.82 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcac40ea-f452-4899-8f2b-12859b73772b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.1857 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,18 +7307,6 @@
 		)
 		(uuid "6941656c-e1de-47d8-97c2-790ed4143426")
 	)
-	(hierarchical_label "MCU_ERASE"
-		(shape input)
-		(at 168.91 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74ff441e-4537-4c64-83c0-b0c5e99826e6")
-	)
 	(hierarchical_label "CAN_SILENT_2"
 		(shape output)
 		(at 118.11 190.5 270)
@@ -7324,18 +7378,6 @@
 			(justify right)
 		)
 		(uuid "9c7df3d2-ce4d-4be2-bdd8-b1c271064b58")
-	)
-	(hierarchical_label "MCU_SWCLK"
-		(shape input)
-		(at 210.82 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d6b5816-2b3f-4193-9f0f-6078ffcc6913")
 	)
 	(hierarchical_label "3V3_PROT_ADCS"
 		(shape input)
@@ -7480,18 +7522,6 @@
 			(justify left)
 		)
 		(uuid "dd76893a-8855-443a-b532-42612325dd09")
-	)
-	(hierarchical_label "MCU_SWDIO"
-		(shape bidirectional)
-		(at 195.58 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef423b26-fee7-4d5d-8b7f-c9ce446d0a10")
 	)
 	(hierarchical_label "MCU_TRACED_1"
 		(shape output)
