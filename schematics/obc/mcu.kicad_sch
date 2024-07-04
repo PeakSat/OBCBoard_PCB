@@ -6816,6 +6816,28 @@
 			)
 		)
 	)
+	(global_label "MEM_NAND_BUSY_2"
+		(shape input)
+		(at 135.89 187.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "814719ee-1f28-44d6-8a7d-e36c1d81247b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 209.0275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MEM_NAND_ADDR_ENABLE"
 		(shape output)
 		(at 182.88 96.52 0)
@@ -6926,7 +6948,7 @@
 			)
 		)
 	)
-	(global_label "MEM_NAND_WR_PROT"
+	(global_label "MEM_NAND_WR_PROTECT"
 		(shape output)
 		(at 148.59 187.96 270)
 		(fields_autoplaced yes)
@@ -6938,7 +6960,7 @@
 		)
 		(uuid "97d4d506-6843-4b46-b203-8dc0abc5fd25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 210.4789 90)
+			(at 148.59 213.2113 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,18 +7863,6 @@
 			(justify left)
 		)
 		(uuid "be457f0c-3f9e-433a-8133-601d8ba66241")
-	)
-	(hierarchical_label "MEM_NAND_BUSY_2"
-		(shape input)
-		(at 135.89 187.96 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bee04841-6782-4080-92d8-30914f8d946c")
 	)
 	(hierarchical_label "MEM_D3"
 		(shape bidirectional)

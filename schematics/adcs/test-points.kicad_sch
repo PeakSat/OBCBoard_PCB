@@ -1235,6 +1235,28 @@
 		)
 		(uuid "e738b046-2f57-4f5a-badd-f3513972a882")
 	)
+	(global_label "ADCS_ERASE"
+		(shape output)
+		(at 107.95 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9ffee0c-e7b7-47b9-a31b-a12436715225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.607 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "USR_GPIO_PWM"
 		(shape input)
 		(at 90.17 91.44 180)
@@ -1390,18 +1412,6 @@
 			(justify right)
 		)
 		(uuid "d2092de1-03bb-4b2d-8462-a8684d9503c3")
-	)
-	(hierarchical_label "MCU_ERASE"
-		(shape output)
-		(at 107.95 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d309c25b-cb0a-4177-a104-08beacd0a5b4")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
