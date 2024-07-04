@@ -193,6 +193,26 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 67.31) (xy 336.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be9297c-7e50-4de1-8b27-a3e6113c1d58")
+	)
+	(wire
+		(pts
+			(xy 337.82 64.77) (xy 337.82 65.024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa5174a-0dc4-4ff0-98f0-a73f8bdadbe1")
+	)
+	(wire
+		(pts
 			(xy 152.4 43.18) (xy 153.67 43.18)
 		)
 		(stroke
@@ -200,6 +220,16 @@
 			(type default)
 		)
 		(uuid "aac535be-e3d8-42df-8e77-770bff3139d0")
+	)
+	(wire
+		(pts
+			(xy 336.55 67.31) (xy 336.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ac4f00-8880-4b0e-9843-2cbcea6bdf5f")
 	)
 	(wire
 		(pts
@@ -220,6 +250,16 @@
 			(type default)
 		)
 		(uuid "e1c543c6-6afb-4709-8b2f-d1e2011b29be")
+	)
+	(wire
+		(pts
+			(xy 336.55 64.77) (xy 337.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecdf9de-030d-4f93-a1f0-bfc343c01021")
 	)
 	(text "Memory Modules"
 		(exclude_from_sim no)
@@ -1586,7 +1626,7 @@
 		(uuid "76834ce6-ac20-46a7-b69d-89c976fca3f6")
 	)
 	(label "3V3_PROT"
-		(at 337.82 65.024 180)
+		(at 336.55 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2860,6 +2900,28 @@
 			(justify left bottom)
 		)
 		(uuid "fe7fbc7a-c1f5-43d2-be2c-183c3b8e62aa")
+	)
+	(global_label "3V3_PROT"
+		(shape input)
+		(at 335.28 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "136526e9-b7e0-4f92-9047-a48bae02b2c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.9815 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "ADCS_UART_TX"
 		(shape input)

@@ -1,7 +1,7 @@
 # AcubeSat - On Board Computer PCB
 
 This repository contains schematics and layout files for
-the On-Board Computer's PCB.
+a test board.
 
 **NOTE:** EVERYTHING CONTAINED HERE IS UNTESTED AND WORK-IN-PROGRESS.
 USE AT YOUR OWN RISK!

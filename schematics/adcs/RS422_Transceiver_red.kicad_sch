@@ -799,9 +799,9 @@
 		(at 72.39 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5ca9db04-14a3-496a-80dc-a3e579cf830c")
 		(property "Reference" "IC9"

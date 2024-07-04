@@ -558,9 +558,9 @@
 		(at 58.42 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e858be1-fcd1-4892-957b-6205aea61dc4")
 		(property "Reference" "J20"
