@@ -9400,8 +9400,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp yes)
+		(on_board no)
+		(dnp no)
 		(uuid "5b2101fc-ad75-4fe2-8da7-3713f075a781")
 		(property "Reference" "U14"
 			(at 109.22 121.92 0)

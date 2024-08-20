@@ -4023,9 +4023,9 @@
 		(at 243.84 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29088a55-14e3-4bba-a59a-9b93aca43619")
 		(property "Reference" "C99"
 			(at 246.38 78.74 0)
@@ -4495,9 +4495,9 @@
 		(at 254 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "94cd06e3-f1ff-4f9c-b540-67ed6260d0af")
 		(property "Reference" "C101"
 			(at 257.048 78.74 0)

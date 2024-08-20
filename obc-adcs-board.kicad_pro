@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|144522999|50996001|bcfeb4d6-2339-45e9-aa3e-a34a89542133|dd3a0ecd-810f-4cff-85ba-196fbba04c4a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -976,7 +974,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers/",
-      "pos_files": "POS files/",
+      "pos_files": "C:/Users/iliaz/Desktop/pos/",
       "specctra_dsn": "",
       "step": "obc-adcs-board.stp",
       "svg": "",
