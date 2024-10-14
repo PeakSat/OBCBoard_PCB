@@ -1,1242 +1,3326 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid c6293e67-6cdd-4536-b65b-5a293d877bc4)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "ADCS_IC:FEMTOSMDC016F-2" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at 13.97 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "FEMTOSMDC016F-2" (at 13.97 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "FUSC1608X85N" (at 13.97 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf" (at 13.97 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX" (at 13.97 -3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "0.85" (at 13.97 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "LITTELFUSE" (at 13.97 -8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "FEMTOSMDC016F-2" (at 13.97 -11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "650-FEMTOSMDC016F-2" (at 13.97 -13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D" (at 13.97 -16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Arrow Part Number" "FEMTOSMDC016F-2" (at 13.97 -19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse" (at 13.97 -21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FEMTOSMDC016F-2_0_0"
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 17.78 0 180) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "FEMTOSMDC016F-2_0_1"
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy 12.7 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 1.27)
-            (xy 12.7 1.27)
-            (xy 12.7 -1.27)
-            (xy 5.08 -1.27)
-            (xy 5.08 1.27)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "MISC:TCAN337GD" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 24.13 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "TCAN337GD" (at 24.13 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "SOIC127P600X175-8N" (at 24.13 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments" (at 24.13 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "CAN Interface IC" (at 24.13 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "1.75" (at 24.13 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "595-TCAN337GD" (at 24.13 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD" (at 24.13 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "Texas Instruments" (at 24.13 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "TCAN337GD" (at 24.13 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "CAN Interface IC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TCAN337GD_0_0"
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "TXD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -5.08 0) (length 5.08)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 0) (length 5.08)
-          (name "RXD" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 27.94 -7.62 180) (length 5.08)
-          (name "FAULT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 27.94 -5.08 180) (length 5.08)
-          (name "CANL" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 27.94 -2.54 180) (length 5.08)
-          (name "CANH" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 27.94 0 180) (length 5.08)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TCAN337GD_0_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 22.86 2.54)
-            (xy 22.86 -10.16)
-            (xy 5.08 -10.16)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "OBC_PASSIVE:GCM155R71H104KE02J" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 8.89 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "GCM155R71H104KE02J" (at 8.89 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "CAPC1005X55N" (at 8.89 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" (at 8.89 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" (at 8.89 -3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "0.55" (at 8.89 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "81-GCM155R71H104KE2J" (at 8.89 -8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" (at 8.89 -11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "Murata Electronics" (at 8.89 -13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "GCM155R71H104KE02J" (at 8.89 -16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GCM155R71H104KE02J_0_0"
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 0 180) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "GCM155R71H104KE02J_0_1"
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy 5.588 0)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.588 2.54)
-            (xy 5.588 -2.54)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.112 0)
-            (xy 7.62 0)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.112 2.54)
-            (xy 7.112 -2.54)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 78.74 107.95) (diameter 0) (color 0 0 0 0)
-    (uuid 5c3b73b3-16ec-468e-b2d3-fe194da7edca)
-  )
-  (junction (at 128.27 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 6afcbd10-ae70-4b10-bd62-3544a657b11b)
-  )
-  (junction (at 88.9 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid 76cf5a91-651e-40a2-8502-edc856981c6e)
-  )
-  (junction (at 77.47 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 96bc8165-0f08-4a4d-ad2b-a8fbb60ae517)
-  )
-  (junction (at 90.17 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid a4b3272d-88c9-4904-8a9b-316b488fabc1)
-  )
-  (junction (at 127 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid a9df9429-3e6b-4eb1-926f-fa04ac4cca1d)
-  )
-  (junction (at 78.74 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid aa72267e-e3ee-469b-b837-ea58c175885a)
-  )
-  (junction (at 90.17 107.95) (diameter 0) (color 0 0 0 0)
-    (uuid b491f1a9-59a9-4940-9d00-72fdd46f8434)
-  )
-  (junction (at 88.9 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid b96ea704-8bcf-4e85-97b2-ab63565ff54b)
-  )
-  (junction (at 77.47 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid ce973528-223b-45ef-be00-6d54aaf7e791)
-  )
-
-  (wire (pts (xy 127 50.8) (xy 152.4 50.8))
-    (stroke (width 0) (type default))
-    (uuid 0070b06b-fa19-4b97-a031-c2bc1c4129e9)
-  )
-  (wire (pts (xy 130.81 104.14) (xy 128.27 104.14))
-    (stroke (width 0) (type default))
-    (uuid 0410651a-0ddc-4558-8eab-a12ab8201c62)
-  )
-  (wire (pts (xy 88.9 59.69) (xy 77.47 59.69))
-    (stroke (width 0) (type default))
-    (uuid 09b6ce85-b194-4a58-ab17-0487565cefc4)
-  )
-  (wire (pts (xy 78.74 91.44) (xy 78.74 96.52))
-    (stroke (width 0) (type default))
-    (uuid 0ab78d4e-3119-431a-a6d3-a6c0cfba92a8)
-  )
-  (wire (pts (xy 74.93 44.45) (xy 77.47 44.45))
-    (stroke (width 0) (type default))
-    (uuid 0af8a0ef-6a90-40a2-a847-3e616ab6c9f7)
-  )
-  (wire (pts (xy 77.47 87.63) (xy 90.17 87.63))
-    (stroke (width 0) (type default))
-    (uuid 0f275e58-e8d2-4b64-b71e-4c7f26c00415)
-  )
-  (wire (pts (xy 152.4 53.34) (xy 152.4 58.42))
-    (stroke (width 0) (type default))
-    (uuid 0f553a76-1798-4854-ae99-832c96a9ba35)
-  )
-  (wire (pts (xy 90.17 91.44) (xy 78.74 91.44))
-    (stroke (width 0) (type default))
-    (uuid 127a8058-9733-4d3b-8a2e-2e2f874849a2)
-  )
-  (wire (pts (xy 128.27 99.06) (xy 149.86 99.06))
-    (stroke (width 0) (type default))
-    (uuid 154c129d-4497-440d-8ea6-3a3751936100)
-  )
-  (wire (pts (xy 96.52 107.95) (xy 90.17 107.95))
-    (stroke (width 0) (type default))
-    (uuid 15a2e22f-6f3e-4052-a278-f7cdc8a43ee9)
-  )
-  (wire (pts (xy 149.86 101.6) (xy 149.86 106.68))
-    (stroke (width 0) (type default))
-    (uuid 17e45740-c7c3-4922-97a7-c29cba849722)
-  )
-  (wire (pts (xy 54.61 111.76) (xy 100.33 111.76))
-    (stroke (width 0) (type default))
-    (uuid 189ca0df-7889-48ad-a7bc-d3bad545e49e)
-  )
-  (wire (pts (xy 78.74 104.14) (xy 78.74 107.95))
-    (stroke (width 0) (type default))
-    (uuid 1e3d1909-a5d8-4eba-ab6a-30daaa6a9727)
-  )
-  (wire (pts (xy 152.4 45.72) (xy 157.48 45.72))
-    (stroke (width 0) (type default))
-    (uuid 2ba05f05-54ca-4a96-8c6f-cf1dffd5aac5)
-  )
-  (wire (pts (xy 96.52 99.06) (xy 96.52 91.44))
-    (stroke (width 0) (type default))
-    (uuid 31458a79-338e-4b5a-99c6-8decaa71cc5e)
-  )
-  (wire (pts (xy 55.88 44.45) (xy 57.15 44.45))
-    (stroke (width 0) (type default))
-    (uuid 319023b4-1497-4471-a028-5334c694e19a)
-  )
-  (wire (pts (xy 100.33 99.06) (xy 96.52 99.06))
-    (stroke (width 0) (type default))
-    (uuid 3245d30f-9f60-43cd-945d-19cb1850cf0b)
-  )
-  (wire (pts (xy 77.47 59.69) (xy 71.12 59.69))
-    (stroke (width 0) (type default))
-    (uuid 3c6fdbec-80d4-4412-aa88-348c7ae16d68)
-  )
-  (wire (pts (xy 127 53.34) (xy 152.4 53.34))
-    (stroke (width 0) (type default))
-    (uuid 43e94a56-bf3f-43b6-8996-4b82da190541)
-  )
-  (wire (pts (xy 95.25 53.34) (xy 95.25 59.69))
-    (stroke (width 0) (type default))
-    (uuid 4a90e957-c178-4ccf-8cf6-6133fea9dde5)
-  )
-  (wire (pts (xy 90.17 107.95) (xy 78.74 107.95))
-    (stroke (width 0) (type default))
-    (uuid 522809e3-cfde-4a8d-ae93-8b8b06a288ea)
-  )
-  (wire (pts (xy 154.94 106.68) (xy 154.94 104.14))
-    (stroke (width 0) (type default))
-    (uuid 5ea59b4c-7f8e-4116-8150-65555f4e5a23)
-  )
-  (wire (pts (xy 88.9 59.69) (xy 88.9 58.42))
-    (stroke (width 0) (type default))
-    (uuid 62a593a7-d033-45bf-bc0a-3a9a4d4ad3a6)
-  )
-  (wire (pts (xy 149.86 99.06) (xy 149.86 93.98))
-    (stroke (width 0) (type default))
-    (uuid 652c4c3b-7626-4ab8-afcc-32123757d504)
-  )
-  (wire (pts (xy 149.86 106.68) (xy 154.94 106.68))
-    (stroke (width 0) (type default))
-    (uuid 65574887-96ee-4499-80d3-8a4e639434f0)
-  )
-  (wire (pts (xy 88.9 39.37) (xy 88.9 44.45))
-    (stroke (width 0) (type default))
-    (uuid 69e73b44-e590-48c5-909a-bb26ada37892)
-  )
-  (wire (pts (xy 152.4 50.8) (xy 152.4 45.72))
-    (stroke (width 0) (type default))
-    (uuid 6e6ba29f-b514-44f2-af34-c993d3e52a7b)
-  )
-  (wire (pts (xy 96.52 91.44) (xy 90.17 91.44))
-    (stroke (width 0) (type default))
-    (uuid 7b443fa4-fa69-4324-a452-8ae49569312b)
-  )
-  (wire (pts (xy 77.47 55.88) (xy 77.47 59.69))
-    (stroke (width 0) (type default))
-    (uuid 8845dc18-d40a-409d-a37c-3a476a25a27c)
-  )
-  (wire (pts (xy 100.33 85.09) (xy 100.33 96.52))
-    (stroke (width 0) (type default))
-    (uuid 88d77644-bc11-4a17-a256-528410083a35)
-  )
-  (wire (pts (xy 152.4 58.42) (xy 157.48 58.42))
-    (stroke (width 0) (type default))
-    (uuid 88db6089-7cde-4692-bc53-9b8779cd908f)
-  )
-  (wire (pts (xy 88.9 44.45) (xy 95.25 44.45))
-    (stroke (width 0) (type default))
-    (uuid 8d850223-9880-4ec5-ade8-dea691395f05)
-  )
-  (wire (pts (xy 95.25 50.8) (xy 95.25 44.45))
-    (stroke (width 0) (type default))
-    (uuid 9389a89c-d2e0-43f9-83f1-16915eca2218)
-  )
-  (wire (pts (xy 99.06 53.34) (xy 95.25 53.34))
-    (stroke (width 0) (type default))
-    (uuid 975a2a56-2de8-4bc0-9cdc-6454c6ba35f0)
-  )
-  (wire (pts (xy 90.17 107.95) (xy 90.17 105.41))
-    (stroke (width 0) (type default))
-    (uuid 9bdb4d6b-3287-4a27-ac83-936c9ec95170)
-  )
-  (wire (pts (xy 100.33 101.6) (xy 96.52 101.6))
-    (stroke (width 0) (type default))
-    (uuid a0b76120-bcdd-4b52-bb2a-6cb41a3c38da)
-  )
-  (wire (pts (xy 99.06 50.8) (xy 95.25 50.8))
-    (stroke (width 0) (type default))
-    (uuid a0e050ee-4742-4644-8d6f-b441e411e2c7)
-  )
-  (wire (pts (xy 55.88 36.83) (xy 99.06 36.83))
-    (stroke (width 0) (type default))
-    (uuid b39d78de-c262-4ea3-a4c2-82c0b963b732)
-  )
-  (wire (pts (xy 96.52 101.6) (xy 96.52 107.95))
-    (stroke (width 0) (type default))
-    (uuid b4f89a20-f490-4627-9ded-79bf39bc8bca)
-  )
-  (wire (pts (xy 78.74 107.95) (xy 66.04 107.95))
-    (stroke (width 0) (type default))
-    (uuid b7d3bbf6-2c3f-46a3-b1ac-dbc59f4166d6)
-  )
-  (wire (pts (xy 77.47 44.45) (xy 77.47 48.26))
-    (stroke (width 0) (type default))
-    (uuid b8616a59-dd70-448b-9ee9-01fbcec32e62)
-  )
-  (wire (pts (xy 53.34 85.09) (xy 100.33 85.09))
-    (stroke (width 0) (type default))
-    (uuid b94e3c50-dacf-4b6f-9acf-c068e813c8e0)
-  )
-  (wire (pts (xy 149.86 93.98) (xy 154.94 93.98))
-    (stroke (width 0) (type default))
-    (uuid bb689c5d-7ebe-4f33-bd13-57e37930455f)
-  )
-  (wire (pts (xy 130.81 96.52) (xy 128.27 96.52))
-    (stroke (width 0) (type default))
-    (uuid bd282785-df53-4499-b2a4-7aacc3f8af92)
-  )
-  (wire (pts (xy 129.54 55.88) (xy 127 55.88))
-    (stroke (width 0) (type default))
-    (uuid c2bf3823-ec46-45e1-a56e-f0bd946a080a)
-  )
-  (wire (pts (xy 74.93 91.44) (xy 78.74 91.44))
-    (stroke (width 0) (type default))
-    (uuid c9eea055-1290-4863-88a2-c85b62ca6757)
-  )
-  (wire (pts (xy 77.47 44.45) (xy 88.9 44.45))
-    (stroke (width 0) (type default))
-    (uuid d2b83255-3e23-4293-83f5-89b581e3b87d)
-  )
-  (wire (pts (xy 157.48 58.42) (xy 157.48 55.88))
-    (stroke (width 0) (type default))
-    (uuid d722daeb-b080-4274-93e5-8a6757e9c7d8)
-  )
-  (wire (pts (xy 95.25 59.69) (xy 88.9 59.69))
-    (stroke (width 0) (type default))
-    (uuid d7c0142e-139f-4af9-b66b-c969b7ac2f6f)
-  )
-  (wire (pts (xy 154.94 93.98) (xy 154.94 96.52))
-    (stroke (width 0) (type default))
-    (uuid da5312ab-b90d-4791-a473-10b908f1f497)
-  )
-  (wire (pts (xy 90.17 87.63) (xy 90.17 91.44))
-    (stroke (width 0) (type default))
-    (uuid dc55872f-7818-4ea1-b7d9-266437ccf79d)
-  )
-  (wire (pts (xy 90.17 91.44) (xy 90.17 92.71))
-    (stroke (width 0) (type default))
-    (uuid def66fb6-cc11-4c25-adf9-e5a949cd2794)
-  )
-  (wire (pts (xy 99.06 63.5) (xy 99.06 55.88))
-    (stroke (width 0) (type default))
-    (uuid e3b6bfda-ec41-4369-9e33-7bc94b1cfd2a)
-  )
-  (wire (pts (xy 53.34 91.44) (xy 57.15 91.44))
-    (stroke (width 0) (type default))
-    (uuid e42bb20c-df83-4ac2-bf25-deb2de43c43d)
-  )
-  (wire (pts (xy 100.33 111.76) (xy 100.33 104.14))
-    (stroke (width 0) (type default))
-    (uuid e5bbcf80-401f-4945-b586-ef264665ce64)
-  )
-  (wire (pts (xy 55.88 63.5) (xy 99.06 63.5))
-    (stroke (width 0) (type default))
-    (uuid e936b2a4-d089-4b84-a2c2-6d2986071c81)
-  )
-  (wire (pts (xy 88.9 44.45) (xy 88.9 45.72))
-    (stroke (width 0) (type default))
-    (uuid f2b4fcf5-6fa1-42ac-8664-dc22efaca2d2)
-  )
-  (wire (pts (xy 157.48 45.72) (xy 157.48 48.26))
-    (stroke (width 0) (type default))
-    (uuid f3ca8f5a-c5c8-4bb0-ae10-6c3ac39e818a)
-  )
-  (wire (pts (xy 99.06 36.83) (xy 99.06 48.26))
-    (stroke (width 0) (type default))
-    (uuid f7034ece-a155-4f87-a9b6-62d9df3d0dcb)
-  )
-  (wire (pts (xy 128.27 101.6) (xy 149.86 101.6))
-    (stroke (width 0) (type default))
-    (uuid f8395ef9-c46c-410c-b1e3-0a6ccf639925)
-  )
-  (wire (pts (xy 129.54 48.26) (xy 127 48.26))
-    (stroke (width 0) (type default))
-    (uuid ff8f2e04-4be4-49be-80e9-5945354298a0)
-  )
-
-  (text "Redundant" (at 49.53 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 008826a6-92ed-4afe-ba27-0e97359d4d03)
-  )
-  (text "Main" (at 48.26 30.48 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 77fab459-72b1-48e1-9437-9db99e5d1ec9)
-  )
-  (text "NOTE: 120 Ω terminating resistors\nto be placed at bus ends\n(COMMS-SU tentative)"
-    (at 153.67 81.28 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c710d350-851e-43e5-aae1-4f29cc4c7a09)
-  )
-
-  (global_label "CAN2-" (shape bidirectional) (at 146.558 99.06 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3b9a16b9-30f3-47a4-8589-96745e7f1c6e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 146.4786 90.2648 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CAN2+" (shape bidirectional) (at 146.685 101.6 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4d468837-198e-4b78-bac5-52290b844e2f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 146.7644 110.3952 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "CAN1-" (shape bidirectional) (at 148.463 50.8 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5f0eddda-7d97-4404-9fa5-5248e2e599ab)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 148.3836 42.0048 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CAN1+" (shape bidirectional) (at 148.717 53.34 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8654e00e-7470-497f-a285-5e6d54d4cdcc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 148.7964 62.1352 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (hierarchical_label "CAN_TRX_FUSE_2" (shape output) (at 77.47 87.63 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0ab07786-e0f0-4a46-bcee-18a7570ce21d)
-  )
-  (hierarchical_label "VCC" (shape input) (at 53.34 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 140b493c-42d3-4d7e-bbea-d5388affae72)
-  )
-  (hierarchical_label "CAN_TRX_FUSE_1" (shape output) (at 88.9 39.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 29bf48bb-c688-465e-b165-f687a18f1f34)
-  )
-  (hierarchical_label "FAULT_MAIN" (shape output) (at 129.54 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2f40bc95-147a-4324-b721-56d2dc4e2a60)
-  )
-  (hierarchical_label "CAN_TX_BKUP" (shape input) (at 54.61 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3176b4bd-b113-428c-8a5d-1822ef6de72a)
-  )
-  (hierarchical_label "CAN_RX_BKUP" (shape output) (at 53.34 85.09 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 347ab3f3-542b-4e82-96b1-dccde68f0300)
-  )
-  (hierarchical_label "VCC" (shape input) (at 128.27 88.9 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 39f9ae6a-a4de-410d-9593-af4d8d67ed3f)
-  )
-  (hierarchical_label "CAN_TX_MAIN" (shape input) (at 55.88 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 65799a7b-211a-4792-96f5-fb8b1d8aa748)
-  )
-  (hierarchical_label "FAULT_BKUP" (shape output) (at 130.81 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 702f877d-2a59-4c9c-825b-06b691e96bd7)
-  )
-  (hierarchical_label "VCC" (shape input) (at 55.88 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8f8c131b-1142-496f-8932-0549daef4fcf)
-  )
-  (hierarchical_label "CAN_RX_MAIN" (shape output) (at 55.88 36.83 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8fa55f89-ac50-42dd-b890-bc3eba83fef8)
-  )
-  (hierarchical_label "SILENT_MAIN" (shape input) (at 129.54 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a4b5625b-50fb-47ab-9699-31a7c03f915f)
-  )
-  (hierarchical_label "VCC" (shape input) (at 127 40.64 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b09598df-07af-4a0b-8f38-d389e5136c9e)
-  )
-  (hierarchical_label "SILENT_BKUP" (shape input) (at 130.81 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid be2603b6-cad0-44fb-9747-c272b3dce3d5)
-  )
-
-  (symbol (lib_id "Device:R") (at 157.48 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 04300914-890d-462a-9694-b0a1bd32d0ff)
-    (property "Reference" "R13" (at 159.258 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120" (at 159.258 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 155.702 52.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 157.48 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 930120c3-388e-4510-befd-4a8198ed7dd3))
-    (pin "2" (uuid 9d14ae3d-3dc7-4614-9e8e-8f7a24412bcc))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MISC:TCAN337GD") (at 100.33 104.14 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 200b0542-fa08-4512-97a9-d50080462eae)
-    (property "Reference" "U11" (at 114.3 110.871 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TCAN337GD" (at 114.3 108.5596 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MISC:TCAN337GDR" (at 124.46 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments" (at 124.46 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "CAN Interface IC" (at 124.46 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "1.75" (at 124.46 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "595-TCAN337GD" (at 124.46 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD" (at 124.46 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 124.46 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "TCAN337GD" (at 124.46 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid ecc53ab9-96bf-4085-b1b0-4d79813f65f5))
-    (pin "2" (uuid 5ec3ce8c-1cdf-4a3b-8ede-a9d4a1104081))
-    (pin "3" (uuid 65ae7ef5-2117-4677-a5a9-57d8808a4329))
-    (pin "4" (uuid a9f7857e-9bce-4f66-8325-6894ed0d9d07))
-    (pin "5" (uuid 1f758545-fa5d-4fc8-8083-2bed88b65b1c))
-    (pin "6" (uuid cf380c03-b327-430d-9406-da32243a0c23))
-    (pin "7" (uuid 00463fbf-0efc-4ee0-bd82-db8639dc1c43))
-    (pin "8" (uuid 0fce6bf5-28b4-4db7-8309-e2d18041b7ae))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "U11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 127 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 54c66847-9235-4343-92b1-d1db6753d186)
-    (property "Reference" "R122" (at 128.778 43.2816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100K" (at 128.778 45.593 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 125.222 44.45 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4f7c677-d028-4857-be60-abe73e2936f9))
-    (pin "2" (uuid 10268a48-4d2c-450c-9666-aad9abd75dbb))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "R122") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 71.12 59.69 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 640992ad-f08b-4245-a197-2e85bdd4b881)
-    (property "Reference" "#PWR023" (at 64.77 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 67.31 59.69 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 71.12 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.12 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5624cafc-965e-4156-a998-d533db0757cd))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MISC:TCAN337GD") (at 99.06 55.88 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6cfb4d14-56ab-400d-a0ff-d499e0b0a00d)
-    (property "Reference" "U10" (at 113.03 62.611 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TCAN337GD" (at 113.03 60.2996 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MISC:TCAN337GDR" (at 123.19 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments" (at 123.19 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "CAN Interface IC" (at 123.19 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "1.75" (at 123.19 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "595-TCAN337GD" (at 123.19 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD" (at 123.19 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 123.19 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "TCAN337GD" (at 123.19 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 8fffd86c-e937-4d43-8ed0-85b04b7386f2))
-    (pin "2" (uuid 1ca393af-1a65-4dab-a332-5df303f22329))
-    (pin "3" (uuid 3afaede0-fe15-41cb-bd61-9e062b40b56e))
-    (pin "4" (uuid dff25131-19eb-45c0-8ed5-ce5a4c2831fd))
-    (pin "5" (uuid 91c39f6d-039a-4c1a-b895-057447e6a7c7))
-    (pin "6" (uuid bbde2c02-ea45-4835-952e-3ee6532c0cf4))
-    (pin "7" (uuid 78438dde-cc36-4808-ad36-e725487ba04b))
-    (pin "8" (uuid 682341b9-70fc-4d86-99f6-cfbb573fa6f2))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "U10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ADCS_IC:FEMTOSMDC016F-2") (at 57.15 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 94b5378e-6e41-4c86-a5c7-252af6f8a35b)
-    (property "Reference" "F6" (at 66.04 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "FEMTOSMDC016F-2" (at 62.23 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "ADCS_IC:FUSC1608X85N" (at 71.12 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf" (at 71.12 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX" (at 71.12 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "0.85" (at 71.12 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "LITTELFUSE" (at 71.12 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "FEMTOSMDC016F-2" (at 71.12 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "650-FEMTOSMDC016F-2" (at 71.12 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D" (at 71.12 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "FEMTOSMDC016F-2" (at 71.12 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse" (at 71.12 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 8d7b55bb-ae8e-4b94-a788-922cc9e533c8))
-    (pin "2" (uuid 8f445055-46ff-4f1b-a7ac-48d0b739e55c))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "F6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "OBC_PASSIVE:GCM155R71H104KE02J") (at 88.9 45.72 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a36fd11c-77f1-4992-8adf-608fd1df5351)
-    (property "Reference" "C17" (at 85.6488 50.9016 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 85.6488 53.213 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 87.63 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" (at 90.17 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" (at 92.71 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "0.55" (at 95.25 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "81-GCM155R71H104KE2J" (at 97.79 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" (at 100.33 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Murata Electronics" (at 102.87 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "GCM155R71H104KE02J" (at 105.41 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid e1663dc5-a72c-432b-8ee3-83d73deb0fdd))
-    (pin "2" (uuid 145c616e-3bd1-4b39-93bf-70f43cdaa916))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ADCS_IC:FEMTOSMDC016F-2") (at 57.15 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bcfad1fa-d9b9-4368-bd70-1197acdcfbbe)
-    (property "Reference" "F7" (at 66.04 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "FEMTOSMDC016F-2" (at 66.04 93.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "ADCS_IC:FUSC1608X85N" (at 71.12 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf" (at 71.12 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX" (at 71.12 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "0.85" (at 71.12 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "LITTELFUSE" (at 71.12 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "FEMTOSMDC016F-2" (at 71.12 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "650-FEMTOSMDC016F-2" (at 71.12 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D" (at 71.12 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "FEMTOSMDC016F-2" (at 71.12 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse" (at 71.12 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 5d3d95cd-82c6-4a64-9caa-1618f72f1918))
-    (pin "2" (uuid 6f19e8fb-2f81-440b-bf4b-ed48a7a6df1d))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "F7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 66.04 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d46c428b-e4dd-4700-bb3d-f2251015ccce)
-    (property "Reference" "#PWR024" (at 59.69 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 62.23 107.95 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 66.04 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 66.04 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e00a75f-3518-458a-9613-497f279f284a))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "#PWR024") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 78.74 100.33 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dff8d45b-e2a4-480d-8b29-8d8f56c99155)
-    (property "Reference" "C94" (at 75.819 99.1616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 75.819 101.473 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 77.7748 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 78.74 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 540cc4c7-5cec-466b-a54b-4c66268bcc93))
-    (pin "2" (uuid 77f225a6-84b5-4731-8d69-b569888ed7e8))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "C94") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 154.94 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e6d80370-e107-4496-8397-b40e6948294a)
-    (property "Reference" "R18" (at 156.718 99.1616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120" (at 156.718 101.473 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 153.162 100.33 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 154.94 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 81542053-1701-4475-bb99-4eef2e0109ec))
-    (pin "2" (uuid 069d6da4-25ab-45dd-b05a-d4ff8c9cf29a))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 77.47 52.07 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eb9837cb-bf6f-43da-bde8-757d59e9f57f)
-    (property "Reference" "C92" (at 74.549 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 74.549 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 76.5048 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 77.47 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d9221cc-bef3-465f-b042-5fec8f114db9))
-    (pin "2" (uuid 37151358-5d26-4223-aab7-bbe564f73269))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "C92") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 128.27 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f504a755-e980-432e-a630-34370e2d405b)
-    (property "Reference" "R123" (at 130.048 91.5416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100K" (at 130.048 93.853 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 126.492 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1bbebf83-0fec-4564-8a98-5788d1f65a59))
-    (pin "2" (uuid 9ece2962-02b0-45e2-a1c4-bf8cdc6b5a76))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "R123") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "OBC_PASSIVE:GCM155R71H104KE02J") (at 90.17 92.71 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb730b89-7635-4fa5-9e74-319db4ff4466)
-    (property "Reference" "C18" (at 86.9188 97.8916 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 86.9188 100.203 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 88.9 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html" (at 91.44 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm" (at 93.98 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "0.55" (at 96.52 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "81-GCM155R71H104KE2J" (at 99.06 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D" (at 101.6 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Murata Electronics" (at 104.14 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "GCM155R71H104KE02J" (at 106.68 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 54e364f6-b370-4f2f-b68c-2ebccbbc7084))
-    (pin "2" (uuid 1f5808e7-7d1b-4015-af2f-ae802884b9c5))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
-          (reference "C18") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c6293e67-6cdd-4536-b65b-5a293d877bc4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ADCS_IC:FEMTOSMDC016F-2"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FEMTOSMDC016F-2"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FUSC1608X85N"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX"
+				(at 13.97 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.85"
+				(at 13.97 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FEMTOSMDC016F-2"
+				(at 13.97 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "650-FEMTOSMDC016F-2"
+				(at 13.97 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D"
+				(at 13.97 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "FEMTOSMDC016F-2"
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse"
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "FEMTOSMDC016F-2_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FEMTOSMDC016F-2_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MISC:TCAN337GD"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCAN337GD"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Interface IC"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TCAN337GD"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TCAN337GD"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN337GD_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TCAN337GD_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "OBC_PASSIVE:GCM155R71H104KE02J"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GCM155R71H104KE02J"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CAPC1005X55N"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html"
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm"
+				(at 8.89 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-GCM155R71H104KE2J"
+				(at 8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D"
+				(at 8.89 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GCM155R71H104KE02J"
+				(at 8.89 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "GCM155R71H104KE02J_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GCM155R71H104KE02J_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 78.74 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c3b73b3-16ec-468e-b2d3-fe194da7edca")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6afcbd10-ae70-4b10-bd62-3544a657b11b")
+	)
+	(junction
+		(at 88.9 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76cf5a91-651e-40a2-8502-edc856981c6e")
+	)
+	(junction
+		(at 77.47 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96bc8165-0f08-4a4d-ad2b-a8fbb60ae517")
+	)
+	(junction
+		(at 90.17 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b3272d-88c9-4904-8a9b-316b488fabc1")
+	)
+	(junction
+		(at 127 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9df9429-3e6b-4eb1-926f-fa04ac4cca1d")
+	)
+	(junction
+		(at 78.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa72267e-e3ee-469b-b837-ea58c175885a")
+	)
+	(junction
+		(at 90.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b491f1a9-59a9-4940-9d00-72fdd46f8434")
+	)
+	(junction
+		(at 88.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b96ea704-8bcf-4e85-97b2-ab63565ff54b")
+	)
+	(junction
+		(at 77.47 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce973528-223b-45ef-be00-6d54aaf7e791")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0070b06b-fa19-4b97-a031-c2bc1c4129e9")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0410651a-0ddc-4558-8eab-a12ab8201c62")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b6ce85-b194-4a58-ab17-0487565cefc4")
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab78d4e-3119-431a-a6d3-a6c0cfba92a8")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af8a0ef-6a90-40a2-a847-3e616ab6c9f7")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 90.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f275e58-e8d2-4b64-b71e-4c7f26c00415")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f553a76-1798-4854-ae99-832c96a9ba35")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127a8058-9733-4d3b-8a2e-2e2f874849a2")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154c129d-4497-440d-8ea6-3a3751936100")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a2e22f-6f3e-4052-a278-f7cdc8a43ee9")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e45740-c7c3-4922-97a7-c29cba849722")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189ca0df-7889-48ad-a7bc-d3bad545e49e")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3d1909-a5d8-4eba-ab6a-30daaa6a9727")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba05f05-54ca-4a96-8c6f-cf1dffd5aac5")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 96.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31458a79-338e-4b5a-99c6-8decaa71cc5e")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319023b4-1497-4471-a028-5334c694e19a")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3245d30f-9f60-43cd-945d-19cb1850cf0b")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6fdbec-80d4-4412-aa88-348c7ae16d68")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e94a56-bf3f-43b6-8996-4b82da190541")
+	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a90e957-c178-4ccf-8cf6-6133fea9dde5")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522809e3-cfde-4a8d-ae93-8b8b06a288ea")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea59b4c-7f8e-4116-8150-65555f4e5a23")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a593a7-d033-45bf-bc0a-3a9a4d4ad3a6")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652c4c3b-7626-4ab8-afcc-32123757d504")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65574887-96ee-4499-80d3-8a4e639434f0")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e73b44-e590-48c5-909a-bb26ada37892")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6ba29f-b514-44f2-af34-c993d3e52a7b")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b443fa4-fa69-4324-a452-8ae49569312b")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8845dc18-d40a-409d-a37c-3a476a25a27c")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d77644-bc11-4a17-a256-528410083a35")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88db6089-7cde-4692-bc53-9b8779cd908f")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d850223-9880-4ec5-ade8-dea691395f05")
+	)
+	(wire
+		(pts
+			(xy 95.25 50.8) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9389a89c-d2e0-43f9-83f1-16915eca2218")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975a2a56-2de8-4bc0-9cdc-6454c6ba35f0")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdb4d6b-3287-4a27-ac83-936c9ec95170")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b76120-bcdd-4b52-bb2a-6cb41a3c38da")
+	)
+	(wire
+		(pts
+			(xy 99.06 50.8) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e050ee-4742-4644-8d6f-b441e411e2c7")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39d78de-c262-4ea3-a4c2-82c0b963b732")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f89a20-f490-4627-9ded-79bf39bc8bca")
+	)
+	(wire
+		(pts
+			(xy 78.74 107.95) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d3bbf6-2c3f-46a3-b1ac-dbc59f4166d6")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8616a59-dd70-448b-9ee9-01fbcec32e62")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94e3c50-dacf-4b6f-9acf-c068e813c8e0")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb689c5d-7ebe-4f33-bd13-57e37930455f")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd282785-df53-4499-b2a4-7aacc3f8af92")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 127 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bf3823-ec46-45e1-a56e-f0bd946a080a")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eea055-1290-4863-88a2-c85b62ca6757")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b83255-3e23-4293-83f5-89b581e3b87d")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d722daeb-b080-4274-93e5-8a6757e9c7d8")
+	)
+	(wire
+		(pts
+			(xy 95.25 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c0142e-139f-4af9-b66b-c969b7ac2f6f")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5312ab-b90d-4791-a473-10b908f1f497")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc55872f-7818-4ea1-b7d9-266437ccf79d")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def66fb6-cc11-4c25-adf9-e5a949cd2794")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b6bfda-ec41-4369-9e33-7bc94b1cfd2a")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 57.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42bb20c-df83-4ac2-bf25-deb2de43c43d")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bbcf80-401f-4945-b586-ef264665ce64")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e936b2a4-d089-4b84-a2c2-6d2986071c81")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b4fcf5-6fa1-42ac-8664-dc22efaca2d2")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ca8f5a-c5c8-4bb0-ae10-6c3ac39e818a")
+	)
+	(wire
+		(pts
+			(xy 99.06 36.83) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7034ece-a155-4f87-a9b6-62d9df3d0dcb")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8395ef9-c46c-410c-b1e3-0a6ccf639925")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8f2e04-4be4-49be-80e9-5945354298a0")
+	)
+	(text "Redundant"
+		(exclude_from_sim no)
+		(at 49.53 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "008826a6-92ed-4afe-ba27-0e97359d4d03")
+	)
+	(text "Main"
+		(exclude_from_sim no)
+		(at 48.26 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77fab459-72b1-48e1-9437-9db99e5d1ec9")
+	)
+	(text "NOTE: 120 Ω terminating resistors\nto be placed at bus ends\n(COMMS-SU tentative)"
+		(exclude_from_sim no)
+		(at 153.67 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c710d350-851e-43e5-aae1-4f29cc4c7a09")
+	)
+	(global_label "CAN2-"
+		(shape bidirectional)
+		(at 146.558 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b9a16b9-30f3-47a4-8589-96745e7f1c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.4786 90.2648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2+"
+		(shape bidirectional)
+		(at 146.685 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d468837-198e-4b78-bac5-52290b844e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.7644 110.3952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1-"
+		(shape bidirectional)
+		(at 148.463 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f0eddda-7d97-4404-9fa5-5248e2e599ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.3836 42.0048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1+"
+		(shape bidirectional)
+		(at 148.717 53.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8654e00e-7470-497f-a285-5e6d54d4cdcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.7964 62.1352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CAN_TRX_FUSE_2"
+		(shape output)
+		(at 77.47 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ab07786-e0f0-4a46-bcee-18a7570ce21d")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 53.34 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "140b493c-42d3-4d7e-bbea-d5388affae72")
+	)
+	(hierarchical_label "CAN_TRX_FUSE_1"
+		(shape output)
+		(at 88.9 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29bf48bb-c688-465e-b165-f687a18f1f34")
+	)
+	(hierarchical_label "FAULT_MAIN"
+		(shape output)
+		(at 129.54 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f40bc95-147a-4324-b721-56d2dc4e2a60")
+	)
+	(hierarchical_label "CAN_TX_BKUP"
+		(shape input)
+		(at 54.61 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3176b4bd-b113-428c-8a5d-1822ef6de72a")
+	)
+	(hierarchical_label "CAN_RX_BKUP"
+		(shape output)
+		(at 53.34 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "347ab3f3-542b-4e82-96b1-dccde68f0300")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 128.27 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39f9ae6a-a4de-410d-9593-af4d8d67ed3f")
+	)
+	(hierarchical_label "CAN_TX_MAIN"
+		(shape input)
+		(at 55.88 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65799a7b-211a-4792-96f5-fb8b1d8aa748")
+	)
+	(hierarchical_label "FAULT_BKUP"
+		(shape output)
+		(at 130.81 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "702f877d-2a59-4c9c-825b-06b691e96bd7")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 55.88 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f8c131b-1142-496f-8932-0549daef4fcf")
+	)
+	(hierarchical_label "CAN_RX_MAIN"
+		(shape output)
+		(at 55.88 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fa55f89-ac50-42dd-b890-bc3eba83fef8")
+	)
+	(hierarchical_label "SILENT_MAIN"
+		(shape input)
+		(at 129.54 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4b5625b-50fb-47ab-9699-31a7c03f915f")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 127 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b09598df-07af-4a0b-8f38-d389e5136c9e")
+	)
+	(hierarchical_label "SILENT_BKUP"
+		(shape input)
+		(at 130.81 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be2603b6-cad0-44fb-9747-c272b3dce3d5")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04300914-890d-462a-9694-b0a1bd32d0ff")
+		(property "Reference" "R13"
+			(at 159.258 50.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 159.258 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.702 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930120c3-388e-4510-befd-4a8198ed7dd3")
+		)
+		(pin "2"
+			(uuid "9d14ae3d-3dc7-4614-9e8e-8f7a24412bcc")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MISC:TCAN337GD")
+		(at 100.33 104.14 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "200b0542-fa08-4512-97a9-d50080462eae")
+		(property "Reference" "U11"
+			(at 114.3 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN337GD"
+			(at 114.3 108.5596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MISC:TCAN337GDR"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Interface IC"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TCAN337GD"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TCAN337GD"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc53ab9-96bf-4085-b1b0-4d79813f65f5")
+		)
+		(pin "2"
+			(uuid "5ec3ce8c-1cdf-4a3b-8ede-a9d4a1104081")
+		)
+		(pin "3"
+			(uuid "65ae7ef5-2117-4677-a5a9-57d8808a4329")
+		)
+		(pin "4"
+			(uuid "a9f7857e-9bce-4f66-8325-6894ed0d9d07")
+		)
+		(pin "5"
+			(uuid "1f758545-fa5d-4fc8-8083-2bed88b65b1c")
+		)
+		(pin "6"
+			(uuid "cf380c03-b327-430d-9406-da32243a0c23")
+		)
+		(pin "7"
+			(uuid "00463fbf-0efc-4ee0-bd82-db8639dc1c43")
+		)
+		(pin "8"
+			(uuid "0fce6bf5-28b4-4db7-8309-e2d18041b7ae")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c66847-9235-4343-92b1-d1db6753d186")
+		(property "Reference" "R122"
+			(at 128.778 43.2816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 128.778 45.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.222 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f7c677-d028-4857-be60-abe73e2936f9")
+		)
+		(pin "2"
+			(uuid "10268a48-4d2c-450c-9666-aad9abd75dbb")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "640992ad-f08b-4245-a197-2e85bdd4b881")
+		(property "Reference" "#PWR023"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5624cafc-965e-4156-a998-d533db0757cd")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MISC:TCAN337GD")
+		(at 99.06 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cfb4d14-56ab-400d-a0ff-d499e0b0a00d")
+		(property "Reference" "U10"
+			(at 113.03 62.611 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN337GD"
+			(at 113.03 60.2996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MISC:TCAN337GDR"
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/tcan337gd/texas-instruments"
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Interface IC"
+			(at 123.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TCAN337GD"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TCAN337GD"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TCAN337GD"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fffd86c-e937-4d43-8ed0-85b04b7386f2")
+		)
+		(pin "2"
+			(uuid "1ca393af-1a65-4dab-a332-5df303f22329")
+		)
+		(pin "3"
+			(uuid "3afaede0-fe15-41cb-bd61-9e062b40b56e")
+		)
+		(pin "4"
+			(uuid "dff25131-19eb-45c0-8ed5-ce5a4c2831fd")
+		)
+		(pin "5"
+			(uuid "91c39f6d-039a-4c1a-b895-057447e6a7c7")
+		)
+		(pin "6"
+			(uuid "bbde2c02-ea45-4835-952e-3ee6532c0cf4")
+		)
+		(pin "7"
+			(uuid "78438dde-cc36-4808-ad36-e725487ba04b")
+		)
+		(pin "8"
+			(uuid "682341b9-70fc-4d86-99f6-cfbb573fa6f2")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADCS_IC:FEMTOSMDC016F-2")
+		(at 57.15 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b5378e-6e41-4c86-a5c7-252af6f8a35b")
+		(property "Reference" "F6"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FEMTOSMDC016F-2"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADCS_IC:FUSC1608X85N"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FEMTOSMDC016F-2"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "650-FEMTOSMDC016F-2"
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FEMTOSMDC016F-2"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d7b55bb-ae8e-4b94-a788-922cc9e533c8")
+		)
+		(pin "2"
+			(uuid "8f445055-46ff-4f1b-a7ac-48d0b739e55c")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OBC_PASSIVE:GCM155R71H104KE02J")
+		(at 88.9 45.72 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a36fd11c-77f1-4992-8adf-608fd1df5351")
+		(property "Reference" "C17"
+			(at 85.6488 50.9016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 85.6488 53.213 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM155R71H104KE2J"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM155R71H104KE02J"
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1663dc5-a72c-432b-8ee3-83d73deb0fdd")
+		)
+		(pin "2"
+			(uuid "145c616e-3bd1-4b39-93bf-70f43cdaa916")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADCS_IC:FEMTOSMDC016F-2")
+		(at 57.15 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcfad1fa-d9b9-4368-bd70-1197acdcfbbe")
+		(property "Reference" "F7"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FEMTOSMDC016F-2"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADCS_IC:FUSC1608X85N"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_femtosmdc005f_2_product_specification.pdf.pdf"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable Fuses - PPTC 9V      .16A-HD  40A MAX"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FEMTOSMDC016F-2"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "650-FEMTOSMDC016F-2"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/FEMTOSMDC016F-2?qs=5HUSoMAf2%252BoNWb7nt5%252BK9w%3D%3D"
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FEMTOSMDC016F-2"
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/femtosmdc016f-2/littelfuse"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d3d95cd-82c6-4a64-9caa-1618f72f1918")
+		)
+		(pin "2"
+			(uuid "6f19e8fb-2f81-440b-bf4b-ed48a7a6df1d")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d46c428b-e4dd-4700-bb3d-f2251015ccce")
+		(property "Reference" "#PWR024"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e00a75f-3518-458a-9613-497f279f284a")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff8d45b-e2a4-480d-8b29-8d8f56c99155")
+		(property "Reference" "C94"
+			(at 75.819 99.1616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 75.819 101.473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.7748 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540cc4c7-5cec-466b-a54b-4c66268bcc93")
+		)
+		(pin "2"
+			(uuid "77f225a6-84b5-4731-8d69-b569888ed7e8")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d80370-e107-4496-8397-b40e6948294a")
+		(property "Reference" "R18"
+			(at 156.718 99.1616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 156.718 101.473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.162 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81542053-1701-4475-bb99-4eef2e0109ec")
+		)
+		(pin "2"
+			(uuid "069d6da4-25ab-45dd-b05a-d4ff8c9cf29a")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9837cb-bf6f-43da-bde8-757d59e9f57f")
+		(property "Reference" "C92"
+			(at 74.549 50.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 74.549 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.5048 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d9221cc-bef3-465f-b042-5fec8f114db9")
+		)
+		(pin "2"
+			(uuid "37151358-5d26-4223-aab7-bbe564f73269")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f504a755-e980-432e-a630-34370e2d405b")
+		(property "Reference" "R123"
+			(at 130.048 91.5416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 130.048 93.853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 126.492 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bbebf83-0fec-4564-8a98-5788d1f65a59")
+		)
+		(pin "2"
+			(uuid "9ece2962-02b0-45e2-a1c4-bf8cdc6b5a76")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OBC_PASSIVE:GCM155R71H104KE02J")
+		(at 90.17 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb730b89-7635-4fa5-9e74-319db4ff4466")
+		(property "Reference" "C18"
+			(at 86.9188 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 86.9188 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GCM155R71H104KE02%23.html"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor GCM15 L=1.0mm W=0.5mm T=0.5mm"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM155R71H104KE2J"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCM155R71H104KE02J?qs=hNud%2FORuBR1wlwGPFWBVDg%3D%3D"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM155R71H104KE02J"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e364f6-b370-4f2f-b68c-2ebccbbc7084")
+		)
+		(pin "2"
+			(uuid "1f5808e7-7d1b-4015-af2f-ae802884b9c5")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/aa6a552e-71e5-4257-8785-7b5d5d2a903c"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

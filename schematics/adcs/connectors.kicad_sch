@@ -1,253 +1,695 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 613b45e8-9737-457f-8518-cd47ab4649b8)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connectors:503763-0691" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 19.05 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "503763-0691" (at 19.05 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "5037630691" (at 19.05 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/503763-0691.pdf" (at 19.05 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "MOLEX - 503763-0691. - PICO-LOCK 1.0 W/B HEADER ASSY ETP 6P 98AC8174" (at 19.05 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "1.5" (at 19.05 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "538-503763-0691" (at 19.05 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503763-0691?qs=d9U39LAeJF2PVpSXMliCdg%3D%3D" (at 19.05 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "Molex" (at 19.05 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "503763-0691" (at 19.05 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_description" "MOLEX - 503763-0691. - PICO-LOCK 1.0 W/B HEADER ASSY ETP 6P 98AC8174" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "503763-0691_0_0"
-        (pin passive line (at 0 -12.7 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 0) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 0) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -5.08 0) (length 5.08)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 22.86 -2.54 180) (length 5.08)
-          (name "MP1" (effects (font (size 1.27 1.27))))
-          (number "MP1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 22.86 0 180) (length 5.08)
-          (name "MP2" (effects (font (size 1.27 1.27))))
-          (number "MP2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "503763-0691_0_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 17.78 2.54)
-            (xy 17.78 -15.24)
-            (xy 5.08 -15.24)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (no_connect (at 35.56 48.26) (uuid 1cb69065-5a07-4b38-8293-3f937858ab6c))
-  (no_connect (at 35.56 45.72) (uuid 62f2201a-5042-4061-a9b9-13240077ac70))
-
-  (polyline (pts (xy 83.82 55.88) (xy 20.32 55.88))
-    (stroke (width 0) (type default))
-    (uuid 40617590-4571-4f77-9c5d-ea42025e20b6)
-  )
-  (polyline (pts (xy 20.32 19.05) (xy 20.32 55.88))
-    (stroke (width 0) (type default))
-    (uuid 454eeb0f-b763-4020-87bd-bed92773c566)
-  )
-  (polyline (pts (xy 83.82 19.05) (xy 83.82 55.88))
-    (stroke (width 0) (type default))
-    (uuid a0f7812e-5886-429e-9915-ba35d47558fa)
-  )
-  (polyline (pts (xy 20.32 19.05) (xy 83.82 19.05))
-    (stroke (width 0) (type default))
-    (uuid e2893d04-89f1-46dd-84f6-aef081540768)
-  )
-
-  (text "MCU Trace Connector" (at 22.86 22.86 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8a0aa79e-9913-4940-908b-f0d8c866a59e)
-  )
-
-  (hierarchical_label "MCU_TRACED_3" (shape input) (at 58.42 38.1 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 10bb0979-cdf6-4588-aef4-9bbaea33737e)
-  )
-  (hierarchical_label "MCU_TRACED_1" (shape input) (at 58.42 43.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4f20bd72-6ae5-4fbc-b290-106c29e981fc)
-  )
-  (hierarchical_label "MCU_TRACECLK" (shape input) (at 58.42 35.56 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ac4e8e9f-f696-434e-85c7-5d62540f7ec1)
-  )
-  (hierarchical_label "MCU_TRACED_2" (shape input) (at 58.42 40.64 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d6714acc-b794-4296-aa11-fd9c29202f62)
-  )
-  (hierarchical_label "MCU_TRACED_0" (shape input) (at 58.42 45.72 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid dface7fe-f606-47b4-ae69-f341e38516bb)
-  )
-
-  (symbol (lib_id "power:GND") (at 58.42 48.26 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 76c2703d-7741-419a-b606-146ecb79f009)
-    (property "Reference" "#PWR04" (at 64.77 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 62.8142 48.387 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 58.42 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 58.42 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0d2d9e69-7e5e-4998-b73d-519032e4f170))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/6c81640a-72a5-49a4-8e9e-ce76864d44fe"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connectors:503763-0691") (at 58.42 48.26 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8e858be1-fcd1-4892-957b-6205aea61dc4)
-    (property "Reference" "J20" (at 46.99 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "503763-0691" (at 46.99 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connectors:5037630691" (at 39.37 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/503763-0691.pdf" (at 39.37 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "MOLEX - 503763-0691. - PICO-LOCK 1.0 W/B HEADER ASSY ETP 6P 98AC8174" (at 39.37 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "1.5" (at 39.37 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "538-503763-0691" (at 39.37 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503763-0691?qs=d9U39LAeJF2PVpSXMliCdg%3D%3D" (at 39.37 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 39.37 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "503763-0691" (at 39.37 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 7647a0bb-9d2b-4c0d-b2f6-92e0863882eb))
-    (pin "2" (uuid b6af5a62-ad32-4be1-85eb-bf354daa8f51))
-    (pin "3" (uuid ef51436d-66c6-4c6e-b8ed-1cb0bd8b2d7e))
-    (pin "4" (uuid 6768629d-8d06-46e0-b638-723ebd52d108))
-    (pin "5" (uuid f26318db-7b2d-4784-98a9-01d3be96c63f))
-    (pin "6" (uuid fa4e6679-b62a-4980-8502-7e432375763e))
-    (pin "MP1" (uuid 73feafea-0497-4398-8d64-4c899c408d43))
-    (pin "MP2" (uuid 97c496eb-19d7-4696-ab3f-ffd8a849a86b))
-    (instances
-      (project "obc-adcs-board"
-        (path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/6c81640a-72a5-49a4-8e9e-ce76864d44fe"
-          (reference "J20") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "613b45e8-9737-457f-8518-cd47ab4649b8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connectors:503763-0691"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "503763-0691"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "5037630691"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/503763-0691.pdf"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOLEX - 503763-0691. - PICO-LOCK 1.0 W/B HEADER ASSY ETP 6P 98AC8174"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.5"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-503763-0691"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503763-0691?qs=d9U39LAeJF2PVpSXMliCdg%3D%3D"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "503763-0691"
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "503763-0691_0_0"
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "503763-0691_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -15.24) (xy 5.08 -15.24) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 35.56 48.26)
+		(uuid "1cb69065-5a07-4b38-8293-3f937858ab6c")
+	)
+	(no_connect
+		(at 35.56 45.72)
+		(uuid "62f2201a-5042-4061-a9b9-13240077ac70")
+	)
+	(polyline
+		(pts
+			(xy 83.82 55.88) (xy 20.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40617590-4571-4f77-9c5d-ea42025e20b6")
+	)
+	(polyline
+		(pts
+			(xy 20.32 19.05) (xy 20.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454eeb0f-b763-4020-87bd-bed92773c566")
+	)
+	(polyline
+		(pts
+			(xy 83.82 19.05) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f7812e-5886-429e-9915-ba35d47558fa")
+	)
+	(polyline
+		(pts
+			(xy 20.32 19.05) (xy 83.82 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2893d04-89f1-46dd-84f6-aef081540768")
+	)
+	(text "MCU Trace Connector"
+		(exclude_from_sim no)
+		(at 22.86 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a0aa79e-9913-4940-908b-f0d8c866a59e")
+	)
+	(hierarchical_label "MCU_TRACED_3"
+		(shape input)
+		(at 58.42 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10bb0979-cdf6-4588-aef4-9bbaea33737e")
+	)
+	(hierarchical_label "MCU_TRACED_1"
+		(shape input)
+		(at 58.42 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f20bd72-6ae5-4fbc-b290-106c29e981fc")
+	)
+	(hierarchical_label "MCU_TRACECLK"
+		(shape input)
+		(at 58.42 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac4e8e9f-f696-434e-85c7-5d62540f7ec1")
+	)
+	(hierarchical_label "MCU_TRACED_2"
+		(shape input)
+		(at 58.42 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6714acc-b794-4296-aa11-fd9c29202f62")
+	)
+	(hierarchical_label "MCU_TRACED_0"
+		(shape input)
+		(at 58.42 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dface7fe-f606-47b4-ae69-f341e38516bb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76c2703d-7741-419a-b606-146ecb79f009")
+		(property "Reference" "#PWR04"
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.8142 48.387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d2d9e69-7e5e-4998-b73d-519032e4f170")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/6c81640a-72a5-49a4-8e9e-ce76864d44fe"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:503763-0691")
+		(at 58.42 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e858be1-fcd1-4892-957b-6205aea61dc4")
+		(property "Reference" "J20"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "503763-0691"
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connectors:5037630691"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/503763-0691.pdf"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOLEX - 503763-0691. - PICO-LOCK 1.0 W/B HEADER ASSY ETP 6P 98AC8174"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.5"
+			(at 39.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-503763-0691"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503763-0691?qs=d9U39LAeJF2PVpSXMliCdg%3D%3D"
+			(at 39.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "503763-0691"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7647a0bb-9d2b-4c0d-b2f6-92e0863882eb")
+		)
+		(pin "2"
+			(uuid "b6af5a62-ad32-4be1-85eb-bf354daa8f51")
+		)
+		(pin "3"
+			(uuid "ef51436d-66c6-4c6e-b8ed-1cb0bd8b2d7e")
+		)
+		(pin "4"
+			(uuid "6768629d-8d06-46e0-b638-723ebd52d108")
+		)
+		(pin "5"
+			(uuid "f26318db-7b2d-4784-98a9-01d3be96c63f")
+		)
+		(pin "6"
+			(uuid "fa4e6679-b62a-4980-8502-7e432375763e")
+		)
+		(pin "MP1"
+			(uuid "73feafea-0497-4398-8d64-4c899c408d43")
+		)
+		(pin "MP2"
+			(uuid "97c496eb-19d7-4696-ab3f-ffd8a849a86b")
+		)
+		(instances
+			(project "obc-adcs-board"
+				(path "/5e6153e6-2c19-46de-9a8e-b310a2a07861/00000000-0000-0000-0000-0000600c7b11/6c81640a-72a5-49a4-8e9e-ce76864d44fe"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
