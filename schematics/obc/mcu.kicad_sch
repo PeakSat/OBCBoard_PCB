@@ -4796,16 +4796,16 @@
 		(uuid "2bf65490-bdce-49a7-b615-e71bdc3e6432")
 	)
 	(no_connect
-		(at 146.05 53.34)
-		(uuid "463b0b19-58ec-443e-ac3c-00d88758d0c5")
-	)
-	(no_connect
 		(at 161.29 81.28)
 		(uuid "4d0baf29-8c74-4bd7-9472-cc9d4ad98368")
 	)
 	(no_connect
 		(at 161.29 137.16)
 		(uuid "51ce3c03-31cb-4ec5-8f40-baf05ba75ff9")
+	)
+	(no_connect
+		(at 130.81 53.34)
+		(uuid "5c4acd40-9f44-40c8-918c-e530b0ae9254")
 	)
 	(no_connect
 		(at 57.15 88.9)
@@ -4834,10 +4834,6 @@
 	(no_connect
 		(at 105.41 53.34)
 		(uuid "d952f14d-1fcc-47d8-b6db-3da2d5b332ff")
-	)
-	(no_connect
-		(at 151.13 53.34)
-		(uuid "dd05ff09-4284-4aa4-84a4-2ff924dcfd5d")
 	)
 	(no_connect
 		(at 161.29 114.3)
@@ -4953,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 53.34) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a621173-2dcb-4d2c-9b12-16676210301d")
+	)
+	(wire
+		(pts
 			(xy 340.36 39.37) (xy 335.28 39.37)
 		)
 		(stroke
@@ -4990,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "1192a5e1-afd6-41f2-84dc-b2ce7a7ddf4e")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b8fa86-7b33-4cbc-a9c3-674a68a0733e")
 	)
 	(wire
 		(pts
@@ -6750,6 +6766,28 @@
 			)
 		)
 	)
+	(global_label "ADCS BOOT"
+		(shape output)
+		(at 151.13 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0971232f-9b4c-4268-bbd7-e935fe79bd3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 37.7647 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCK_PANELS"
 		(shape input)
 		(at 194.31 154.94 0)
@@ -6763,6 +6801,28 @@
 		(uuid "38035200-d5d5-4c97-a022-e3244c166ee5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.479 154.8606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADCS ENABLE"
+		(shape output)
+		(at 146.05 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6879678-1827-4c60-beb0-1f70ebfe8ef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 35.6481 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,18 +7731,6 @@
 			(justify left)
 		)
 		(uuid "bc0fb8fe-ce1c-4f7b-b106-8870023611f8")
-	)
-	(hierarchical_label "USR_GPIO_PWM"
-		(shape output)
-		(at 130.81 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "be457f0c-3f9e-433a-8133-601d8ba66241")
 	)
 	(hierarchical_label "MEM_NAND_BUSY_2"
 		(shape input)

@@ -2945,6 +2945,18 @@
 		)
 		(uuid "47f7d402-3ae3-4e9c-8a18-66397ad5119b")
 	)
+	(hierarchical_label "ADCS BOOT"
+		(shape output)
+		(at 233.68 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cfab207-f136-4cef-8f89-365510dcdb05")
+	)
 	(hierarchical_label "PPS_IN"
 		(shape input)
 		(at 233.68 106.68 0)
@@ -3028,6 +3040,18 @@
 			(justify right)
 		)
 		(uuid "6d5e5aec-d1f1-4ffc-83a7-70ad4d64df98")
+	)
+	(hierarchical_label "ADCS ENABLE"
+		(shape output)
+		(at 233.68 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795acb2e-e53f-4760-bf1a-8b56108ce4ff")
 	)
 	(hierarchical_label "PPS_IN"
 		(shape input)
@@ -5740,6 +5764,26 @@
 				(justify right)
 			)
 			(uuid "ffc75d5c-67b6-4e11-9694-dcb8dd3dc687")
+		)
+		(pin "ADCS BOOT" output
+			(at 233.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db70f9f8-1079-4509-945b-471d5e455b4f")
+		)
+		(pin "ADCS ENABLE" output
+			(at 233.68 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0b4c77d-d11e-4bed-be1c-3910b9b626a8")
 		)
 		(instances
 			(project "obc-adcs-board"
