@@ -2975,6 +2975,16 @@
 		)
 		(uuid "ee2ea5d1-2be4-4a7c-a3a9-fdba13887b92")
 	)
+	(text "COMMS SWOTRACE"
+		(exclude_from_sim no)
+		(at 165.354 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0433ac5-426e-440d-aa1e-390dcc580dd1")
+	)
 	(text "ADCS RS-422 RX_N\n\n"
 		(exclude_from_sim no)
 		(at 39.878 136.906 0)
