@@ -4746,16 +4746,8 @@
 		(uuid "a78fd81f-f844-4784-af78-62fa8c742f79")
 	)
 	(no_connect
-		(at 158.75 53.34)
-		(uuid "aa8c2b53-05d2-4d3e-9e7e-03c661da88fa")
-	)
-	(no_connect
 		(at 156.21 53.34)
 		(uuid "aa8c2b53-05d2-4d3e-9e7e-03c661da88fb")
-	)
-	(no_connect
-		(at 153.67 53.34)
-		(uuid "aa8c2b53-05d2-4d3e-9e7e-03c661da88fc")
 	)
 	(no_connect
 		(at 148.59 53.34)
@@ -6981,6 +6973,28 @@
 		)
 		(uuid "fcf90130-7fde-4247-a272-374c6f2a958c")
 	)
+	(global_label "ADCS BOOT"
+		(shape output)
+		(at 158.75 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21327767-d508-46b8-a756-a5647b21f6c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 40.3047 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCK_PANELS"
 		(shape input)
 		(at 161.29 44.45 0)
@@ -7016,6 +7030,28 @@
 		(uuid "8b068ab7-03fa-479a-84e4-f3453f49994f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4943 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADCS ENABLE"
+		(shape output)
+		(at 153.67 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "feec72c4-5b00-45af-9192-55d088701c32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 38.1881 90)
 			(effects
 				(font
 					(size 1.27 1.27)
