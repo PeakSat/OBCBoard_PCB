@@ -1660,10 +1660,6 @@
 		(uuid "d7e22837-69ea-4575-a545-d7818727986e")
 	)
 	(no_connect
-		(at 48.26 186.69)
-		(uuid "db91878b-59ae-4763-bec5-a3a5807f1e4f")
-	)
-	(no_connect
 		(at 50.8 153.67)
 		(uuid "e2a41024-071d-404c-8fa3-1775e884d812")
 	)
@@ -3477,6 +3473,17 @@
 			(justify left bottom)
 		)
 		(uuid "b53d16c1-e6af-4df6-a8c0-35d5718b112d")
+	)
+	(label "EPS_5V_ADM"
+		(at 48.26 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc453a95-f76d-4622-a23a-136c346cbac2")
 	)
 	(label "I2C_MTQ_SCK"
 		(at 82.55 62.23 0)
