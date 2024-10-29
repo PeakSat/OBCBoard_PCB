@@ -4287,7 +4287,7 @@
 				)
 			)
 		)
-		(property "Value" "SSQ-126-03-G-D"
+		(property "Value" "ESQ-126-14-G-D-LL "
 			(at 142.24 119.634 0)
 			(effects
 				(font
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Value" "SSQ-126-03-G-D"
+		(property "Value" "ESQ-126-14-G-D-LL "
 			(at 63.5 118.364 0)
 			(effects
 				(font
