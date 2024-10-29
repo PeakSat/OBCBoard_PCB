@@ -11357,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Value" "ECS-TXO-2520-33-160-AN-TR"
+		(property "Value" "ECS-TXO-2520-33-120-AN-TR"
 			(at 283.21 184.15 0)
 			(effects
 				(font
@@ -11385,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Oscillator TCXO 16MHz +/-2ppm (Tol) +/-2.5ppm (Stability) 15pF HCMOS 55% 3.3V 4-Pin Mini-CSMD T/R"
+		(property "Description" "Oscillator TCXO 12MHz +/-2ppm (Tol) +/-2.5ppm (Stability) 15pF HCMOS 55% 3.3V 4-Pin Mini-CSMD T/R"
 			(at 298.45 191.77 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ECS-TXO-2520-33-160-AN-TR"
+		(property "Manufacturer_Part_Number" "ECS-TXO-2520-33-120-AN-TR"
 			(at 298.45 199.39 0)
 			(effects
 				(font
@@ -11425,7 +11425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "520-T2520-33-160-ANT"
+		(property "Mouser Part Number" "520-T2520-33-120-ANT"
 			(at 298.45 201.93 0)
 			(effects
 				(font
@@ -11435,7 +11435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-2520-33-160-AN-TR?qs=KAq9QXcE8HAE1gcf2ozR9w%3D%3D"
+		(property "Mouser Price/Stock" "https://gr.mouser.com/ProductDetail/ECS/ECS-TXO-2520-33-120-AN-TR?qs=KAq9QXcE8HB8zqkkQbQ2Dw%3D%3D"
 			(at 298.45 204.47 0)
 			(effects
 				(font
@@ -11445,7 +11445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "ECS-TXO-2520-33-160-AN-TR"
+		(property "Arrow Part Number" "ECS-TXO-2520-33-120-AN-TR"
 			(at 298.45 207.01 0)
 			(effects
 				(font
