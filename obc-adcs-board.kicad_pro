@@ -973,7 +973,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "pos-files",
       "specctra_dsn": "",
       "step": "obc-adcs-board.stp",
       "svg": "",
