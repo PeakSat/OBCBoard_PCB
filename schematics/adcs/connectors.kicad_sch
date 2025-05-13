@@ -560,8 +560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "8e858be1-fcd1-4892-957b-6205aea61dc4")
 		(property "Reference" "J20"
 			(at 46.99 27.94 0)

@@ -2045,7 +2045,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "200b0542-fa08-4512-97a9-d50080462eae")
 		(property "Reference" "U11"
 			(at 114.3 110.871 0)
@@ -2183,7 +2183,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54c66847-9235-4343-92b1-d1db6753d186")
 		(property "Reference" "R122"
 			(at 128.778 43.2816 0)
@@ -2319,7 +2319,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6cfb4d14-56ab-400d-a0ff-d499e0b0a00d")
 		(property "Reference" "U10"
 			(at 113.03 62.611 0)
@@ -2457,7 +2457,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "94b5378e-6e41-4c86-a5c7-252af6f8a35b")
 		(property "Reference" "F6"
 			(at 66.04 38.1 0)
@@ -2599,7 +2599,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a36fd11c-77f1-4992-8adf-608fd1df5351")
 		(property "Reference" "C17"
 			(at 85.6488 50.9016 90)
@@ -2721,7 +2721,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bcfad1fa-d9b9-4368-bd70-1197acdcfbbe")
 		(property "Reference" "F7"
 			(at 66.04 96.52 0)
@@ -2862,7 +2862,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d46c428b-e4dd-4700-bb3d-f2251015ccce")
 		(property "Reference" "#PWR024"
@@ -2930,7 +2930,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dff8d45b-e2a4-480d-8b29-8d8f56c99155")
 		(property "Reference" "C94"
 			(at 75.819 99.1616 0)
@@ -3069,7 +3069,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb9837cb-bf6f-43da-bde8-757d59e9f57f")
 		(property "Reference" "C92"
 			(at 74.549 50.9016 0)
@@ -3138,7 +3138,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f504a755-e980-432e-a630-34370e2d405b")
 		(property "Reference" "R123"
 			(at 130.048 91.5416 0)
@@ -3208,7 +3208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fb730b89-7635-4fa5-9e74-319db4ff4466")
 		(property "Reference" "C18"
 			(at 86.9188 97.8916 90)
